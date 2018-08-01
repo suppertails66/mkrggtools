@@ -1,0 +1,6340 @@
+//***********************************************************
+// Cutscenes
+//***********************************************************
+
+//********************************
+// Intro 1
+//********************************
+
+#LOADTABLE("table/mkr_english.tbl")
+
+#MSGPTR($D881, 1)
+
+#SETMSGLOC($DE98, 187)
+
+// $DE98 (187 bytes)
+
+//ー1994ねん　とうきょうタワー　ー[PAUSE]<$9D>[CLEAR]
+[SPACES]<$02>- Tokyo Tower,[BR]
+[SPACES]<$07>1994 -[PAUSE]<$9D>[CLEAR]
+
+//エメロード「このせかい、セフィーロをたすけて・・・！[PAUSE]<$9D>[CLEAR]
+Emeraude: {Please[BR]
+save this world[PAUSE]<$69>[CLEAR]
+of Cephiro...![PAUSE]<$69>[CLEAR]
+
+//でんせつの[BR]
+//[SPACES]<$03>マジックナイトたちよ・・・！」[PAUSE]<$9D>[CLEAR]
+Legendary Magic[BR]
+Knights...!}[PAUSE]<$9D>[CLEAR]
+
+//エメロードひめのいのりで、3にんの[BR]
+//ちゅうがくせい、ひかる、ふう、うみが[PAUSE]<$D2>[CLEAR]
+With Princess Em-[BR]
+eraude's prayer,[PAUSE]<$69>[CLEAR]
+the three middle[BR]
+school students[PAUSE]<$69>[CLEAR]
+Hikaru, Fuu, and[BR]
+Umi were summoned[PAUSE]<$69>[CLEAR]
+
+//いせかいセフィーロにしょうかんされたことから、ものがたりははじまります。[PAUSE]<$D2>[CLEAR]
+to the world of[BR]
+Cephiro,[PAUSE]<$69>[CLEAR]
+//and the story[BR]
+//begins.[PAUSE]<$D2>[CLEAR]
+beginning the[BR]
+story.[PAUSE]<$D2>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($D9A9, 1)
+
+#SETMSGLOC($DF53, 118)
+
+// $DF53 (118 bytes)
+
+//セフィーロでは、しんかんザガートが[BR]
+//エメロードひめをゆうへいしました。[PAUSE]<$D2>[CLEAR]
+In Cephiro, the[BR]
+priest Zagato[PAUSE]<$69>[CLEAR]
+had imprisoned[BR]
+Princess Emeraude.[PAUSE]<$69>[CLEAR]
+
+//3にんは、エメロードひめのねがいを[BR]
+//かなえなければ、[PAUSE]<$9D>[CLEAR]
+If the three do[BR]
+not grant Princess[PAUSE]<$69>[CLEAR]
+Emeraude's wish,[PAUSE]<$69>[CLEAR]
+
+//とうきょうにはもどれないのです・・・[PAUSE]<$9D>[CLEAR]
+they cannot return
+to Tokyo...[PAUSE]<$9D>[CLEAR]
+
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($DA0B, 1)
+
+#SETMSGLOC($DFC9, 87)
+
+// $DFC9 (87 bytes)
+
+//ひかる「マジックナイトになって[BR]
+//ザガートをたおそう！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {We'll[BR]
+become Magic[PAUSE]<$69>[CLEAR]
+Knights and defeat
+Zagato!}[PAUSE]<$9D>[CLEAR]
+
+//うみ「かんたんにいうわねえ」[PAUSE]<$9D>[CLEAR]
+// originally "That's easy to say"
+Umi: {You say that
+like it's easy!}[PAUSE]<$9D>[CLEAR]
+
+//ふう「でも、やるしかないようですわ」[PAUSE]<$9D>[CLEAR]
+Fuu: {But it[BR]
+doesn't seem[PAUSE]<$69>[CLEAR]
+possible...}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($DA63, 1)
+
+#SETMSGLOC($E020, 119)
+
+// $E020 (119 bytes)
+
+//とにもかくも、3にんはエメロードひめの　ねがいをかなえ、[PAUSE]<$9D>[CLEAR]
+Regardless, the[BR]
+three fight to[PAUSE]<$69>[CLEAR]
+grant Princess[BR]
+Emeraude's wish[PAUSE]<$69>[CLEAR]
+
+//とうきょうにもどるため[BR]
+//たたかいます・・・[PAUSE]<$9D>[CLEAR][BR]
+and return to[BR]
+Tokyo...[PAUSE]<$9D>[CLEAR]
+
+//ひかる「やぁー！」[PAUSE]<$78>[CLEAR]
+Hikaru: {Yaaa!}[PAUSE]<$78>[CLEAR]
+
+//うみ　「かくごしなさい！」[PAUSE]<$78>[CLEAR]
+Umi: {Give it up!}[PAUSE]<$78>[CLEAR]
+
+//ふう　「いきますわよ！」[PAUSE]<$78>[CLEAR]
+Fuu: {Let's go!}[PAUSE]<$78>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Intro 2
+//********************************
+
+#MSGPTR($DAE7, 1)
+
+#SETMSGLOC($E097, 65)
+
+// $E097 (65 bytes)
+
+//そんなあるよるのこと・・・[PAUSE]<$9D>[CLEAR]
+Such is the[BR]
+situation...[PAUSE]<$9D>[CLEAR]
+
+//きょうもぐっすりねている[BR]
+//ひかる、ふう、うみ。[PAUSE]<$9D>[CLEAR]
+Today, Hikaru,[BR]
+Fuu, and Umi were[PAUSE]<$69>[CLEAR]
+again sleeping[BR]
+soundly.[PAUSE]<$9D>[CLEAR]
+
+//ところが・・・[PAUSE]<$9D>[CLEAR]
+But then...[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Intro 3
+//********************************
+
+#MSGPTR($DB29, 1)
+
+#SETMSGLOC($E0D8, 27)
+
+// $E0D8 (27 bytes)
+
+//モコナが　いなくなってしまいました。[PAUSE]<$9D>[CLEAR]
+Mokona disappear-[BR]
+ed.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($DC9C, 1)
+
+#SETMSGLOC($E0F3, 107)
+
+// $E0F3 (107 bytes)
+
+//ひかる「モコナー！　どこいったのー」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Mokonaaa!
+Where are you?}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「こまりましたわねえ」[PAUSE]<$9D>[CLEAR]
+Fuu: {This isn't[BR]
+good.}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「でてきなさーい！」[PAUSE]<$9D>[CLEAR]
+Umi: {Get out here
+right now!}[PAUSE]<$9D>[CLEAR]
+
+//3にんはひっしにモコナをさがしますがモコナはみつかりません・・・[PAUSE]<$9D>[CLEAR]
+The trio searched[BR]
+desperately,[PAUSE]<$69>[CLEAR]
+but didn't find[BR]
+Mokona...[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($DCFB, 1)
+
+#SETMSGLOC($E15E, 191)
+
+// $E15E (191 bytes)
+
+//[SOUND]<$BE>そのときです。　3にんがもっていた[BR]
+//つうしんきが　うごきだしました。[PAUSE]<$9D>[CLEAR]
+[SOUND]<$BE>At that moment,[BR]
+the communicator[PAUSE]<$69>[CLEAR]
+they were carrying
+sprang to life.[PAUSE]<$9D>[CLEAR]
+
+//「ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+{Puu, puu, puu!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「モコナだ！　どこにいるの？[BR]
+//えっ？　せいれいのもりじゃないの？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {It's[BR]
+Mokona![PAUSE]<$69>[CLEAR]
+Where are you?[BR]
+Huh?[PAUSE]<$69>[CLEAR]
+Not in the Forest[BR]
+of Spirits?}[PAUSE]<$9D>[CLEAR]
+
+//こうして、3にんは　マジックナイトになるまえに、[PAUSE]<$9D>[CLEAR]
+And so, before[BR]
+they became[PAUSE]<$69>[CLEAR]
+Magic Knights,[PAUSE]<$69>[CLEAR]
+
+//モコナをさがすことに[BR]
+//なってしまったのでした・・・[PAUSE]<$9D>[NEXT]
+the trio had to[BR]
+look for Mokona...[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Ending
+//********************************
+
+#MSGPTR($E25F, 1)
+
+#SETMSGLOC($E596, 210)
+
+// $E596 (210 bytes)
+
+//ザガートじょうは[SPACES]<$01>ガラガラとまぼろしがきえさるように[SPACES]<$01>くずれていきます。[PAUSE]<$9D>[CLEAR]
+With a clatter,[BR]
+the priest Zagato[PAUSE]<$69>[CLEAR]
+vanished as if[BR]
+a phantom.[PAUSE]<$9D>[CLEAR]
+
+//うみ　「きゃあー！　にげるのよー！」[PAUSE]<$9D>[CLEAR]
+Umi: {Eeek! Run[BR]
+away!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「おしろがきえてゆく・・・」[PAUSE]<$9D>[CLEAR]
+Hikaru: {The[BR]
+castle is[PAUSE]<$69>[CLEAR]
+disappearing...}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「めのさっかくでしょうか？」[PAUSE]<$9D>[CLEAR]
+Fuu: {Are we see-[BR]
+ing things?}[PAUSE]<$9D>[CLEAR]
+
+//3にんは、なんとか　あんぜんなところまで　にげてきました。[PAUSE]<$9D>[CLEAR]
+The trio somehow[BR]
+managed to run to[PAUSE]<$69>[CLEAR]
+a safe place.[PAUSE]<$69>[CLEAR]
+
+//すると・・・[BR]
+//なんと、クレフがあらわれたのです。[PAUSE]<$9D>[CLEAR]
+And with that...[BR]
+Clef appeared.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($E33C, 1)
+
+#SETMSGLOC($E668, 235)
+
+// $E668 (235 bytes)
+
+//ひかる「ザガートをたおしたんだ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {We de-[BR]
+feated Zagato!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「おーほほほ！　たいしたこと[BR]
+//なかったわよ。　おーほほほ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Oh-hohoho![BR]
+It was nothing[PAUSE]<$69>[CLEAR]
+special.[BR]
+Oh-hohoho!}[PAUSE]<$9D>[CLEAR]
+
+//まて、なにかかんちがいしていないか？[PAUSE]<$9D>[CLEAR]
+// orig: "Wait, aren't you misunderstanding something?"
+Wait - have you[BR]
+misunderstood[PAUSE]<$69>[CLEAR]
+things here?[PAUSE]<$9D>[CLEAR]
+
+//おまえたち、ほんとうにザガートを[BR]
+//たおしたつもりか？[PAUSE]<$9D>[CLEAR]
+Do you really[BR]
+believe that you[PAUSE]<$69>[CLEAR]
+defeated Zagato?[PAUSE]<$9D>[CLEAR]
+
+//ひかる「どういうことだ？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {What do[BR]
+you mean?}[PAUSE]<$9D>[CLEAR]
+
+//おまえたちが　たたかったあいても、[BR]
+//サガートじょうも[PAUSE]<$9D>[CLEAR]
+Your fight and the
+priest Zagato[PAUSE]<$69>[CLEAR]
+
+//すべて、わたしがつくりあげた[BR]
+//まぼろしにすぎないのだ。[PAUSE]<$9D>[CLEAR]
+were no more than[BR]
+illusions I[PAUSE]<$69>[CLEAR]
+created.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($E34E, 1)
+
+#SETMSGLOC($E753, 221)
+
+// $E753 (221 bytes)
+
+//ひかる「ええーっ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Huuh?!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「そんな　ばかな！！」[PAUSE]<$9D>[CLEAR]
+Umi: {That's[BR]
+ridiculous!!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「まあ、そうなんですか」[PAUSE]<$9D>[CLEAR]
+Fuu: {So that's[BR]
+what it was.}[PAUSE]<$9D>[CLEAR]
+
+//ザガートをたおすには、おまえたちの[PAUSE]<$9D>[CLEAR]
+To defeat Zagato,[BR]
+I had to test your[PAUSE]<$69>[CLEAR]
+
+//マジックナイトとしてのちからを、[BR]
+//ためすひつようがあったのだ。[PAUSE]<$9D>[CLEAR]
+strength as Magic[BR]
+Knights.[PAUSE]<$69>[CLEAR]
+
+//おまえたちのことだ。　ちょっとばかしつよくなっただけで、いいきにもなろう[PAUSE]<$9D>[CLEAR]
+A little too opt-[BR]
+imistic and[PAUSE]<$69>[CLEAR]
+foolishly persis-[BR]
+tent -[PAUSE]<$69>[CLEAR]
+that's what you[BR]
+are.[PAUSE]<$69>[CLEAR]
+
+//しかし、おまえたち。　すこしは[BR]
+//レベルアップしたのではないか？[PAUSE]<$9D>[CLEAR]
+But you three -[PAUSE]<$69>[CLEAR]
+didn't you level[BR]
+up a little?[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($E360, 1)
+
+#SETMSGLOC($E830, 128)
+
+// $E830 (128 bytes)
+
+//このちょうしでつよくなれば、あの[BR]
+//ザガートにも　ごかくにたたかえる。[PAUSE]<$9D>[CLEAR]
+If you grow[BR]
+stronger at this[PAUSE]<$69>[CLEAR]
+rate, you'll be[BR]
+able to fight[PAUSE]<$69>[CLEAR]
+Zagato.[PAUSE]<$69>[CLEAR]
+
+//つらいことも　あるだろうが、[BR]
+//がんばれ！　ヒカル・ウミ・フウ。[PAUSE]<$9D>[CLEAR]
+There will be[BR]
+painful hardships,[PAUSE]<$69>[CLEAR]
+but you must[BR]
+endure! -[PAUSE]<$69>[CLEAR]
+Hikaru, Umi, Fuu.[PAUSE]<$69>[CLEAR]
+
+//ところで・・・[BR]
+//モコナよ！　こちらにきなさい。[PAUSE]<$9D>[CLEAR]
+By the way...[BR]
+Mokona! Come here![PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($E3A3, 1)
+
+#SETMSGLOC($E8B0, 370)
+
+// $E8B0 (370 bytes)
+
+//ひかる「わーい。　モコナだ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Yaay![BR]
+It's Mokona!}[PAUSE]<$9D>[CLEAR]
+
+//モコナ「ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+Mokona: {Puu! Puu!
+Puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ぷん、ぷん。[BR]
+//ひかるは　むじゃきでいいわね。[PAUSE]<$9D>[CLEAR]
+Umi: {Hmph![PAUSE]<$69>[CLEAR]
+Everyone just[BR]
+loves Hikaru![PAUSE]<$69>[CLEAR]
+
+//でも、まあ、つよくなれたからいいわねねえ、ふう？」[PAUSE]<$9D>[CLEAR]
+But, well...It's[BR]
+okay since we got[PAUSE]<$69>[CLEAR]
+stronger, right,[BR]
+Fuu?}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「おほほほ、そうですわね。[BR]
+//うみさん。[PAUSE]<$9D>[CLEAR]
+Fuu: {Ohohoho,[PAUSE]<$69>[CLEAR]
+right you are,[BR]
+Umi.[PAUSE]<$69>[CLEAR]
+
+//ひかるさんも　あんなに[BR]
+//よろこんでいるようですし・・・」[PAUSE]<$9D>[CLEAR]
+And Hikaru seems[BR]
+so pleased,[PAUSE]<$69>[CLEAR]
+too...}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「わーい、モコナ！　それから[BR]
+//うみちゃん、ふうちゃん。[PAUSE]<$9D>[CLEAR]
+Hikaru: {Yaay,[BR]
+Mokona! And you[PAUSE]<$69>[CLEAR]
+
+//これからも　ちからをあわせて[BR]
+//がんばろうね！」[PAUSE]<$9D>[CLEAR]
+too, Umi and Fuu![BR]
+Let's do our best[PAUSE]<$69>[CLEAR]
+to become even[BR]
+stronger!}[PAUSE]<$9D>[CLEAR]
+
+//モコナ「ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+Mokona: {Puu! Puu!
+Puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「やるしかないわね」[PAUSE]<$9D>[CLEAR]
+Umi: {Guess we[BR]
+don't have a[PAUSE]<$69>[CLEAR]
+choice.}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「がんばりましょう！」[PAUSE]<$9D>[CLEAR]
+Fuu: {Let's give[BR]
+it a try!}[PAUSE]<$9D>[CLEAR]
+
+//こうして、3にんのたびは　まだまだ[BR]
+//つづくのでした。[PAUSE]<$9D>[CLEAR]
+And so,[PAUSE]<$69>[CLEAR]
+the trio's journey
+continued on.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($E3F2, 1)
+
+#SETMSGLOC($EA22, 472)
+
+// $EA22 (472 bytes)
+
+//[SPACES]<$01>ORIGINAL　DESIGN[BR]
+//[SPACES]<$06>CLAMP[PAUSE]<$B4>[CLEAR]
+[SPACES]<$01>ORIGINAL DESIGN[BR]
+[SPACES]<$06>CLAMP[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$02>ORIGINAL　STORY[BR]
+//[SPACES]<$06>CLAMP[PAUSE]<$B4>[CLEAR]
+[SPACES]<$02>ORIGINAL STORY[BR]
+[SPACES]<$06>CLAMP[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$05>PRODUCER[BR]
+//[SPACES]<$04>M．HOKOYAMA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$05>PRODUCER[BR]
+[SPACES]<$04>M. HOKOYAMA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$05>PLANNER[BR]
+//[SPACES]<$04>Y．HIGUCHI[PAUSE]<$B4>[CLEAR]
+[SPACES]<$05>PLANNER[BR]
+[SPACES]<$04>Y. HIGUCHI[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$05>PLANNER[BR]
+//[SPACES]<$05>T．TANAKA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$05>PLANNER[BR]
+[SPACES]<$05>T. TANAKA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$04>PROGRAMMER[BR]
+//[SPACES]<$06>T．EDA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$04>PROGRAMMER[BR]
+[SPACES]<$06>T. EDA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$04>PROGRAMMER[BR]
+//[SPACES]<$04>M．NAKAMURA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$04>PROGRAMMER[BR]
+[SPACES]<$04>M. NAKAMURA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$06>ARTIST[BR]
+//[SPACES]<$04>E．MAESAWA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$06>ARTIST[BR]
+[SPACES]<$04>E. MAESAWA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$06>ARTIST[BR]
+//[SPACES]<$04>H．FUKUMOTO[PAUSE]<$B4>[CLEAR]
+[SPACES]<$06>ARTIST[BR]
+[SPACES]<$04>H. FUKUMOTO[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$06>ARTIST[BR]
+//[SPACES]<$04>H．KAWABATA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$06>ARTIST[BR]
+[SPACES]<$04>H. KAWABATA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$06>ARTIST[BR]
+//[SPACES]<$05>A．TEDUKA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$06>ARTIST[BR]
+[SPACES]<$05>A. TEDUKA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$02>SOUND　COMPOSER[BR]
+//[SPACES]<$05>Y．WACHI[PAUSE]<$B4>[CLEAR]
+[SPACES]<$02>SOUND COMPOSER[BR]
+[SPACES]<$05>Y. WACHI[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$02>SPECIAL　THANKS[BR]
+//[SPACES]<$05>KODANSHA[PAUSE]<$B4>[CLEAR]
+[SPACES]<$02>SPECIAL THANKS[BR]
+[SPACES]<$05>KODANSHA[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$02>SPECIAL　THANKS[BR]
+//[SPACES]<$07>TMS[PAUSE]<$B4>[CLEAR]
+[SPACES]<$02>SPECIAL THANKS[BR]
+[SPACES]<$07>TMS[PAUSE]<$B4>[CLEAR]
+
+//[SPACES]<$03>PRESENTED　BY[BR]
+//[SPACES]<$01>SEGA　ENTERPRISES[PAUSE]<$B4>[CLEAR]
+[SPACES]<$03>PRESENTED BY[BR]
+[SPACES]<$01>SEGA ENTERPRISES[PAUSE]<$B4>[CLEAR]
+
+//[PAUSE]<$FF>[NEXT]
+[PAUSE]<$FF>[NEXT]
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Cutscenes
+//***********************************************************
+
+//********************************
+// Cutscene 0
+//********************************
+
+#MSGPTR($C6AF, 1)
+
+#SETMSGLOC($CC6C, 131)
+
+// $CC6C (131 bytes)
+
+//モコナはうみのなかにいる！[PAUSE]<$9D>[CLEAR]
+Mokona was under[BR]
+the ocean![PAUSE]<$9D>[CLEAR]
+
+//つうしんをうけとったひかるは、[BR]
+//まっさきにうみにとびこみました。[PAUSE]<$9D>[CLEAR]
+Hikaru, who'd got-
+ten the message,[PAUSE]<$69>[CLEAR]
+jumped into the[BR]
+ocean first.[PAUSE]<$9D>[CLEAR]
+
+//ひかる「いくよ！！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Let's[BR]
+go!!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ちょっと！　ちょっと！[BR]
+//いきはどうするの？！」[PAUSE]<$9D>[CLEAR]
+Umi: {Wait, wait![PAUSE]<$69>[CLEAR]
+How will we[BR]
+breathe?!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「なんとかなりますわよ！」[PAUSE]<$9D>[CLEAR]
+Fuu: {It'll work[BR]
+out somehow!}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($C7A9, 1)
+
+#SETMSGLOC($CCEF, 143)
+
+// $CCEF (143 bytes)
+
+//ふう　「あら、あわですわ」[PAUSE]<$9D>[CLEAR]
+Fuu: {Oh my,[BR]
+bubbles!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「いき、できるね」[PAUSE]<$9D>[CLEAR]
+Hikaru: {We can[BR]
+breathe!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ちょっと！　あわのなかで[BR]
+//およいでもすすまないわよ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Wait![BR]
+We can't swim[PAUSE]<$69>[CLEAR]
+inside the[BR]
+bubbles!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ところで、モコナはどこに[BR]
+//いっちゃったのかしら？」[PAUSE]<$9D>[CLEAR]
+Umi: {I wonder[BR]
+where Mokona is,[PAUSE]<$69>[CLEAR]
+anyway?}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「あっ、のりものだ！！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Ah, a[BR]
+vehicle!!}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($C816, 1)
+
+#SETMSGLOC($CD7E, 139)
+
+// $CD7E (139 bytes)
+
+//3にんは、そののりものがクレフがひそかにおくってくれたせいじゅうだとは、[PAUSE]<$D2>[CLEAR]
+The three, riding[BR]
+in the unlikely[PAUSE]<$69>[CLEAR]
+{Seijyuu} vehicle[BR]
+sent by Clef,[PAUSE]<$D2>[CLEAR]
+
+//ゆめにもおもわず、それにのって、[BR]
+//かいていのしんでんをみつけるのでした[PAUSE]<$D2>[CLEAR]
+found a sacred[BR]
+temple at the[PAUSE]<$69>[CLEAR]
+bottom of the[BR]
+ocean.[PAUSE]<$D2>[CLEAR]
+
+//うみ　「さあ、さがすのよ！　こらっ、ひかる！　はしっちゃダメ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Let's take[BR]
+a look![PAUSE]<$69>[CLEAR]
+Geez, Hikaru,[BR]
+don't run!}[PAUSE]<$F0>[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($C892, 1)
+
+#SETMSGLOC($CE09, 140)
+
+// $CE09 (140 bytes)
+
+//ひかる「モコナー！　いないのー？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Mokonaaa!
+Are you there?}[PAUSE]<$9D>[CLEAR]
+
+//[SPACES]<$06>しーーーん[PAUSE]<$9D>[CLEAR]
+[SPACES]<$04>-silence-[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ううっ、こんなとこまできて[BR]
+//ほねおりぞん？　モコナー」[PAUSE]<$9D>[CLEAR]
+Umi: {Hmph! Did we
+come all this way[PAUSE]<$69>[CLEAR]
+for nothing?[BR]
+Mokonaaa!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「こまりましたわねえ」[PAUSE]<$9D>[CLEAR]
+Fuu: {This is[BR]
+troublesome.}[PAUSE]<$9D>[CLEAR]
+
+//[SPACES]<$06>しーーーん[PAUSE]<$9D>[CLEAR]
+[SPACES]<$04>-silence-[PAUSE]<$9D>[CLEAR]
+
+//どうやら、モコナはここにはいないようです。[PAUSE]<$9D>[CLEAR]
+Despite all their[BR]
+efforts,[PAUSE]<$69>[CLEAR]
+Mokona apparently[BR]
+wasn't there.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($C8F6, 1)
+
+#SETMSGLOC($CE95, 157)
+
+// $CE95 (157 bytes)
+
+//ひかるのつうしんきが[BR]
+//うごきだしました！[PAUSE]<$9D>[CLEAR]
+Hikaru's communi-[BR]
+cator activated![PAUSE]<$9D>[CLEAR]
+
+//「ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+{Puu, puu, puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「モコナはなんていってるの？」[PAUSE]<$9D>[CLEAR]
+Umi: {What's[BR]
+Mokona saying?}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「よくわかんないけど、やまとかいわとか、たかいところらしいよ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {I don't[BR]
+really get it,[PAUSE]<$69>[CLEAR]
+but something[BR]
+about a mountain[PAUSE]<$69>[CLEAR]
+village?[BR]
+It seems to be a[PAUSE]<$69>[CLEAR]
+really high[BR]
+place!}[PAUSE]<$9D>[CLEAR]
+
+//3にんは、きをとりなおして、やまに[BR]
+//むかうのでした・・・[PAUSE]<$9D>[NEXT]
+The three, totally
+rethinking their[PAUSE]<$69>[CLEAR]
+plans, headed for[BR]
+the mountains...[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($C881, 1)
+
+#SETMSGLOC($CF32, 138)
+
+// $CF32 (138 bytes)
+
+//ひかる「モコナー！　いないのー？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Mokonaaa!
+Are you there?}[PAUSE]<$9D>[CLEAR]
+
+//[SPACES]<$06>しーーーん[PAUSE]<$9D>[CLEAR]
+[SPACES]<$04>-silence-[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ううっ、こんなとこまできて[BR]
+//ほねおりぞん？　モコナー」[PAUSE]<$9D>[CLEAR]
+Umi: {Hmph! Did we
+come all this way[PAUSE]<$69>[CLEAR]
+for nothing?[BR]
+Mokonaaa!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「こまりましたわねえ」[PAUSE]<$9D>[CLEAR]
+Fuu: {This is[BR]
+troublesome.}[PAUSE]<$9D>[CLEAR]
+
+//[SPACES]<$06>しーーーん[PAUSE]<$9D>[CLEAR]
+[SPACES]<$04>-silence-[PAUSE]<$9D>[CLEAR]
+
+//どうやら、モコナはここにはいないようです。[PAUSE]<$9D>[NEXT]
+Despite all their[BR]
+efforts,[PAUSE]<$69>[CLEAR]
+Mokona apparently[BR]
+wasn't there.[PAUSE]<$9D>[CLEAR][NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Cutscene 1
+//********************************
+
+#MSGPTR($C6B3, 1)
+
+#SETMSGLOC($CFBC, 425)
+
+// $CFBC (425 bytes)
+
+//うみからあがってきた　ひかるたち。[BR]
+//しかし．．．[PAUSE]<$9D>[CLEAR]
+The group rose[BR]
+from the ocean.[PAUSE]<$69>[CLEAR]
+But...[PAUSE]<$9D>[CLEAR]
+
+//うみ　「やまっていっても、どのやま[BR]
+//なのよ！！」[PAUSE]<$9D>[CLEAR]
+Umi: {You say[BR]
+*mountain',[PAUSE]<$69>[CLEAR]
+but WHICH mount-[BR]
+ain?!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「とてもぜんぶのやまは、[BR]
+//のぼれませんわ」[PAUSE]<$9D>[CLEAR]
+Fuu: {We can't[BR]
+climb them all.}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「たぶん、いちばんたかい[BR]
+//あのやまじゃないかなあ？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Maybe[BR]
+it's that tallest[PAUSE]<$69>[CLEAR]
+one over there?}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「ええーっ！！[BR]
+//かざんですわよ！！」[PAUSE]<$9D>[CLEAR]
+Fuu: {WHAAAT!?!?[PAUSE]<$69>[CLEAR]
+That's a vol-[BR]
+cano!!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「もえちゃうわよ！！」[PAUSE]<$9D>[CLEAR]
+Umi: {We'll burn[BR]
+up!!}[PAUSE]<$9D>[CLEAR]
+
+//[SOUND]<$BE>ちょうどそのとき、つうしんきが[BR]
+//うごきだしました。[PAUSE]<$9D>[CLEAR]
+[SOUND]<$BE>At just that[BR]
+moment,[PAUSE]<$69>[CLEAR]
+the communicator[BR]
+activated.[PAUSE]<$9D>[CLEAR]
+
+//「ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+{Puu, puu, puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「どこにいるの、モコナ」[PAUSE]<$9D>[CLEAR]
+Umi: {Where are[BR]
+you, Mokona?}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「いちばんたかくて、[BR]
+//あついとこ、だって」[PAUSE]<$9D>[CLEAR]
+Hikaru: {*The[BR]
+highest point,[PAUSE]<$69>[CLEAR]
+a hot place.'}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「じゃあ、やっぱり・・・」[PAUSE]<$9D>[CLEAR]
+Fuu: {Then it[BR]
+really must be...}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「・・いくしかないよね」[PAUSE]<$9D>[CLEAR]
+Hikaru: {...I[BR]
+guess we have to[PAUSE]<$69>[CLEAR]
+go.}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「こうなったら、ぜったい[BR]
+//さがすわよ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Then we'll[BR]
+definitely go[PAUSE]<$69>[CLEAR]
+look!}[PAUSE]<$9D>[CLEAR]
+
+//ひかるたちは、しゃくねつのかざんへとむかいました。[PAUSE]<$9D>[CLEAR]
+Hikaru and the[BR]
+others headed off[PAUSE]<$69>[CLEAR]
+toward the red-hot
+volcano.[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($CAA2, 1)
+
+#SETMSGLOC($D165, 319)
+
+// $D165 (319 bytes)
+
+//かざんにたどりついた　ひかるたちは、あつさをがまんして、[PAUSE]<$9D>[CLEAR]
+Hikaru's party[BR]
+suffered the heat[PAUSE]<$69>[CLEAR]
+as they struggled[BR]
+up the volcano,[PAUSE]<$69>[CLEAR]
+
+//モコナをさがしつづけました。[PAUSE]<$9D>[CLEAR]
+continuing their[BR]
+search for Mokona.[PAUSE]<$9D>[CLEAR]
+
+//ひかる「モコナー！　でてきてー！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Mokonaaa!
+Come here!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「きゃあっ！　ようがんよっ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Eeeek![BR]
+Lava!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「みあたりませんわねえ」[PAUSE]<$9D>[CLEAR]
+Fuu: {We haven't[BR]
+found Mokona...}[PAUSE]<$9D>[CLEAR]
+
+//へとへとになりながら、さがしても[BR]
+//モコナはみつかりませんでした。[PAUSE]<$9D>[CLEAR]
+Completely ex-[BR]
+hausted, they[PAUSE]<$69>[CLEAR]
+searched, but[BR]
+couldn't find[PAUSE]<$69>[CLEAR]
+Mokona.[PAUSE]<$9D>[CLEAR]
+
+//ひかるたちは、がっかりして[BR]
+//しょげかえってしまいました。[PAUSE]<$9D>[CLEAR]
+Hikaru and the[BR]
+others,[PAUSE]<$69>[CLEAR]
+disappointed and[BR]
+disheartened,[PAUSE]<$69>[CLEAR]
+headed back.[PAUSE]<$9D>[CLEAR]
+
+//[SOUND]<$BE>と、そのとき　つうしんきが[BR]
+//うごきだしました。[PAUSE]<$9D>[CLEAR]
+[SOUND]<$BE>Then the communi-[BR]
+cator activated.[PAUSE]<$9D>[CLEAR]
+
+//　「ぷうっ！　ぷうぷうーっ！！」[PAUSE]<$9D>[CLEAR]
+ {Puu! Puupuuuu!!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「モコナ！　えっ？　たすけて？　ザガート？　なに？？」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Mokona![BR]
+Huh? Help?[PAUSE]<$69>[CLEAR]
+Zagato? What??}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($CAE5, 1)
+
+#SETMSGLOC($D2A4, 355)
+
+// $D2A4 (355 bytes)
+
+//　「マジックナイトたちよ！[BR]
+//　きこえるか？[PAUSE]<$9D>[CLEAR]
+ {Magic Knights![BR]
+ Can you hear me?[PAUSE]<$9D>[CLEAR]
+
+//　わたしは　ソル・ザガート。[PAUSE]<$9D>[CLEAR]
+ I am Sol Zagato.[PAUSE]<$9D>[CLEAR]
+
+//　モコナは、わたしのしろにいる。[PAUSE]<$9D>[CLEAR]
+ Mokona is in my[BR]
+ castle.[PAUSE]<$9D>[CLEAR]
+
+//　もし、わたしとたたかうかくごが[BR]
+//　あるのなら、とりかえしにくるがいい[PAUSE]<$D2>[CLEAR]
+ If you are pre-[BR]
+ pared to fight,[PAUSE]<$9D>[CLEAR]
+ feel free to[BR]
+ come get Mokona.[PAUSE]<$D2>[CLEAR]
+
+//　いずれは　たたかうしゅくめい。[BR]
+//　かんげいしよう。　フフフ・・・」[PAUSE]<$9D>[CLEAR]
+ We are destined[BR]
+ to fight sooner[PAUSE]<$9D>[CLEAR]
+ or later, after[BR]
+ all.[PAUSE]<$9D>[CLEAR]
+ I'll be waiting.[BR]
+ Ha ha ha...}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「・・・きれた」[PAUSE]<$9D>[CLEAR]
+Hikaru: {It dis-[BR]
+connected.}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「どうしましょう？」[PAUSE]<$9D>[CLEAR]
+Fuu: {What should[BR]
+we do?}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「いく！！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Let's[BR]
+go!!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「でも、どうやって？」[PAUSE]<$9D>[CLEAR]
+Umi: {But how?}[PAUSE]<$9D>[CLEAR]
+
+//[SPACES]<$03>「しんぱいは　いらない」[PAUSE]<$9D>[CLEAR]
+[SPACES]<$04>{You don't[BR]
+[SPACES]<$02>need to worry.}[PAUSE]<$9D>[CLEAR]
+
+//「クレフ！？」[PAUSE]<$9D>[CLEAR]
+{Clef!?}[PAUSE]<$9D>[CLEAR]
+
+//　「わたしのせいじゅうが、そちらに[BR]
+//　むかっている。[PAUSE]<$9D>[CLEAR]
+ {My *Seijyuu' can
+ take you there.[PAUSE]<$9D>[CLEAR]
+
+//　おまえたちを、ザガートじょうに、[BR]
+//　はこんでくれるだろう。[PAUSE]<$9D>[CLEAR]
+ It will carry you
+ to Zagato.}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($CB2D, 1)
+
+#SETMSGLOC($D407, 107)
+
+// $D407 (107 bytes)
+
+//「まってて、モコナ！」[BR]
+//「ザガート、まってなさいよ！！」[PAUSE]<$9D>[CLEAR]
+{Hang on, Mokona!}[PAUSE]<$69>[CLEAR]
+{Just wait,[BR]
+Zagato!}[PAUSE]<$9D>[CLEAR]
+
+//ザガートとの　たたかいをまえにして、けついもあらたに、[PAUSE]<$9D>[CLEAR]
+With renewed[BR]
+determination[PAUSE]<$69>[CLEAR]
+
+//3にんはザガートじょうへと[BR]
+//むかいました。[PAUSE]<$9D>[NEXT]
+to carry out their
+decision to fight[PAUSE]<$69>[CLEAR]
+Zagato, the three[BR]
+kept going.[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($CA5C, 1)
+
+#SETMSGLOC($D472, 88)
+
+// $D472 (88 bytes)
+
+//うみ　「ちょっと、ちょっとお！！[BR]
+//またいくの？　モコナいないでしょ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Hey, wait!![BR][PAUSE]<$69>[CLEAR]
+You're going[BR]
+again? Mokona's[PAUSE]<$69>[CLEAR]
+not there!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「・・・・ごめん！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {......[BR]
+I'm sorry!}[PAUSE]<$9D>[CLEAR]
+
+
+//ひかるたちは、かざんをあとにしました[PAUSE]<$9D>[NEXT]
+Hikaru and the[BR]
+others left[PAUSE]<$69>[CLEAR]
+the volcano.[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Cutscene 2
+//********************************
+
+#MSGPTR($C6B7, 1)
+
+#SETMSGLOC($D4CA, 164)
+
+// $D4CA (164 bytes)
+
+//[SOUND]<$BE>「ぷうっ、ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+[SOUND]<$BE>{Puu, puu, puu,[BR]
+puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「なんていってるの？」[PAUSE]<$9D>[CLEAR]
+Umi: {What's Moko-
+na saying?}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「このさきに、ひとがいっぱい[BR]
+//すんでいるところがあって、[PAUSE]<$9D>[CLEAR]
+Hikaru: {There's[BR]
+a place past here[PAUSE]<$69>[CLEAR]
+where a lot of[BR]
+people live,[PAUSE]<$69>[CLEAR]
+
+//そこで　あそんでるって！」[PAUSE]<$9D>[CLEAR]
+so we should have[BR]
+some fun there!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「そういえば　わたしたち、むらとか、まちとか、あまりしりませんわ」[PAUSE]<$9D>[CLEAR]
+Fuu: {Come to[BR]
+think of it,[PAUSE]<$69>[CLEAR]
+we don't really[BR]
+know about the[PAUSE]<$69>[CLEAR]
+towns and vill-[BR]
+ages.}[PAUSE]<$9D>[CLEAR]
+
+[NEXT]
+
+
+#ENDMSG()
+
+
+#MSGPTR($CBB7, 1)
+
+#SETMSGLOC($D56E, 199)
+
+// $D56E (199 bytes)
+
+//ひかる「わーい！　むらだ！[BR]
+//むらがみえてきたよ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Yay! A[BR]
+village!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「そんなに　はしらなくても、[BR]
+//むらは　にげないわよ！」[PAUSE]<$9D>[CLEAR]
+Umi: {Don't run so
+much! The village[PAUSE]<$69>[CLEAR]
+isn't going any-[BR]
+where!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「あのむらのなかに[BR]
+//モコナさんが　いるんですわね！」[PAUSE]<$9D>[CLEAR]
+Fuu: {Mokona is[BR]
+within that[PAUSE]<$69>[CLEAR]
+village!}[PAUSE]<$9D>[CLEAR]
+
+//こうして　3にんは、[BR]
+//セフィーロのむらをめざすのでした。[PAUSE]<$9D>[CLEAR]
+And so the three[BR]
+made for the[PAUSE]<$69>[CLEAR]
+village of[BR]
+Cephiro.[PAUSE]<$9D>[CLEAR]
+
+//3にんの　モコナをさがすたびは、[BR]
+//まだ　はじまったばかりです。[PAUSE]<$9D>[NEXT]
+The three's search
+for Mokona[PAUSE]<$69>[CLEAR]
+was only just[BR]
+beginning.[PAUSE]<$9D>[NEXT]
+
+
+#ENDMSG()
+
+
+
+//********************************
+// Cutscene 3
+//********************************
+
+#MSGPTR($C6BB, 1)
+
+#SETMSGLOC($D635, 278)
+
+// $D635 (278 bytes)
+
+//ひかる「このいかだ　はやいよ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {This[BR]
+raft is fast!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「ちょっと、ひかる！　いかだのうえで、そんなにはしゃがないでよー！[PAUSE]<$9D>[CLEAR]
+Umi: {Darn it,[BR]
+Hikaru! Don't[PAUSE]<$69>[CLEAR]
+run around on the[BR]
+raft so much![PAUSE]<$69>[CLEAR]
+
+//おちたら　どうすんのよー！」[PAUSE]<$9D>[CLEAR]
+What if you[BR]
+fall?!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「でも、うみさん。　いかだの[BR]
+//あやつりかた　おじょうずですわね」[PAUSE]<$9D>[CLEAR]
+Fuu: {But Umi, you
+are piloting the[PAUSE]<$69>[CLEAR]
+raft very well.}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「バランスよ！　バランス！」[PAUSE]<$9D>[CLEAR]
+Umi: {Balance![BR]
+Balance!}[PAUSE]<$9D>[CLEAR]
+
+//つうしんきをとりもどした　3にんは、ちんもくのもりを　めざすのでした。[PAUSE]<$9D>[CLEAR]
+With the communi-[BR]
+cator back,[PAUSE]<$69>[CLEAR]
+the three headed[BR]
+for the Forest[PAUSE]<$69>[CLEAR]
+of Silence.[PAUSE]<$9D>[CLEAR]
+
+//はたして、モコナは　ちんもくの[BR]
+//もりに　いるのでしょうか？[PAUSE]<$9D>[CLEAR]
+Would Mokona be in
+the Forest of[PAUSE]<$69>[CLEAR]
+Silence as they[BR]
+expected?[PAUSE]<$9D>[CLEAR]
+
+//とにかく、げんきな3にんでした。[PAUSE]<$9D>[NEXT]
+Whatever the case,[PAUSE]<$69>[CLEAR]
+the three were[BR]
+energetic.[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Cutscene 4
+//********************************
+
+#MSGPTR($C6BF, 1)
+
+#SETMSGLOC($D74B, 244)
+
+// $D74B (244 bytes)
+
+//[SOUND]<$BE>ひかる「あっ！　つうしんきが[BR]
+//なってる！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Oh! The[BR]
+communicator!}[PAUSE]<$9D>[CLEAR]
+
+//「ぷうっ、ぷうっ、ぷうっ、ぷうっ」[PAUSE]<$9D>[CLEAR]
+{Puu, puu, puu,[BR]
+ puu!}[PAUSE]<$9D>[CLEAR]
+
+//うみ　「いったい　どこにいるのよー！モコナは？　ぷん、ぷん」[PAUSE]<$9D>[CLEAR]
+Umi: {Where the[BR]
+heck are you,[PAUSE]<$69>[CLEAR]
+Mokona!? Grrr!}[PAUSE]<$9D>[CLEAR]
+
+//ひかる「うみのなかにいるみたいだ！」[PAUSE]<$9D>[CLEAR]
+Hikaru: {Appar-[BR]
+ently, Mokona is[PAUSE]<$69>[CLEAR]
+in the ocean!}[PAUSE]<$9D>[CLEAR]
+
+//ふう　「こんどは、うみですか？[BR]
+//こうどうはんいがひろいんですねえ」[PAUSE]<$9D>[CLEAR]
+Fuu: {The ocean[BR]
+this time?[PAUSE]<$69>[CLEAR]
+Mokona's sphere of
+activity certainly[PAUSE]<$69>[CLEAR]
+is wide, isn't[BR]
+it?}[PAUSE]<$9D>[CLEAR]
+
+//こうして、やっとのことで[BR]
+//ちんもくのもりをぬけた3にんは、[PAUSE]<$9D>[CLEAR]
+Escaping the[BR]
+forest at last,[PAUSE]<$69>[CLEAR]
+
+//こんどは、うみへと[BR]
+//むかうのでした・・・[PAUSE]<$9D>[NEXT]
+the three headed[PAUSE]<$69>[CLEAR]
+for the ocean this
+time...[PAUSE]<$9D>[NEXT]
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Rooms
+//***********************************************************
+
+//********************************
+// Room 0
+//********************************
+
+#MSGPTR($8C9B, 1)
+
+#SETMSGLOC($A498, 231)
+
+// $A498 (231 bytes)
+
+#JUMPIF(5, loc_A557)
+#JUMPIF(4, loc_A4C8)
+//でんせつのマジックナイトたちよ！[BR]
+//モコナをさがすのだ！[WAIT]
+Legendary Magic[BR]
+Knights! Will you[WAIT][BR]
+search for Mokona?[WAIT]
+
+[NEXT]
+
+:loc_A4C8
+//ふむ、みちがとおれないのか。[BR]
+//のこぎりがあったとおもったが・・・[WAIT]
+Hm. You can't get[BR]
+down the path?[WAIT]
+
+[BR]
+I thought I had a[BR]
+saw...[WAIT]
+
+[BR]
+//モコナがいたずらするので、どこかに[BR]
+//うめてしまったようだ。[WAIT]
+Mokona must have[BR]
+buried it some-[WAIT][BR]
+where as a prank.[WAIT]
+
+
+[BR]
+//そうだ！　スコップがあった。[BR]
+//もっていくがよい。[SETFLAG]<$05>[WRITE]<$E0><$C5><$01>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+Ah-ha! Here's a[BR]
+shovel. You may[WAIT][BR]
+take it.[SETFLAG]<$05>[WRITE]<$E0><$C5><$01>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+
+[NEXT]
+
+:loc_A557
+//でんせつのマジックナイトたちよ！[BR]
+//セフィーロをすくってくれ！！[WAIT]
+Legendary Magic[BR]
+Knights![WAIT][BR]
+Save Cephiro!![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($90FC, 1)
+
+#SETMSGLOC($A57F, 85)
+
+// $A57F (85 bytes)
+
+//でんせつのマジックナイトたちよ！[BR]
+//がんばっているか？[WAIT]
+Legendary Magic[BR]
+Knights![WAIT][BR]
+Are you doing your[BR]
+best?[WAIT]
+
+[BR]
+//わたしも、きみたちをたすけたいのだが[BR]
+//おもてだっては　うごけない。[WAIT]
+I, too, want to[BR]
+help you, but I[WAIT][BR]
+can't act in[BR]
+public.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9110, 1)
+
+#SETMSGLOC($A5D4, 33)
+
+// $A5D4 (33 bytes)
+
+[CLEAR]
+
+//そうだ！　きみたちにいいものを[BR]
+//さずけよう。[WAIT]
+Oh yeah! I'll give
+you something[WAIT][BR]
+good.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($914E, 1)
+
+#SETMSGLOC($A5F5, 50)
+
+// $A5F5 (50 bytes)
+
+[CLEAR]
+
+//なにか、さずけようとおもったが・・・もちものが　いっぱいのようだな。[WAIT]
+I was thinking of[BR]
+giving you[WAIT][BR]
+something, but...[BR]
+your inventory is[WAIT][BR]
+full.
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9178, 1)
+
+#SETMSGLOC($A627, 60)
+
+// $A627 (60 bytes)
+
+[CLEAR]
+
+//せいれいのはねだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a pair of[BR]
+Spirit Wings.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//せいれいのはね　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received[BR]
+Spirit Wings!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($917A, 1)
+
+#SETMSGLOC($A663, 62)
+
+// $A663 (62 bytes)
+
+[CLEAR]
+
+//きつけぐすりだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's some Smelling
+Salts.[WAIT][BR]
+I hope they help[BR]
+you![WAIT]
+
+[CLEAR]
+
+//きつけぐすり　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received[BR]
+Smelling Salts!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($917C, 1)
+
+#SETMSGLOC($A6A1, 62)
+
+// $A6A1 (62 bytes)
+
+[CLEAR]
+
+//やわらかなのろいだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Soft Spell.[WAIT]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//やわらかなのろい　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Soft Spell!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($917E, 1)
+
+#SETMSGLOC($A6DF, 60)
+
+// $A6DF (60 bytes)
+
+[CLEAR]
+
+//ひよわなのろいだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Frailty[BR]
+Spell.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//ひよわなのろい　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Frailty Spell!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9180, 1)
+
+#SETMSGLOC($A71B, 58)
+
+// $A71B (58 bytes)
+
+[CLEAR]
+
+//かめののろいだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Turtle[BR]
+Spell.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//かめののろい　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Turtle Spell!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9182, 1)
+
+#SETMSGLOC($A755, 62)
+
+// $A755 (62 bytes)
+
+[CLEAR]
+
+//はやさのフルーツだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Speed[BR]
+Fruit.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//はやさのフルーツ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Speed Fruit!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9184, 1)
+
+#SETMSGLOC($A793, 62)
+
+// $A793 (62 bytes)
+
+[CLEAR]
+
+//ちからのフルーツだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Strength[BR]
+Fruit.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//ちからのフルーツ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Strength Fruit!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9186, 1)
+
+#SETMSGLOC($A7D1, 62)
+
+// $A7D1 (62 bytes)
+
+[CLEAR]
+
+//まもりのフルーツだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Defense[BR]
+Fruit.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//まもりのフルーツ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Defense Fruit!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9188, 1)
+
+#SETMSGLOC($A80F, 60)
+
+// $A80F (60 bytes)
+
+[CLEAR]
+
+//ショートケーキだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Shortcake.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//ショートケーキ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Shortcake!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($918A, 1)
+
+#SETMSGLOC($A84B, 58)
+
+// $A84B (58 bytes)
+
+[CLEAR]
+
+//かいふくのみだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Restore[BR]
+Water.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//かいふくのみ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Restore Water!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($918C, 1)
+
+#SETMSGLOC($A885, 62)
+
+// $A885 (62 bytes)
+
+[CLEAR]
+
+//フシギなはなだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Mystery[BR]
+Flower.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//フシギなはな　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Mystery Flower!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($918E, 1)
+
+#SETMSGLOC($A8C3, 62)
+
+// $A8C3 (62 bytes)
+
+[CLEAR]
+
+//きょうふのふくろだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Bag of[BR]
+Terrors.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//きょうふのふくろ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Bag of Terrors!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9190, 1)
+
+#SETMSGLOC($A901, 62)
+
+// $A901 (62 bytes)
+
+[CLEAR]
+
+//しんせいなひかりだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Sacred[BR]
+Light.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//しんせいなひかり　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Sacred Light!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9192, 1)
+
+#SETMSGLOC($A93F, 66)
+
+// $A93F (66 bytes)
+
+[CLEAR]
+
+//しゅくふくのふだだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Blessed[BR]
+Charm.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//しゅくふくのふだ　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Blessed Charm!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9194, 1)
+
+#SETMSGLOC($A981, 64)
+
+// $A981 (64 bytes)
+
+[CLEAR]
+
+//せいなるやいばだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's a Holy Blade.[WAIT]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//せいなるやいば　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received a[BR]
+Holy Blade!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9196, 1)
+
+#SETMSGLOC($A9C1, 60)
+
+// $A9C1 (60 bytes)
+
+[CLEAR]
+
+//ラッキーのこなだ。[BR]
+//やくにたてるがよい！[WAIT]
+It's Lucky[BR]
+Powder.[WAIT][BR]
+I hope it helps[BR]
+you![WAIT]
+
+[CLEAR]
+
+//ラッキーのこな　をてにいれた！！[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+You received[BR]
+Lucky Powder!![SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 1
+//********************************
+
+#MSGPTR($8CAB, 1)
+
+#SETMSGLOC($A169, 35)
+
+// $A169 (35 bytes)
+
+[CLEAR]
+
+//「おやすみなさーい」[BR]
+//　3にんは　ぐっすりねむりました。[NEXT]
+{Goodnight!}[WAIT][BR]
+The three fell[BR]
+fast asleep.[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($954C, 1)
+
+#SETMSGLOC($A18C, 25)
+
+// $A18C (25 bytes)
+
+[CLEAR]
+
+//「さあ、きょうもがんばろう！」[WAIT]
+{All right, let's[BR]
+do our best again[WAIT][BR]
+today!}[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 2
+//********************************
+
+#MSGPTR($8CC2, 1)
+
+#SETMSGLOC($A9FD, 84)
+
+// $A9FD (84 bytes)
+
+//やあ、おじょうちゃんたち。[BR]
+//ここはせいれいのもりじゃ。[WAIT]
+Oh, it's you[BR]
+girls.[WAIT][BR]
+This is the Forest[BR]
+of Spirits.[WAIT]
+
+[BR]
+//ところで、たたかいかたを[BR]
+//おしえてやろうかのう？[WAIT]
+Since you're here,[BR]
+would you like me[WAIT][BR]
+to teach you about[BR]
+fighting?[WAIT]
+
+[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($8F6B, 1)
+
+#SETMSGLOC($AA51, 170)
+
+// $AA51 (170 bytes)
+
+[CLEAR]
+
+//まものに　でくわすとな、おぬしらは[BR]
+//まわりだすのじゃ。[WAIT]
+When you come[BR]
+across a fiend,[WAIT][BR]
+the three of you[BR]
+will spin around.[WAIT]
+
+[BR]
+//そこで、たたかいたいキャラのところ[BR]
+//でな、ボタンをおしてとめるのじゃ。[WAIT]
+So, when you're[BR]
+on the character[WAIT][BR]
+you want to fight[BR]
+with, press the[WAIT][BR]
+button.[WAIT]
+
+[BR]
+//それから、ひかるも　ふうも　うみも[BR]
+//ぞんぶんにたたかうがよい。[WAIT]
+Then fight to your[BR]
+heart's content[WAIT][BR]
+with Hikaru, Fuu,[BR]
+and Umi.[WAIT]
+
+[BR]
+//まだあるんじゃが、ききたいか？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+There is more. Do[BR]
+you want to hear[WAIT][BR]
+it?[BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($8FA9, 1)
+
+#SETMSGLOC($AAFB, 154)
+
+// $AAFB (154 bytes)
+
+[CLEAR]
+
+//おぬしらのまわるスピードは、こうげきりょくにかんけいする。[WAIT]
+The speed you're[BR]
+spinning is[WAIT][BR]
+related to the[BR]
+power of your[WAIT][BR]
+attack.[WAIT]
+
+[BR]
+//つまり、はやくまわっていれば[BR]
+//こうげきりょくもますのじゃ。[WAIT]
+That's to say, if[BR]
+you're spinning[WAIT][BR]
+quickly, your[BR]
+attack power will[WAIT][BR]
+also grow.[WAIT]
+
+[BR]
+//ときどき、カードがでるが、そのときは[BR]
+//いいことがあるかもしれんのう。[WAIT]
+Sometimes, a card[BR]
+will appear.[WAIT][BR]
+Something good may[BR]
+happen then![WAIT]
+
+[BR]
+//3にんのちからをあわせるのじゃ！[WAIT]
+Combine your three[BR]
+powers![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($8FBD, 1)
+
+#SETMSGLOC($AB95, 23)
+
+// $AB95 (23 bytes)
+
+[CLEAR]
+
+//またききたくなったら　おいで。[WAIT]
+Come here if you'd
+like to hear about[WAIT][BR]
+it again.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 3
+//********************************
+
+#MSGPTR($8CD6, 1)
+
+
+#MSGPTR($8E6D, 1)
+
+
+#MSGPTR($8EAE, 1)
+
+
+#MSGPTR($8ED9, 1)
+
+#SETMSGLOC($A013, 68)
+
+// $A013 (68 bytes)
+
+//いらっしゃい。　おとまりは、ほうせき[PRINTPTR]<$5A><$CF>[PRINTPTR]<$5B><$CF>コになります。[WAIT]
+Welcome. Staying[BR]
+overnight will[WAIT][BR]
+cost [PRINTPTR]<$5A><$CF>[PRINTPTR]<$5B><$CF> gems.[WAIT]
+
+[BR]
+//おとまりになられますか？[BR]
+//[AUTODLG][SPACES]<$06>はい[SPACES]<$02>いいえ[MANUDLG]
+Will you be[BR]
+staying?[WAIT][BR]
+[AUTODLG][SPACES]<$06>Yes[SPACES]<$01>No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($91EB, 1)
+
+#SETMSGLOC($A057, 45)
+
+// $A057 (45 bytes)
+
+[CLEAR]
+
+//ああ、なんということでしょう。[BR]
+//おきゃくさま、ほうせきがたりません。[WAIT]
+Ahh, what are you[BR]
+saying? You don't[WAIT][BR]
+have enough gems.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9203, 1)
+
+
+#MSGPTR($95B2, 1)
+
+#SETMSGLOC($A084, 14)
+
+// $A084 (14 bytes)
+
+[CLEAR]
+
+//「おやすみなさーい」[NEXT]
+{Goodnight!}[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($92C6, 1)
+
+#SETMSGLOC($A092, 20)
+
+// $A092 (20 bytes)
+
+[CLEAR]
+
+//おはようございます。[WAIT]
+Good morning.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($92D8, 1)
+
+
+#MSGPTR($9488, 1)
+
+#SETMSGLOC($A0A6, 31)
+
+// $A0A6 (31 bytes)
+
+[CLEAR]
+
+//セーブしますか？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Will you save?[BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9316, 1)
+
+
+#MSGPTR($94C6, 1)
+
+#SETMSGLOC($A0C5, 44)
+
+// $A0C5 (44 bytes)
+
+[CLEAR]
+
+//どちらにセーブしますか？[BR]
+//[AUTODLG][SPACES]<$03>　セーブ1　　セーブ2[MANUDLG]
+Where would you[BR]
+like to save?[WAIT][BR]
+[AUTODLG][SPACES]<$03> [#]1    [#]2[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($938A, 1)
+
+
+#MSGPTR($953A, 1)
+
+
+#MSGPTR($9727, 1)
+
+#SETMSGLOC($A0F1, 41)
+
+// $A0F1 (41 bytes)
+
+[CLEAR]
+
+//セーブしました。　いつでもつづきを[BR]
+//はじめられます。[WAIT]
+Game saved. You[BR]
+can continue[WAIT][BR]
+whenever you like.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($939C, 1)
+
+#SETMSGLOC($A11A, 28)
+
+// $A11A (28 bytes)
+
+[CLEAR]
+
+//また、いつでもごりようください。[WAIT]
+Please come back[BR]
+again anytime.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($93B7, 1)
+
+#SETMSGLOC($A136, 51)
+
+// $A136 (51 bytes)
+
+[CLEAR]
+
+//ぼうけんに　もどってきたのですね。[BR]
+//おからだに　きをつけてください。[WAIT]
+You've returned to
+your adventure.[WAIT][BR]
+Please take care[BR]
+of yourselves.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 4
+//********************************
+
+#MSGPTR($8CED, 1)
+
+
+#MSGPTR($8E98, 1)
+
+
+#MSGPTR($8EF0, 1)
+
+#SETMSGLOC($A299, 38)
+
+// $A299 (38 bytes)
+
+[CLEAR]
+
+//いらっしゃい！　アイテムかうかい？[BR]
+Welcome! Buy an[BR]
+item?[WAIT][BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($97EA, 1)
+
+
+#MSGPTR($98E4, 1)
+
+#SETMSGLOC($A2BF, 34)
+
+// $A2BF (34 bytes)
+
+[CLEAR]
+
+//ほかにもなにか　かうかい？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Buying anything[BR]
+else?[WAIT][BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($98F6, 1)
+
+#SETMSGLOC($A371, 28)
+
+// $A371 (28 bytes)
+
+[CLEAR]
+
+//もう、それいじょう　もてないようだね[WAIT]
+Looks like you[BR]
+can't carry any[WAIT][BR]
+more than that.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($990A, 1)
+
+#SETMSGLOC($A38D, 34)
+
+// $A38D (34 bytes)
+
+[CLEAR]
+
+//それをかうには、ほうせきがたりない[BR]
+//ようだね。[WAIT]
+Looks like you[BR]
+don't have enough[WAIT][BR]
+gems to buy that.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9925, 1)
+
+#SETMSGLOC($A3AF, 38)
+
+// $A3AF (38 bytes)
+
+[CLEAR]
+
+//それじゃあ、アイテムうるかい？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Well then, are you
+selling some[WAIT][BR]
+items?[WAIT][BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($99B6, 1)
+
+
+#MSGPTR($9ACD, 1)
+
+#SETMSGLOC($A3D5, 34)
+
+// $A3D5 (34 bytes)
+
+[CLEAR]
+
+//ほかにもなにか　うるかい？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Anything else to[BR]
+sell?[WAIT][BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9ADF, 1)
+
+#SETMSGLOC($A487, 17)
+
+// $A487 (17 bytes)
+
+[CLEAR]
+
+//また　どうぞ。[WAIT]
+Come again.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 6
+//********************************
+
+#MSGPTR($8D17, 1)
+
+#SETMSGLOC($ABFE, 50)
+
+// $ABFE (50 bytes)
+
+//おねえちゃんたち！[BR]
+//フルーツはいかが？　おいしいよ！[WAIT]
+Hello, girls![BR]
+How about some[WAIT][BR]
+fruit? It's great![WAIT]
+
+[BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9CC4, 1)
+
+#SETMSGLOC($AC30, 40)
+
+// $AC30 (40 bytes)
+
+[CLEAR]
+
+//もちものが　いっぱいみたいだね。[BR]
+//また　おいでよ！[WAIT]
+Looks like your[BR]
+inventory's full.[WAIT][BR]
+Come back again![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9BB8, 1)
+
+
+#MSGPTR($9CB2, 1)
+
+#SETMSGLOC($AC58, 30)
+
+// $AC58 (30 bytes)
+
+[CLEAR]
+
+//まだ、ほしい？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Still want some?[BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9CEB, 1)
+
+#SETMSGLOC($AC76, 63)
+
+// $AC76 (63 bytes)
+
+[CLEAR]
+
+//フルーツは、たたかいのとき　つかうとちからが　あがるんだよ！[WAIT]
+When you use fruit
+in battle, your[WAIT][BR]
+power will in-[BR]
+crease![WAIT]
+
+[BR]
+//また　きてね！　バイバイ！[WAIT]
+Come back again![BR]
+Bye-bye![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9CD6, 1)
+
+#SETMSGLOC($ACB5, 43)
+
+// $ACB5 (43 bytes)
+
+[CLEAR]
+
+//ほうせきが　たりないみたいだね。[BR]
+//もっと　あつめておいでよ！[WAIT]
+You don't seem to[BR]
+have enough gems.[WAIT][BR]
+Collect more and[BR]
+come back again![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 7
+//********************************
+
+#MSGPTR($8D2D, 1)
+
+#SETMSGLOC($AD70, 74)
+
+// $AD70 (74 bytes)
+
+//おじょうさまたち、なにをうらなって[BR]
+//もらいたいのですか？[WAIT]
+What would you[BR]
+like a prediction[WAIT][BR]
+about?[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]　モコナのいばしょ　まもの[BR]
+//　れんあいうん　　　きんうん[MANUDLG]
+[AUTODLG] Mokona   Monsters
+ Love     Money[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($901C, 1)
+
+#SETMSGLOC($ADBA, 78)
+
+// $ADBA (78 bytes)
+
+[CLEAR]
+
+//モコナはいま、とおいところにいます。しかし、どこにいるかは、[WAIT]
+Mokona is curr-[BR]
+ently far away.[WAIT]
+
+[BR]
+//くわしくはわかりません。[BR]
+//とりあえず、きたにいってみることです[WAIT]
+I don't know[BR]
+exactly where.[WAIT][BR]
+For the time[BR]
+being, try going[WAIT][BR]
+north.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($901E, 1)
+
+#SETMSGLOC($AE08, 56)
+
+// $AE08 (56 bytes)
+
+[CLEAR]
+
+//このむらには、まものはいません。[WAIT]
+There are no mon-[BR]
+sters in this[WAIT][BR]
+village, but[WAIT]
+
+[BR]
+//しかし、むらのそとには　まものが[BR]
+//うようよしています。[WAIT]
+outside, it's[BR]
+swarming with[WAIT][BR]
+them.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9020, 1)
+
+#SETMSGLOC($AE40, 110)
+
+// $AE40 (110 bytes)
+
+[CLEAR]
+
+//そこのみどりのふくの　おじょうさま！[WAIT]
+You, the girl[BR]
+wearing green![WAIT][BR]
+
+//きになるおとこのこが、あらわれている[BR]
+//のですね。　しかし、[WAIT]
+A boy you're[BR]
+interested in has[WAIT][BR]
+appeared. However,[BR]
+try not to become[WAIT]
+
+[BR]
+//あいてはきまぐれなところもあるので、[BR]
+//あまりのめりこみすぎないように。[WAIT]
+too bogged down[BR]
+due to his capri-[WAIT][BR]
+cious nature.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9022, 1)
+
+#SETMSGLOC($AEAE, 48)
+
+// $AEAE (48 bytes)
+
+[CLEAR]
+
+//まものをいっぱいたおせば、ほうせきがいっぱいてにはいるでしょう。[WAIT]
+If you defeat many
+monsters, you[WAIT][BR]
+will collect many[BR]
+gems.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 10
+//********************************
+
+#MSGPTR($8D69, 1)
+
+#SETMSGLOC($AF44, 35)
+
+// $AF44 (35 bytes)
+
+//いいことおしえてあげようか？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Wanna know some-[BR]
+thing interesting?[WAIT][BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9068, 1)
+
+#SETMSGLOC($AF67, 64)
+
+// $AF67 (64 bytes)
+
+[CLEAR]
+
+//マジックナイトレイアースは、なんと！[WAIT]
+Magic Knight[BR]
+Rayearth, it's too[WAIT][BR]
+cool![WAIT][BR]
+
+//セガのじせだいき「サターン」でも[BR]
+//でるんだよ！[WAIT]
+It's going to be[BR]
+appearing on[WAIT][BR]
+Sega's next-[BR]
+generation Saturn![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($905E, 1)
+
+#SETMSGLOC($AFA7, 18)
+
+// $AFA7 (18 bytes)
+
+[CLEAR]
+
+//たのしんでいってね！[WAIT]
+Have fun![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 24
+//********************************
+
+#MSGPTR($8E84, 1)
+
+#SETMSGLOC($B273, 267)
+
+// $B273 (267 bytes)
+
+//わたしはプレセア。　このちんもくの[BR]
+//もりでは、まほうはつかえないわ。[WAIT]
+I am Presea. You[BR]
+can't use magic in[WAIT][BR]
+this Forest of[BR]
+Silence.[WAIT]
+
+[BR]
+//それに、あなたたち　ひとりひとりに[BR]
+//しれんがあたえられるわ。[WAIT]
+On top of that,[BR]
+each of you is[WAIT][BR]
+going to be tested[BR]
+in turn.[WAIT]
+
+[BR]
+//まずはヒカルね。[BR]
+//ヒカルはたえることをおぼえないとね。[WAIT]
+First is Hikaru.[BR]
+I don't remember[WAIT][BR]
+what you have[BR]
+to go through.[WAIT]
+
+[BR]
+//こうげきをうけても、みんなが[BR]
+//たすけあえば　たえられるわ。[WAIT]
+You'll have to[BR]
+fight and work[WAIT][BR]
+together.[WAIT]
+
+[BR]
+//たえれば、ヒカルのみちもひらけるわ。[WAIT]
+If you persevere,[BR]
+Hikaru, your path[WAIT][BR]
+will open.[WAIT]
+
+[CLEAR]
+
+//そうそう、だいじなことを[BR]
+//いいわすれたわ。　いい？[WAIT]
+Oh yeah! I totally
+forgot something[WAIT][BR]
+important, okay?[WAIT]
+
+[BR]
+//しれんは　しれんをうけるひとが、[BR]
+//せんとうにいなければ　いけないのよ。[WAIT]
+The one under-[BR]
+taking the trial[WAIT][BR]
+must be the[BR]
+leader.[WAIT]
+
+[BR]
+//わかった？[WAIT]
+Got it?[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($90B6, 1)
+
+#SETMSGLOC($B37E, 161)
+
+// $B37E (161 bytes)
+
+//わたしはプレセア。[BR]
+//フウのしれんはね、「うん」なの。[WAIT]
+I am Presea.[BR]
+Fuu, your trial[WAIT][BR]
+is {Luck}.[WAIT]
+
+[BR]
+//うんがないと、このセフィーロでは[BR]
+//いきていけないわ。[WAIT]
+Without luck,[BR]
+you'll never make[WAIT][BR]
+it in Cephiro![WAIT]
+
+[BR]
+//でも、どこかに　ラッキーなアイテムが[BR]
+//あるかもしれないわ。[WAIT]
+There may be a[BR]
+lucky item some-[WAIT][BR]
+where, though.[WAIT]
+
+[CLEAR]
+
+//しれんは　しれんをうけるひとが、[BR]
+//せんとうにいなければ　いけないのよ。[WAIT]
+The one under-[BR]
+taking the trial[WAIT][BR]
+must be the[BR]
+leader.[WAIT]
+
+[BR]
+//わかった？[WAIT]
+Got it?[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($90AC, 1)
+
+#SETMSGLOC($B41F, 117)
+
+// $B41F (117 bytes)
+
+//わたしはプレセア。　ウミはね、むこうみずなところがけってんでもあり、[WAIT]
+I am Presea.[WAIT][BR]
+Though reckless-[BR]
+ness is your[WAIT]
+
+[BR]
+//いいところでもあるの。[WAIT]
+weakness, Umi, you[BR]
+have some good[WAIT][BR]
+points, too![WAIT]
+
+[BR]
+//むりとおもえることをおもいきって[BR]
+//やってみることで、[WAIT]
+If you persist[BR]
+resolutely, even[WAIT][BR]
+when it seems[BR]
+impossible,[WAIT]
+
+[BR]
+//みちがひらけるかもしれないわ。[WAIT]
+the path should[BR]
+open for you.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($90A2, 1)
+
+#SETMSGLOC($B494, 41)
+
+// $B494 (41 bytes)
+
+//モコナはどこにいったのかしらねえ。[BR]
+//ほんとうにこまったものだわ。[WAIT]
+I wonder where[BR]
+Mokona is?[WAIT][BR]
+Mokona really is[BR]
+a pain.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9098, 1)
+
+#SETMSGLOC($B4BD, 64)
+
+// $B4BD (64 bytes)
+
+//モコナは、とおくのほうにいってしまったみたい。[WAIT]
+It seems like[BR]
+Mokona's gone off[WAIT][BR]
+far away.[WAIT]
+
+[BR]
+//そのうち、つうしんがあるでしょ！[BR]
+//がんばるのよ！[WAIT]
+I got a message[BR]
+from Mokona![WAIT][BR]
+Good luck![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 30
+//********************************
+
+#MSGPTR($8F06, 1)
+
+#SETMSGLOC($A1A5, 95)
+
+// $A1A5 (95 bytes)
+
+[CLEAR]
+
+//よう！　がんばってるか？[BR]
+//ザガートまで、もうすこしだな。[WAIT]
+Yo! Are you trying
+your best?[WAIT][BR]
+It's just a short[BR]
+ways to Zagato.[WAIT]
+
+[BR]
+//おれが　みはっててやるから、[BR]
+//すこし　やすみな！[WAIT]
+Since I'm on[BR]
+guard, take a[WAIT][BR]
+little break![WAIT]
+
+[BR]
+//[AUTODLG][SPACES]<$06>はい[SPACES]<$02>いいえ[MANUDLG]
+[AUTODLG][SPACES]<$06>Yes[SPACES]<$01>No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9675, 1)
+
+#SETMSGLOC($A204, 31)
+
+// $A204 (31 bytes)
+
+[CLEAR]
+
+//セーブするかい？[BR]
+//[AUTODLG][SPACES]<$05>　はい　　いいえ[MANUDLG]
+Save?[BR]
+[AUTODLG][SPACES]<$05> Yes No[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($96B3, 1)
+
+#SETMSGLOC($A223, 47)
+
+// $A223 (47 bytes)
+
+[CLEAR]
+
+//どっちにセーブするんだい？[BR]
+//[AUTODLG][SPACES]<$03>　セーブ1　　セーブ2[MANUDLG]
+Where are you[BR]
+gonna save?[WAIT][BR]
+[AUTODLG][SPACES]<$03> [#]1    [#]2[MANUDLG]
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9739, 1)
+
+#SETMSGLOC($A252, 25)
+
+// $A252 (25 bytes)
+
+[CLEAR]
+
+//しんじるこころを　たいせつにな！！[WAIT]
+A trusting heart[BR]
+is important!![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+#MSGPTR($9754, 1)
+
+#SETMSGLOC($A26B, 46)
+
+// $A26B (46 bytes)
+
+[CLEAR]
+
+//ザガートまで　あとすこし！[BR]
+//もうひとがんばりだぞ！[WAIT]
+Just a little[BR]
+farther to[WAIT][BR]
+Zagato![WAIT][BR]
+Give it your best[BR]
+one more time![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 5
+//********************************
+
+#MSGPTR($8D03, 1)
+
+#SETMSGLOC($ABAC, 82)
+
+// $ABAC (82 bytes)
+
+#JUMPIF(18, loc_ABDD)
+//おねえちゃん！　ぼく、いまるすばん[BR]
+//してるんだ。　えらいでしょ！[WAIT]
+Hi, miss! I'm tak-
+ing care of the[WAIT][BR]
+house right now.[BR]
+I'm awesome![WAIT]
+
+[NEXT]
+
+:loc_ABDD
+//レストランさんようのオムライスが[BR]
+//たべたいなあ。[WAIT]
+I want to eat Mr.[BR]
+Restaurant-style[WAIT][BR]
+omurice.[WAIT]
+
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 8
+//********************************
+
+#MSGPTR($8D41, 1)
+
+#SETMSGLOC($AEDE, 26)
+
+// $AEDE (26 bytes)
+
+//きたにいくと、ひろばがあるんだ！[WAIT]
+Go north and[BR]
+you'll find the[WAIT][BR]
+village green![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 9
+//********************************
+
+#MSGPTR($8D55, 1)
+
+#SETMSGLOC($AEF8, 76)
+
+// $AEF8 (76 bytes)
+
+//あら、あなたたち、みないかおねえ。[WAIT]
+Oh, you three are[BR]
+fresh faces.[WAIT]
+
+[BR]
+//このいえのひだりにすんでいるのは、[BR]
+//わたしのおにいちゃんなの。[WAIT]
+My brother lives[BR]
+in the left-hand[WAIT][BR]
+part of the house.[WAIT]
+
+[BR]
+//かっこいいでしょ！[WAIT]
+Isn't he cool!?[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 11
+//********************************
+
+#MSGPTR($8D7D, 1)
+
+#SETMSGLOC($AFB9, 33)
+
+// $AFB9 (33 bytes)
+
+//あんたたち、このむらのきたのはずれにかわがあるよ！[WAIT]
+There's a river on
+the northern[WAIT][BR]
+outskirts of this[BR]
+village![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 12
+//********************************
+
+#MSGPTR($8D91, 1)
+
+#SETMSGLOC($AFDA, 70)
+
+// $AFDA (70 bytes)
+
+//むむむっ！　きみたちはだれだい？[BR]
+//むむっ！　わかったぞい！　きみたちは[WAIT]
+Hmmmn! Who are[BR]
+you?[WAIT][BR]
+Hmmn! I know! You[BR]
+guys are...[WAIT]
+
+[BR]
+//むむっ！　まほうつかいだな！　むむ！[WAIT]
+Hmmn! Magicians![BR]
+Hmn![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 13
+//********************************
+
+#MSGPTR($8DA5, 1)
+
+#SETMSGLOC($B020, 36)
+
+// $B020 (36 bytes)
+
+//ちょっとまえ、むらのそとで、[BR]
+//きみょうないきものをみたわ！[WAIT]
+//I saw some strange
+//creatures outside[WAIT][BR]
+//the village just[BR]
+//a little while[WAIT][BR]
+//ago![WAIT]
+
+// NOTE: Judging from the next message (which belongs to
+// an NPC in the house next to this one), this is referring
+// to Mokona, hence "creature" instead of "creatures".
+
+I saw a strange[BR]
+creature outside[WAIT][BR]
+the village just[BR]
+a little while[WAIT][BR]
+ago![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 14
+//********************************
+
+#MSGPTR($8DB9, 1)
+
+#SETMSGLOC($B044, 50)
+
+// $B044 (50 bytes)
+
+//このあいだ、よるさんぽしてたら、しろいのが、ぴょこぴょこはねてたよ　うん[WAIT]
+I was taking an[BR]
+evening stroll[WAIT][BR]
+when I saw some-[BR]
+thing white[WAIT][BR]
+hopping around[BR]
+like a frog![WAIT][BR]
+Really![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 15
+//********************************
+
+#MSGPTR($8DCD, 1)
+
+#SETMSGLOC($B076, 36)
+
+// $B076 (36 bytes)
+
+//ちんもくのもりってしってる？　ぼくもぼうけんしたいなあ。[WAIT]
+Do you know about[BR]
+the Forest of[WAIT][BR]
+Silence? I want to[BR]
+go on an adven-[WAIT][BR]
+ture, too![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 16
+//********************************
+
+#MSGPTR($8DE1, 1)
+
+#SETMSGLOC($B09A, 60)
+
+// $B09A (60 bytes)
+
+//ふーむ。　ひかるちゃんというの？[BR]
+//わしのしゅみは、さかなつりじゃ。[WAIT]
+Hmmm.[BR]
+You're Hikaru?[WAIT][BR]
+My hobby is[BR]
+fishing.[WAIT]
+
+[BR]
+//セフィーロのうみは　いいぞ！[WAIT]
+Cephiro's ocean is[BR]
+the best![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 17
+//********************************
+
+#MSGPTR($8DF5, 1)
+
+#SETMSGLOC($B0D6, 88)
+
+// $B0D6 (88 bytes)
+
+//ぼく、おおきくなったら　ザガートを[BR]
+//やっつけて、エメロードひめを[WAIT]
+When I grow up,[BR]
+I'm gonna beat up[WAIT][BR]
+Zagato and save[BR]
+Princess Emeraude![WAIT]
+
+[BR]
+//たすけるんだ！　だから、おねえちゃん[BR]
+//たち、もうちょっとまっててね！[WAIT]
+So you three need[BR]
+to wait a little[WAIT][BR]
+while, okay?[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 18
+//********************************
+
+#MSGPTR($8E09, 1)
+
+#SETMSGLOC($B12E, 62)
+
+// $B12E (62 bytes)
+
+//まものってこわいわ。　わたしも[BR]
+//このあいだでくわして、[WAIT]
+Monsters are[BR]
+scary. The other[WAIT]
+
+[BR]
+//しんぞうがとまるかとおもっちゃった。[WAIT]
+day, I thought my[BR]
+heart would stop![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 19
+//********************************
+
+#MSGPTR($8E1D, 1)
+
+#SETMSGLOC($B16C, 59)
+
+// $B16C (59 bytes)
+
+//なにかい？　ねえちゃんたち。[BR]
+//このせかいをすくってくれるんだって？[WAIT]
+What? You girls[BR]
+came here to help[WAIT][BR]
+the world of[BR]
+Cephiro?[WAIT]
+
+[BR]
+//まったく、てえしたもんだ！[WAIT]
+That certainly is[BR]
+a big task![WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 20
+//********************************
+
+#MSGPTR($8E31, 1)
+
+#SETMSGLOC($B1A7, 39)
+
+// $B1A7 (39 bytes)
+
+//ゲームギアプラス1っていいよね。[BR]
+//ぼくもほしいなあ。[WAIT]
+The Game Gear Plus
+One is cool.[WAIT][BR]
+I want one too.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 21
+//********************************
+
+#MSGPTR($8E45, 1)
+
+#SETMSGLOC($B1CE, 44)
+
+// $B1CE (44 bytes)
+
+//よくここがわかったね。　ひだりにあるたからばこは　もうとったかしら？[WAIT]
+I know this place[BR]
+pretty well.[WAIT][BR]
+I wonder, have you[BR]
+gotten the[WAIT][BR]
+treasure chest to[BR]
+the left yet?[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 22
+//********************************
+
+#MSGPTR($8E59, 1)
+
+#SETMSGLOC($B1FA, 121)
+
+// $B1FA (121 bytes)
+
+#JUMPIF(16, loc_B24E)
+#JUMPIF(13, loc_B225)
+//わしが、ひろばのかんりにんじゃ。[BR]
+//わっはっはっ。[WAIT]
+I run the village[BR]
+green! Wahaha![WAIT]
+
+[NEXT]
+
+:loc_B225
+//フェリオ？　あいつはへんそうの[BR]
+//めいじんじゃ。　きをつけなされ。[WAIT]
+Ferio?[WAIT][BR]
+He's a master of[BR]
+disguise. Be care-[WAIT][BR]
+ful.[WAIT]
+
+[NEXT]
+
+:loc_B24E
+//みんな、いいこなんじゃよ。　しかし、なにかがくるってのう。[WAIT]
+You're all good[BR]
+kids.[WAIT][BR]
+But there's some-[BR]
+thing coming...[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Room 27
+//********************************
+
+#MSGPTR($8EC5, 1)
+
+#SETMSGLOC($B4FD, 150)
+
+// $B4FD (150 bytes)
+
+#JUMPIF(34, loc_B55D)
+//きたにあるいずみは、エテルナのいずみというのじゃ。　わしは、[WAIT]
+The fountain to[BR]
+the north is[WAIT][BR]
+called Emeraude's[BR]
+Fountain.[WAIT]
+
+[BR]
+//いずみをながねんみておるが、なにやら[BR]
+//このごろはむなさわぎがしてのう。[WAIT]
+I've watched it[BR]
+for many years,[WAIT][BR]
+and for some[BR]
+reason, it seems[WAIT][BR]
+uneasy lately.[WAIT]
+
+[NEXT]
+
+:loc_B55D
+//なぜか　このごろ、エテルナのいずみにいけないのじゃ。[WAIT]
+Princess Emeraude[BR]
+doesn't go to the[WAIT][BR]
+fountain these[BR]
+days.[WAIT]
+
+[BR]
+//なにか、あったのかのう。[WAIT]
+Something must[BR]
+have happened.[WAIT]
+
+[NEXT]
+
+
+
+#ENDMSG()
+
+
+//***********************************************************
+// ?
+//***********************************************************
+
+//********************************
+// Scene 0
+//********************************
+
+#MSGPTR($83FA, 1)
+
+#SETMSGLOC($8402, 64)
+
+// $8402 (64 bytes)
+
+//「ぷうっ、ぷうっ、ぷうっ」[WAIT]
+{Puu, puu, puu!}[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]ひかる[MANUDLG]
+//「みなみにいえがあるって、[BR]
+//[SPACES]<$04>モコナがいってるよ」[END]
+[AUTODLG]Hikaru: [MANUDLG]{Mokona[BR]
+says there's a[WAIT][BR]
+house to the[BR]
+south.}[END]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Scene 1
+//********************************
+
+#MSGPTR($83FC, 1)
+
+#SETMSGLOC($8442, 44)
+
+// $8442 (44 bytes)
+
+//「ぷうっ、ぷうっ、ぷうっ」[WAIT]
+{Puu, puu, puu!}[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]ひかる[MANUDLG]
+//「クレフがいるって」[END]
+[AUTODLG]Hikaru: [MANUDLG]{Clef's[BR]
+over there.}[END]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Scene 2
+//********************************
+
+#MSGPTR($83FE, 1)
+
+#SETMSGLOC($846E, 58)
+
+// $846E (58 bytes)
+
+//「ぷうっ、ぷうっ、ぷうっ」[WAIT]
+{Puu, puu, puu!}[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]ひかる[MANUDLG]
+//「ひがしにいくと、いいこと[BR]
+//[SPACES]<$04>きけるって」[END]
+[AUTODLG]Hikaru: [MANUDLG]{Go east[BR]
+and we'll find[WAIT][BR]
+something good!}[END]
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Scene 3
+//********************************
+
+#MSGPTR($8400, 1)
+
+#SETMSGLOC($84A8, 172)
+
+// $84A8 (172 bytes)
+
+//「ぷうっ、ぷうっ、ぷうっ」[WAIT]
+{Puu, puu, puu!}[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]ひかる[MANUDLG]
+//「モコナから、つうしんだ！[WAIT]
+[AUTODLG]Hikaru: [MANUDLG]{A mess-[BR]
+age from Mokona![WAIT]
+
+[BR]
+//[SPACES]<$04>モコナ、げんき？　うんうん。[BR]
+//[SPACES]<$04>えっ？　かわにながされて、[WAIT]
+Mokona, you okay?[BR]
+Uh-huh...Huh!?[WAIT][BR]
+You floated down[BR]
+the river all the[WAIT][BR]
+way to the Forest[BR]
+of Silence?[WAIT]
+
+[BR]
+//[SPACES]<$04>ちんもくのもりまでいっちゃっ[BR]
+//[SPACES]<$04>たの？　わかった、いまいく！[WAIT]
+Okay, we're on our[BR]
+way!}[WAIT]
+
+[CLEAR]
+
+//[AUTODLG]うみ[MANUDLG]
+//「いかだが、あるわ！[BR]
+//[SPACES]<$03>モコナをおいましょう！」[END]
+[AUTODLG]Umi: [MANUDLG]{There's a[BR]
+raft![WAIT][BR]
+Let's go after[BR]
+Mokona!}[END]
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Object scripts
+//***********************************************************
+
+//********************************
+// Script 0
+//********************************
+
+#MSGPTR($601D, 1)
+#MSGPTR($6021, 1)
+
+//とびこんではいけません！[END]
+No diving![END]
+
+// ^---- $7094 (18 bytes)
+
+#SETMSGLOC($7094, 18)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 1
+// (shared with script 0)
+//********************************
+
+//#MSGPTR($6021, 1)
+
+//とびこんではいけません！[END]
+
+// ^---- $7094 (18 bytes)
+
+//#SETMSGLOC($7094, 18)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 2
+//********************************
+
+#MSGPTR($6025, 1)
+#MSGPTR($6029, 1)
+#MSGPTR($602D, 1)
+
+//クレフのいえ[END]
+Clef's House[END]
+
+// ^---- $70A6 (8 bytes)
+
+#SETMSGLOC($70A6, 8)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 3
+// (shared with script 2)
+//********************************
+
+//#MSGPTR($6029, 1)
+
+//クレフのいえ[END]
+
+// ^---- $70A6 (8 bytes)
+
+//#SETMSGLOC($70A6, 8)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 4
+// (shared with script 2)
+//********************************
+
+//#MSGPTR($602D, 1)
+
+//クレフのいえ[END]
+
+// ^---- $70A6 (8 bytes)
+
+//#SETMSGLOC($70A6, 8)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 5
+//********************************
+
+#MSGPTR($6031, 1)
+#MSGPTR($606D, 1)
+
+//うらからは　よめません。[END]
+You can't read it[BR]
+from the back.[END]
+
+// ^---- $70AE (14 bytes)
+
+#SETMSGLOC($70AE, 14)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 6
+//********************************
+
+#MSGPTR($6035, 1)
+
+//このさき　きけん！[END]
+Danger ahead![END]
+
+// ^---- $70BC (11 bytes)
+
+#SETMSGLOC($70BC, 11)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 7
+//********************************
+
+#MSGPTR($6039, 1)
+#MSGPTR($60C9, 1)
+
+//たたかいかた　おしえます。[END]
+Will teach to[BR]
+fight.[END]
+
+// ^---- $70C7 (15 bytes)
+
+#SETMSGLOC($70C7, 15)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 8
+//********************************
+
+#MSGPTR($603D, 1)
+
+//このさき、むら[END]
+This Way: Village[END]
+
+// ^---- $70D6 (9 bytes)
+
+#SETMSGLOC($70D6, 9)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 9
+//********************************
+
+#MSGPTR($6041, 1)
+
+//「あやしいじめんだな」[END]
+{What a suspicious
+ patch of ground!}[END]
+
+// ^---- $70DF (17 bytes)
+
+#SETMSGLOC($70DF, 17)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 10
+//********************************
+
+#MSGPTR($6045, 1)
+
+//「スコップでほってみよう」[BR]
+//「よいしょ、よいしょ」[WAIT]
+{Let's dig with[BR]
+ the shovel!}[WAIT][BR]
+{(Huff, puff...)}[WAIT]
+
+[CLEAR]
+
+//[SPACES]<$04>のこぎり　をてにいれた！[SETFLAG]<$06>[WRITE]<$E1><$C5><$01>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[END]
+[SPACES]<$02>You got a saw![SETFLAG]<$06>[WRITE]<$E1><$C5><$01>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[END]
+
+// ^---- $70F0 (70 bytes)
+
+#SETMSGLOC($70F0, 70)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 11
+//********************************
+
+#MSGPTR($6049, 1)
+
+//「なーんにもないよ」[END]
+{There's absolute-
+ ly nothing here.}[END]
+
+// ^---- $7136 (12 bytes)
+
+#SETMSGLOC($7136, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 12
+//********************************
+
+#MSGPTR($604D, 1)
+
+//「とおれないや」[SETFLAG]<$04>[END]
+{We can't pass.}[SETFLAG]<$04>[END]
+
+// ^---- $7142 (13 bytes)
+
+#SETMSGLOC($7142, 13)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 13
+//********************************
+
+#MSGPTR($6051, 1)
+
+//「のこぎりか、なんかで　きらないと[BR]
+//とおれないや」[WAIT]
+{We can't do any-[BR]
+ thing without a[WAIT][BR]
+ saw.}[WAIT]
+
+[BR]
+//「クレフにきいてみよう」[END]
+{Let's try asking[BR]
+ Clef!}[END]
+
+// ^---- $714F (48 bytes)
+
+#SETMSGLOC($714F, 48)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 14
+//********************************
+
+#MSGPTR($6055, 1)
+
+//「よおし、のこぎりできるぞー」[WAIT]
+{Okay, now we can[BR]
+ use this saw!}[WAIT]
+
+[BR]
+//　ギーコ、ギーコ、ギーコ、ギーコ、[BR]
+//　ギーコ、ギーコ、ギーコ、ギーコ。[SETFLAG]<$07>[CALL]<$96><$6A>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[END]
+(saw, saw, saw,[BR]
+ saw, saw, saw)[SETFLAG]<$07>[CALL]<$96><$6A>[SOUND]<$95>[PAUSE]<$A0>[SOUND]<$82>[END]
+
+// ^---- $717F (95 bytes)
+
+#SETMSGLOC($717F, 95)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 15
+//********************************
+
+#MSGPTR($6059, 1)
+
+//[SPACES]<$05>セフィーロのむら[END]
+Village of Cephiro[END]
+
+// ^---- $73E2 (13 bytes)
+
+#SETMSGLOC($73E2, 13)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 16
+//********************************
+
+#MSGPTR($605D, 1)
+
+//[SPACES]<$05>じゅうたくがい[END]
+Residential Street[END]
+
+// ^---- $73EF (16 bytes)
+
+#SETMSGLOC($73EF, 16)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 17
+//********************************
+
+#MSGPTR($6061, 1)
+
+//[SPACES]<$05>じゅうたくがい2[END]
+Residential Street
+[SPACES]<$09>2[END]
+
+// ^---- $73FF (17 bytes)
+
+#SETMSGLOC($73FF, 17)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 18
+//********************************
+
+#MSGPTR($6065, 1)
+#MSGPTR($6069, 1)
+
+//[SPACES]<$04>たのしいひろば[END]
+[SPACES]<$04>Fun Square[END]
+
+// ^---- $7410 (14 bytes)
+
+#SETMSGLOC($7410, 14)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 19
+//********************************
+
+//#MSGPTR($6069, 1)
+
+//[SPACES]<$04>たのしいひろば[END]
+
+// ^---- $7410 (14 bytes)
+
+//#SETMSGLOC($7410, 14)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 20
+//********************************
+
+//#MSGPTR($606D, 1)
+
+//うらからは　よめません。[END]
+
+// ^---- $70AE (14 bytes)
+
+//#SETMSGLOC($70AE, 14)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 21
+//********************************
+
+#MSGPTR($6071, 1)
+
+//「いくよ　みんな！」[END]
+{Let's go, every-
+ body!}[END]
+
+// ^---- $757A (12 bytes)
+
+#SETMSGLOC($757A, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 22
+//********************************
+
+#MSGPTR($6075, 1)
+
+//[SPACES]<$07>[AUTODLG]1ー1[MANUDLG]
+[SPACES]<$07>[AUTODLG]1-1[MANUDLG]
+[END]
+
+// ^---- $77EE (12 bytes)
+
+#SETMSGLOC($77EE, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 23
+//********************************
+
+#MSGPTR($6079, 1)
+
+//[SPACES]<$07>[AUTODLG]1ー2[MANUDLG]
+[SPACES]<$07>[AUTODLG]1-2[MANUDLG]
+[END]
+
+// ^---- $77FA (12 bytes)
+
+#SETMSGLOC($77FA, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 24
+//********************************
+
+#MSGPTR($607D, 1)
+
+//[SPACES]<$07>[AUTODLG]1ー3[MANUDLG]
+[SPACES]<$07>[AUTODLG]1-3[MANUDLG]
+[END]
+
+// ^---- $7806 (12 bytes)
+
+#SETMSGLOC($7806, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 25
+//********************************
+
+#MSGPTR($6081, 1)
+
+//[SPACES]<$07>[AUTODLG]1ー4[MANUDLG]
+[SPACES]<$07>[AUTODLG]1-4[MANUDLG]
+[END]
+
+// ^---- $7812 (12 bytes)
+
+#SETMSGLOC($7812, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 26
+//********************************
+
+#MSGPTR($6085, 1)
+
+//[SPACES]<$07>[AUTODLG]2ー1[MANUDLG]
+[SPACES]<$07>[AUTODLG]2-1[MANUDLG]
+[END]
+
+// ^---- $781E (12 bytes)
+
+#SETMSGLOC($781E, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 27
+//********************************
+
+#MSGPTR($6089, 1)
+
+//[SPACES]<$07>[AUTODLG]2ー2[MANUDLG]
+[SPACES]<$07>[AUTODLG]2-2[MANUDLG]
+[END]
+
+// ^---- $782A (12 bytes)
+
+#SETMSGLOC($782A, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 28
+//********************************
+
+#MSGPTR($608D, 1)
+
+//[SPACES]<$07>[AUTODLG]2ー3[MANUDLG]
+[SPACES]<$07>[AUTODLG]2-3[MANUDLG]
+[END]
+
+// ^---- $7836 (12 bytes)
+
+#SETMSGLOC($7836, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 29
+//********************************
+
+#MSGPTR($6091, 1)
+
+//[SPACES]<$07>[AUTODLG]2ー4[MANUDLG]
+[SPACES]<$07>[AUTODLG]2-4[MANUDLG]
+[END]
+
+// ^---- $7842 (12 bytes)
+
+#SETMSGLOC($7842, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 30
+//********************************
+
+#MSGPTR($6095, 1)
+
+//[SPACES]<$07>[AUTODLG]3ー1[MANUDLG]
+[SPACES]<$07>[AUTODLG]3-1[MANUDLG]
+[END]
+
+// ^---- $784E (12 bytes)
+
+#SETMSGLOC($784E, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 31
+//********************************
+
+#MSGPTR($6099, 1)
+
+//[SPACES]<$07>[AUTODLG]3ー2[MANUDLG]
+[SPACES]<$07>[AUTODLG]3-2[MANUDLG]
+[END]
+
+// ^---- $785A (12 bytes)
+
+#SETMSGLOC($785A, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 32
+//********************************
+
+#MSGPTR($609D, 1)
+
+//[SPACES]<$07>[AUTODLG]3ー3[MANUDLG]
+[SPACES]<$07>[AUTODLG]3-3[MANUDLG]
+[END]
+
+// ^---- $7866 (12 bytes)
+
+#SETMSGLOC($7866, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 33
+//********************************
+
+#MSGPTR($60A1, 1)
+
+//[SPACES]<$07>[AUTODLG]3ー4[MANUDLG]
+[SPACES]<$07>[AUTODLG]3-4[MANUDLG]
+[END]
+
+// ^---- $7872 (12 bytes)
+
+#SETMSGLOC($7872, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 34
+//********************************
+
+#MSGPTR($60A5, 1)
+
+//[SPACES]<$07>[AUTODLG]4ー1[MANUDLG]
+[SPACES]<$07>[AUTODLG]4-1[MANUDLG]
+[END]
+
+// ^---- $787E (12 bytes)
+
+#SETMSGLOC($787E, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 35
+//********************************
+
+#MSGPTR($60A9, 1)
+
+//[SPACES]<$07>[AUTODLG]4ー2[MANUDLG]
+[SPACES]<$07>[AUTODLG]4-2[MANUDLG]
+[END]
+
+// ^---- $788A (12 bytes)
+
+#SETMSGLOC($788A, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 36
+//********************************
+
+#MSGPTR($60AD, 1)
+
+//[SPACES]<$07>[AUTODLG]4ー3[MANUDLG]
+[SPACES]<$07>[AUTODLG]4-3[MANUDLG]
+[END]
+
+// ^---- $7896 (12 bytes)
+
+#SETMSGLOC($7896, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 37
+//********************************
+
+#MSGPTR($60B1, 1)
+
+//[SPACES]<$07>[AUTODLG]4ー4[MANUDLG]
+[SPACES]<$07>[AUTODLG]4-4[MANUDLG]
+[END]
+
+// ^---- $78A2 (12 bytes)
+
+#SETMSGLOC($78A2, 12)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 38
+//********************************
+
+#MSGPTR($60B5, 1)
+
+//[AUTODLG]モコナ[MANUDLG]
+//　「ぷうっ、ぷうっ、ぷうっ」[END]
+[AUTODLG]Mokona: [MANUDLG][BR]
+ {Puu, puu, puu!}[END]
+
+// ^---- $7586 (29 bytes)
+
+#SETMSGLOC($7586, 29)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 39
+//********************************
+
+#MSGPTR($60B9, 1)
+
+//どこからかこえがする！[WAIT]
+A voice comes[BR]
+from somewhere![WAIT]
+
+[CLEAR]
+
+//「ふっ、ふっ、ふっ、モコナは、もう[BR]
+//　ここにはいない！[WAIT]
+{Heh, heh, heh...[BR]
+ Mokona is no[WAIT][BR]
+ longer here![WAIT]
+
+[BR]
+//　わなにひっかかったな！[BR]
+//　マジックナイトたちよ！」[END]
+ You fell into my[BR]
+ trap, Magic[WAIT][BR]
+ Knights!}[END]
+
+// ^---- $75A3 (82 bytes)
+
+#SETMSGLOC($75A3, 82)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 40
+//********************************
+
+#MSGPTR($60BD, 1)
+
+//「ぶうっ、ぶうっ、ぶう」[WAIT]
+{Buu, buu, buu!}[WAIT]
+
+[CLEAR]
+
+//うみ　「モコナ！　やっとみつけたわ」[WAIT]
+Umi: {Mokona! We[BR]
+finally found[WAIT][BR]
+you!}[WAIT]
+
+[CLEAR]
+
+//ふう　「いがいに　あっさりみつかったですわね。　ねえ、ひかるさん」[WAIT]
+Fuu: {That was[BR]
+surprisingly easy.[WAIT][BR]
+Don't you agree,[BR]
+Hikaru?}[WAIT]
+
+[CLEAR]
+
+//ひかる「・・・・・・・　ちがう！[BR]
+//そいつは、モコナじゃない！[WAIT]
+Hikaru: {......No!
+That isn't Mokona![WAIT]
+
+[CLEAR]
+
+//ふうちゃん、うみちゃん！　あぶない！そいつから、はなれて！」[WAIT]
+Fuu, Umi! Look[BR]
+out![WAIT][BR]
+Get away!}[WAIT]
+
+[CLEAR]
+
+//「ぶうっ、ぶうっ、ぶっ、ぶぶぶぶ」[END]
+{Buu, buu, bu,[BR]
+ bubububu!}[END]
+
+// ^---- $799C (193 bytes)
+
+#SETMSGLOC($799C, 193)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 41
+//********************************
+
+#MSGPTR($60C1, 1)
+#MSGPTR($60C5, 1)
+
+//[SPACES]<$07>[COLOR]<$06><$02><$19>ちゅうい[COLOR]<$01><$02><$11>[WAIT]
+[SPACES]<$06>[COLOR]<$06><$02><$19>NOTICE[COLOR]<$01><$02><$11>[WAIT]
+
+[CLEAR]
+
+//あやしいところ、いけないところは[BR]
+//2ボタンをおして　しらべましょう。[END]
+Press Button 2 to[BR]
+investigate places[WAIT][BR]
+that are suspic-[BR]
+ious, or where[WAIT][BR]
+you can't go.[END]
+
+// ^---- $71DE (62 bytes)
+
+#SETMSGLOC($71DE, 62)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Script 42
+//********************************
+
+//#MSGPTR($60C5, 1)
+
+//[SPACES]<$07>[COLOR]<$06><$02><$19>ちゅうい[COLOR]<$01><$02><$11>[WAIT]
+
+//[CLEAR]
+
+//あやしいところ、いけないところは[BR]
+//2ボタンをおして　しらべましょう。[END]
+
+// ^---- $71DE (62 bytes)
+
+//#SETMSGLOC($71DE, 62)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// Script 43
+//********************************
+
+//#MSGPTR($60C9, 1)
+
+//たたかいかた　おしえます。[END]
+
+// ^---- $70C7 (15 bytes)
+
+//#SETMSGLOC($70C7, 15)
+
+
+
+//#ENDMSG()
+
+//***********************************************************
+// NPC scripts
+//***********************************************************
+
+//********************************
+// NPC 0 script
+//********************************
+
+#MSGPTR($5386, 1)
+
+//「ここは、セフィーロ　いちばんの[BR]
+//　むらです」[END]
+{This is the[BR]
+ finest town in[WAIT][BR]
+ Cephiro.}[END]
+
+// ^---- $741E (30 bytes)
+
+#SETMSGLOC($741E, 30)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 1 script
+//********************************
+
+#MSGPTR($5394, 1)
+
+//「このさきの　うらないやは、よく[BR]
+//　あたるって　ひょうばんだぜ」[END]
+{The fortune[BR]
+ teller farther[WAIT][BR]
+ on is famous for[BR]
+ being quite[WAIT][BR]
+ accurate.}[END]
+
+// ^---- $743C (41 bytes)
+
+#SETMSGLOC($743C, 41)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 2 script
+//********************************
+
+#MSGPTR($53A2, 1)
+
+//「わしゃあ　ながいきしとるが、[WAIT]
+{I've lived a long
+ time, but this is[WAIT]
+
+[BR]
+//　おまえさんら　みたいなふくは、[BR]
+//　はじめてみるよ、うん」[END]
+ the first time[BR]
+ I've seen clothes[WAIT][BR]
+ like yours.}[END]
+
+// ^---- $7465 (57 bytes)
+
+#SETMSGLOC($7465, 57)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 3 script
+//********************************
+
+#MSGPTR($53B0, 1)
+
+//「だれか　さがしてるの？[BR]
+//　みつかるといいねえ」[END]
+{Are you looking[BR]
+ for someone?[WAIT][BR]
+ I hope you find[BR]
+ them.}[END]
+
+// ^---- $749E (31 bytes)
+
+#SETMSGLOC($749E, 31)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 4 script
+//********************************
+
+#MSGPTR($53BE, 1)
+
+//「マジックナイト？[BR]
+//　さあ、きいたことないなあ」[END]
+{Magic Knights?[BR]
+ Uhh, I've never[WAIT][BR]
+ heard of those.}[END]
+
+// ^---- $74BD (29 bytes)
+
+#SETMSGLOC($74BD, 29)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 5 script
+//********************************
+
+#MSGPTR($53CC, 1)
+
+//「なせばなるということも、この[BR]
+//　セフィーロには　あるのさ」[END]
+{They say Cephiro[BR]
+ is a world of[WAIT][BR]
+ possibilities.}[END]
+
+// ^---- $74DA (35 bytes)
+
+#SETMSGLOC($74DA, 35)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 6 script
+//********************************
+
+#MSGPTR($53DA, 1)
+
+//「たまに　クレフさまに　あいにいくと　いいことがあるよ」[END]
+{It's good to[BR]
+ visit Clef from[WAIT][BR]
+ time to time.}[END]
+
+// ^---- $74FD (32 bytes)
+
+#SETMSGLOC($74FD, 32)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 7 script
+//********************************
+
+#MSGPTR($53E8, 1)
+
+//「きれいなおはな！　エメロードひめ[BR]
+//　みたい」[END]
+{What beautiful[BR]
+ flowers! They[WAIT][BR]
+ look like Prin-[BR]
+ cess Emeraude.}[END]
+
+// ^---- $751D (28 bytes)
+
+#SETMSGLOC($751D, 28)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 8 script
+//********************************
+
+#MSGPTR($53F6, 1)
+
+#JUMPIFNOT(9, loc_E5FC)
+#JUMPIF(10, loc_E5FC)
+//「みどりいろのかみの、おとこのこ？[BR]
+//　うえにいったわ」[END]
+{A green-haired[BR]
+ boy? He went up.}[END]
+
+:loc_E5FC
+「このむらには　いろんなおみせが[BR]
+　あるわよ」[END]
+{This village has[BR]
+ many different[WAIT][BR]
+ shops.}[END]
+
+// ^---- $72EA (68 bytes)
+
+#SETMSGLOC($72EA, 68)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 9 script
+//********************************
+
+#MSGPTR($5404, 1)
+
+#JUMPIF(12, loc_E6AC)
+#JUMPIF(11, loc_E67C)
+//「ちかごろ　みみがとおくなってのお」[END]
+{These days, my[BR]
+ hearing isn't so[WAIT][BR]
+ good.}[END]
+
+:loc_E67C
+//「みどりのこども？　なんか、あわてて　いたのう？　それがどうしたんじゃ？[END]
+{A green child?[WAIT][BR]
+ Was there some[BR]
+ sort of mix-up?[WAIT][BR]
+ What happened?}[END]
+
+:loc_E6AC
+//「おじょうちゃんたち、かわいいのお」[END]
+{You girls are[BR]
+ cute.}[END]
+
+// ^---- $732E (102 bytes)
+
+#SETMSGLOC($732E, 102)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 10 script
+//********************************
+
+#MSGPTR($5412, 1)
+
+#JUMPIF(13, loc_E768)
+#JUMPIF(12, loc_E744)
+//「やあ、このむらはきにいったかい？」[END]
+{Well, do you like
+ the town?}[END]
+
+:loc_E744
+//「フェリオ？　きいたことあるなあ。[BR]
+//　あいつか？　うえにいったよ」[END]
+{Ferio? I've[BR]
+ heard of him.[WAIT][BR]
+ That guy, he went[BR]
+ up.}[END]
+
+:loc_E768
+//「がんばれよ！」[END]
+{Good luck!}[END]
+
+// ^---- $7394 (78 bytes)
+
+#SETMSGLOC($7394, 78)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 11 script
+//********************************
+
+//********************************
+// NPC 12 script
+//********************************
+
+//********************************
+// NPC 13 script
+//********************************
+
+//********************************
+// NPC 14 script
+//********************************
+
+//********************************
+// NPC 15 script
+//********************************
+
+//********************************
+// NPC 16 script
+//********************************
+
+//********************************
+// NPC 17 script
+//********************************
+
+#MSGPTR($5479, 1)
+
+//[AUTODLG][COLOR]<$0B><$02><$19>フェリオ[COLOR]<$01><$02><$11>[MANUDLG]
+//「へんそうを、よくみやぶった[SPACES]<$05>な！」[END]
+[AUTODLG][COLOR]<$0B><$02><$19>Ferio: [COLOR]<$01><$02><$11>[MANUDLG]{You did[BR]
+well to see[WAIT][BR]
+through my dis-[BR]
+guise!}[END]
+
+// ^---- $7244 (42 bytes)
+
+#SETMSGLOC($7244, 42)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 18 script
+//********************************
+
+//********************************
+// NPC 19 script
+//********************************
+
+#MSGPTR($5498, 1)
+
+#JUMPIF(14, loc_E452)
+//「ここは、みんなのいこいのばしょよ」[END]
+{This is a place[BR]
+ for everyone to[WAIT][BR]
+ relax.}[END]
+
+:loc_E452
+//「ここは、ひろばよ」[END]
+{This is the[BR]
+ village green.}[END]
+
+// ^---- $721C (40 bytes)
+
+#SETMSGLOC($721C, 40)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 20 script
+//********************************
+
+#MSGPTR($54A6, 1)
+
+//[AUTODLG][COLOR]<$0B><$02><$19>フェリオ[COLOR]<$01><$02><$11>[MANUDLG]
+//「どうぶつに　ばけているとは[SPACES]<$05>いがいだったろう。[WAIT]
+[AUTODLG][COLOR]<$0B><$02><$19>Ferio: [COLOR]<$01><$02><$11>[MANUDLG]{Turning[BR]
+into an animal[WAIT][BR]
+was a surprise,[BR]
+right?[WAIT]
+
+[BR]
+//[SPACES]<$05>しかし、おれは　にげる」[END]
+But now I'll[BR]
+escape!}[END]
+
+// ^---- $728C (77 bytes)
+
+#SETMSGLOC($728C, 77)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 21 script
+//********************************
+
+//********************************
+// NPC 22 script
+//********************************
+
+#MSGPTR($54C5, 1)
+
+#JUMPIF(15, loc_E4EF)
+//「ミュー、ミュー、ミュー」[END]
+{Mew, mew, mew!}[END]
+
+:loc_E4EF
+//「ミュー、ミュッ」[END]
+{Meeew, mew!}[END]
+
+// ^---- $726E (30 bytes)
+
+#SETMSGLOC($726E, 30)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 23 script
+//********************************
+
+//********************************
+// NPC 24 script
+//********************************
+
+//********************************
+// NPC 25 script
+//********************************
+
+#MSGPTR($54F4, 1)
+#MSGPTR($5502, 1)
+
+//「ここまで、おーいで」[END]
+{Come heeeere!}[END]
+
+// ^---- $72D9 (17 bytes)
+
+#SETMSGLOC($72D9, 17)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 26 script
+//********************************
+
+//#MSGPTR($5502, 1)
+
+//「ここまで、おーいで」[END]
+
+// ^---- $72D9 (17 bytes)
+
+//#SETMSGLOC($72D9, 17)
+
+
+
+//#ENDMSG()
+
+
+//********************************
+// NPC 27 script
+//********************************
+
+//********************************
+// NPC 28 script
+//********************************
+
+//********************************
+// NPC 29 script
+//********************************
+
+//********************************
+// NPC 30 script
+//********************************
+
+#MSGPTR($553B, 1)
+
+//「このもりは、ちんもくのもりといって　とてもまよいやすいんだ。[WAIT]
+{It's very easy to
+ get lost here in[WAIT][BR]
+ the Forest of[BR]
+ Silence.[WAIT]
+
+[BR]
+//　まほうもつかえないのさ。　ところで[BR]
+//　ここは　どこだろう？　トホホ」[END]
+ It's impossible[BR]
+ to use magic,[WAIT][BR]
+ too.[WAIT][BR]
+ By the way, where[BR]
+ are we? Ho ho!}[END]
+
+// ^---- $771F (81 bytes)
+
+#SETMSGLOC($771F, 81)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 31 script
+//********************************
+
+#MSGPTR($5549, 1)
+
+//「もうすこしで、このもりから[BR]
+//　でられそうなんだけどね」[END]
+{It looks like[BR]
+ it's just a[WAIT][BR]
+ little ways more[BR]
+ 'til you're out[WAIT][BR]
+ of the forest.}[END]
+
+// ^---- $7770 (39 bytes)
+
+#SETMSGLOC($7770, 39)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 32 script
+//********************************
+
+#MSGPTR($5557, 1)
+
+//「このもりの　かんばんのいみは[BR]
+//　わかるんじゃが、なぜかそれでも、[WAIT]
+{I understand what
+ the signs in this[WAIT][BR]
+ forest mean, but[BR]
+ somehow, I still[WAIT][BR]
+ get lost![WAIT]
+
+[BR]
+//　まよってしまうのお。[BR]
+//　プレセアさまに　あいにきたんじゃが[END]
+ I came to see[BR]
+ Presea, but...}[END]
+
+// ^---- $7797 (87 bytes)
+
+#SETMSGLOC($7797, 87)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// NPC 33 script
+//********************************
+
+//********************************
+// NPC 34 script
+//********************************
+
+//********************************
+// NPC 35 script
+//********************************
+
+//********************************
+// NPC 36 script
+//********************************
+
+//********************************
+// NPC 37 script
+//********************************
+
+//********************************
+// NPC 38 script
+//********************************
+
+#MSGPTR($5565, 1)
+
+//おまえさんたち、[BR]
+//プレセアさまを　しっているかい？[WAIT]
+Do you three know[BR]
+Presea?[WAIT]
+
+[BR]
+//プレセアさまは、この　ちんもくのもり[BR]
+//のおくに　すんでおられる。[WAIT]
+Presea lives with-[BR]
+in this Forest of[WAIT][BR]
+Silence.[WAIT]
+
+[BR]
+//ばしょは[SPACES]<$01>わしもきいただけじゃが、[BR]
+//2ー3のかんばんが　めじるしだと・・[WAIT]
+In the place I[BR]
+just came from,[WAIT][BR]
+there was a sign[BR]
+marked {2-3}...[WAIT]
+
+[BR]
+//プレセアさまは、このもりをぬける[BR]
+//ほうほうを　しっているらしいのじゃ[WAIT]
+Presea seems like[BR]
+she would know the[WAIT]
+
+[BR]
+//プレセアさまに　まずは[BR]
+//あうことじゃ。[END]
+way out of this[BR]
+forest, but first[WAIT][BR]
+you'll have to get[BR]
+to her.[END]
+
+// ^---- $78D1 (203 bytes)
+
+#SETMSGLOC($78D1, 203)
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Treasure chest scripts
+//***********************************************************
+
+//********************************
+// Chest 0 script
+//********************************
+
+#MSGPTR($52E5, 1)
+
+//「いいもの　みつけた！！」[WAIT]
+{We found some-[BR]
+ thing good!!}[WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　せいれいのはね　をてにいれた！！[END]
+The trio got[BR]
+Spirit Wings!![END]
+
+// ^---- $7539 (41 bytes)
+
+#SETMSGLOC($7539, 41)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 1 script
+//********************************
+
+#MSGPTR($52EB, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　ラッキーのこな　をてにいれた！！[END]
+They got Lucky[BR]
+Powder!![END]
+
+// ^---- $75F5 (54 bytes)
+
+#SETMSGLOC($75F5, 54)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 2 script
+//********************************
+
+#MSGPTR($52F1, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　ほのおのこびん　をてにいれた！！[END]
+They got a Flame[BR]
+Bottle!![END]
+
+// ^---- $7643 (56 bytes)
+
+#SETMSGLOC($7643, 56)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 3 script
+//********************************
+
+#MSGPTR($52F7, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　ショートケーキ　をてにいれた！！[END]
+They got Short-[BR]
+cake!![END]
+
+// ^---- $767B (54 bytes)
+
+#SETMSGLOC($767B, 54)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 4 script
+//********************************
+
+#MSGPTR($52FD, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　こおりのたま　をてにいれた！！[END]
+They got an Ice[BR]
+Ball!![END]
+
+// ^---- $76B1 (53 bytes)
+
+#SETMSGLOC($76B1, 53)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 5 script
+//********************************
+
+#MSGPTR($5303, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　ウィンドチェーン　をてにいれた！！[END]
+They got a Wind[BR]
+Chain!![END]
+
+// ^---- $76E6 (57 bytes)
+
+#SETMSGLOC($76E6, 57)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 6 script
+//********************************
+
+#MSGPTR($5309, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　ゆきだるま　をてにいれた！！[END]
+They got a Snow-[BR]
+man!![END]
+
+// ^---- $7A5D (54 bytes)
+
+#SETMSGLOC($7A5D, 54)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 7 script
+//********************************
+
+#MSGPTR($530F, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　しんせいなひかり　をてにいれた！！[END]
+They got a Sacred[BR]
+Light!![END]
+
+// ^---- $7A93 (55 bytes)
+
+#SETMSGLOC($7A93, 55)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 8 script
+//********************************
+
+#MSGPTR($5315, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　デラックスケーキ　をてにいれた！！[END]
+They got a Deluxe[BR]
+Cake!![END]
+
+// ^---- $7ACA (57 bytes)
+
+#SETMSGLOC($7ACA, 57)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 9 script
+//********************************
+
+#MSGPTR($531B, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　フシギなきのみ　をてにいれた！！[END]
+They got a Mystery
+Nut!![END]
+
+// ^---- $7B03 (56 bytes)
+
+#SETMSGLOC($7B03, 56)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 10 script
+//********************************
+
+#MSGPTR($5321, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　きょうふのふくろ　をてにいれた！！[END]
+They got a Bag of[BR]
+Terrors!![END]
+
+// ^---- $7B3B (55 bytes)
+
+#SETMSGLOC($7B3B, 55)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 11 script
+//********************************
+
+#MSGPTR($5327, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　しにがみのかま　をてにいれた！！[END]
+They got a[BR]
+Reaper's Scythe!![END]
+
+// ^---- $7B72 (56 bytes)
+
+#SETMSGLOC($7B72, 56)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 12 script
+//********************************
+
+#MSGPTR($532D, 1)
+
+//3にんは　たからばこをみつけ、[BR]
+//ふたをあけた！[WAIT]
+The three found a[BR]
+treasure chest and[WAIT][BR]
+opened the lid![WAIT]
+
+[WRITE]<$11><$C1><$01>[CLEAR]
+
+//　きつけぐすり　をてにいれた！！[END]
+They got Smelling[BR]
+Salts!![END]
+
+// ^---- $7BAA (55 bytes)
+
+#SETMSGLOC($7BAA, 55)
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Treasure chest failure scripts
+//***********************************************************
+
+//********************************
+// Chest 0 failure script
+//********************************
+
+#MSGPTR($52E7, 1)
+
+//たからばこは　からっぽだった！！[END]
+The treasure chest
+is empty!![END]
+
+// ^---- $7562 (24 bytes)
+
+#SETMSGLOC($7562, 24)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Chest 1 failure script
+// (shared with chests 2-12)
+//********************************
+
+#MSGPTR($52ED, 1)
+#MSGPTR($52F3, 1)
+#MSGPTR($52F9, 1)
+#MSGPTR($52FF, 1)
+#MSGPTR($5305, 1)
+#MSGPTR($530B, 1)
+#MSGPTR($5311, 1)
+#MSGPTR($5317, 1)
+#MSGPTR($531D, 1)
+#MSGPTR($5323, 1)
+#MSGPTR($5329, 1)
+#MSGPTR($532F, 1)
+
+//たからばこは　からっぽだった！！[END]
+The treasure chest
+is empty!![END]
+
+// ^---- $762B (24 bytes)
+
+#SETMSGLOC($762B, 24)
+
+
+
+#ENDMSG()
+
+
+//********************************
+// Items full script
+//********************************
+
+#MSGPTR($52CC, 1)
+
+//もちものがいっぱいで、これいじょう[BR]
+//もてません。[END]
+Your inventory is[BR]
+full. You can't[WAIT][BR]
+hold any more than[BR]
+this.[END]
+
+// ^---- $78AE (35 bytes)
+
+#SETMSGLOC($78AE, 35)
+
+
+
+#ENDMSG()
+
+//***********************************************************
+// Imports from tiletext script.
+// Generally, these are tilemapped lines that wouldn't fit
+// in-place.
+//***********************************************************
+
+#LOADTABLE("table/mkr_tiletext_english.tbl")
+
+//********************************
+// Shop buy text
+//********************************
+//#MSGPTR($983B, 1)
+// 0xA2E1
+//#SETADDR(0xA2E1)
+//#SETMSGLOC($A2E1, 144)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「　　　　　　　　」　は、ほうせき　
+//　　　　　゛　゛　　　　　　　　　　
+//　　　　こですが、かいますか？　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　はい　　いいえ　　　　　
+//　　　　　　　　　　　　　　　゛　　
+//もっているほうせきは　　　　こです。
+//==================
+// {              } 
+// costs      gems. 
+//       Buy?       
+//                  
+//      Yes No      
+//                  
+//Current Gems:     
+
+
+//********************************
+// Main menu
+//********************************
+#MSGPTR($18238, 2)
+
+
+// 0x667B2
+//#SETADDR(0x667B2)
+#SETMSGLOC($667B2, 80)
+//　　　なにをしますか？　　　
+//　　　　　　　　　　　゛　　
+//まほう　　　　　　ならべかえ
+//　　　　　　　　　゛　　　　
+//アイテム　　　　　でる　　　
+//What will you do?
+//                 
+//  Magic    Sort  
+//                 
+//  Items    Exit  
+What will you do?
+                 
+  Magic    Order 
+                 
+  Items    Exit  
+
+#ENDMSG()
+
+//********************************
+// Main menu -- item submenu header
+//********************************
+#MSGPTR($18861, 2)
+
+// 0x668E0
+//#SETADDR(0x668E0)
+#SETMSGLOC($668E0, 4)
+//アイテム
+Items
+
+#ENDMSG()
+
+//********************************
+// Main menu -- item submenu options
+//********************************
+#MSGPTR($1886D, 2)
+
+// 0x668E4
+//#SETADDR(0x668E4)
+#SETMSGLOC($668E4, 16)
+//つかう　　　　みる　　　　すてる
+Use   View  Drop
+
+#ENDMSG()
+
+//********************************
+// Main menu -- "use [magic/item] on whom" message
+//********************************
+#MSGPTR($1857C, 2)
+#MSGPTR($18C58, 2)
+#MSGPTR($18D9C, 2)
+
+// 0x6691E
+//#SETADDR(0x6691E)
+#SETMSGLOC($6691E, 56)
+//゛　　　　　　　　　　　　　
+//だれに　　　　　　　　　　を
+//　　　　　　　　　　　　　　
+//つかいますか？　　　　　　　
+                
+Use             
+                
+    on whom?    
+
+#ENDMSG()
+
+
+//********************************
+// Main menu -- "no items" message
+//********************************
+#MSGPTR($187FF, 2)
+
+// 0x66970
+//#SETADDR(0x66970)
+#SETMSGLOC($66970, 14)
+//　　　なにももっていません！
+  You don't have  
+                  
+    anything!     
+
+#ENDMSG()
+
+
+//********************************
+// "Can't use that item" message
+//********************************
+#MSGPTR($18C1A, 2)
+
+// 0x66A3C
+//#SETADDR(0x66A3C)
+#SETMSGLOC($66A3C, 18)
+//　　　　いまはつかえません　　　　　
+You can't use that
+                  
+    right now.    
+
+#ENDMSG()
+
+//********************************
+// Unable to use field spell
+//********************************
+#MSGPTR($1851F, 2)
+
+// 0x66956
+//#SETADDR(0x66956)
+#SETMSGLOC($66956, 26)
+//　　　　　　゛　　　　　　
+//まほうりょくがたりない！！
+                  
+  Not enough MP!  
+
+#ENDMSG()
+
+//********************************
+// "[Item] discarded" message
+//********************************
+#MSGPTR($189D4, 2)
+
+// 0x66A4E
+//#SETADDR(0x66A4E)
+#SETMSGLOC($66A4E, 18)
+//　　　　　　　　　をすてました　　　
+                  
+                  
+  was discarded.  
+
+#ENDMSG()
+
+//********************************
+// "[Item] in use" message
+// (used for e.g. Shortcake)
+//********************************
+#MSGPTR($18D56, 2)
+#MSGPTR($18E04, 2)
+
+// 0x66A60
+// Message for using certain items, e.g.
+// Shortcake
+//#SETADDR(0x66A60)
+#SETMSGLOC($66A60, 6)
+//をつかいます
+// use.
+                  
+                  
+    was used.     
+
+#ENDMSG()
+
+//********************************
+// Field "can't use magic" message
+//********************************
+#MSGPTR($18444, 2)
+
+// 0x669D0
+//#SETADDR(0x669D0)
+#SETMSGLOC($669D0, 36)
+//　　　゛　　　　　゛　　　　　　　　
+//　ここでは、まほうがつかえない！　　
+  You can't use   
+                  
+   magic here!    
+
+#ENDMSG()
+
+//********************************
+// Message for using a Spirit Feather
+//********************************
+#MSGPTR($18D10, 2)
+
+// 0x66A66
+// Message for using a Spirit Feather
+//#SETADDR(0x66A66)
+#SETMSGLOC($66A66, 36)
+//　　゛　　　　　゜　　゛　　　　　　
+//　　ぜんたいマップにもどります　　　
+You'll go back to 
+                  
+  the main map.   
+
+#ENDMSG()
+
+//********************************
+// Battle message for using certain
+// items (e.g. Turtle Spell)
+//********************************
+#MSGPTR($1E408, 2)
+
+// 0x7F6A4
+//#SETADDR(0x7F6A4)
+#SETMSGLOC($7F6A4, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　をつかった！　　　
+==================
+               was
+      used!       
+                  
+
+#ENDMSG()
+
+//********************************
+// Battle message for trying to
+// cast a spell with insufficient MP
+//********************************
+#MSGPTR($1E078, 2)
+
+// 0x7E0DD
+//#SETADDR(0x7E0DD)
+#SETMSGLOC($7E0DD, 36)
+//＝＝＝＝＝゛＝＝＝
+//　まりょくが　　　
+//　　　　　　　　　
+//　たりません　　　
+//Not enough
+//magic.
+==================
+                  
+  Not enough MP.  
+                  
+
+#ENDMSG()
+
+//********************************
+// In-battle MP recovery message
+//********************************
+#MSGPTR($1E983, 2)
+
+// 0x7F722
+//#SETADDR(0x7F722)
+#SETMSGLOC($7F722, 36)
+//　　　　　　　　　゛　　　　　　　　
+//　　　　のまりょくがかいふくした！　
+//      's magic was
+//    recovered!    
+       's MP was  
+    recovered!    
+                  
+
+#ENDMSG()
+
+//********************************
+// In-battle revival message
+//********************************
+#MSGPTR($1E7C4, 2)
+// 0x7F896
+//#SETADDR(0x7F896)
+#SETMSGLOC($7F896, 36)
+//　　　　　　　　　　　　゛　　　　　
+//　　　　はいしきをとりもどした！　　
+// recovered consciousness!
+        regained  
+  consciousness!  
+                  
+
+#ENDMSG()
+
+//********************************
+// "Enemy appeared"
+//********************************
+//#MSGPTR($1C520, 2)
+#MSGPTR($1C514, 2)
+// 0x6E16F
+//#SETADDR(0x6E16F)
+#SETMSGLOC($6E16F, 16)
+//゛　　　　　　　
+//があらわれた！！
+// appeared!
+                  
+     appeared!    
+                  
+
+#ENDMSG()
+
+//********************************
+// Enemy attack missed
+//********************************
+#MSGPTR($1CFBF, 2)
+// 0x6E391
+//#SETADDR(0x6E391)
+#SETMSGLOC($6E391, 36)
+//　　　　　　゛　　　　　　　　　　　
+//　しかしこうげきは、くうをきった！！　
+   However, the   
+  attack missed!  
+                  
+
+#ENDMSG()
+
+
+//********************************
+// Sleep wave missed
+//********************************
+#MSGPTR($1CF2A, 2)
+// 0x6E4D5
+//#SETADDR(0x6E4D5)
+#SETMSGLOC($6E4D5, 36)
+//　　　　　　　　　　　　　　　　　　
+//しかし　さいみんは　はきかなかった　
+However, the sleep
+   waves had no   
+     effect.      
+
+#ENDMSG()
+
+
+//********************************
+// Increased crit rate
+//********************************
+#MSGPTR($1E76C, 2)
+// 0x7F78E
+//#SETADDR(0x7F78E)
+#SETMSGLOC($7F78E, 36)
+//　　　　　　　゛　゛゛　　　　゛　　
+//かいしんのいちげきがでそうなきがする
+//has the feeling a critical hit will come.
+ It feels like a  
+ critical hit is  
+     coming.      
+
+#ENDMSG()
+
+//********************************
+// Instakill
+//********************************
+#MSGPTR($1E64F, 2)
+// 0x7F9BE
+//#SETADDR(0x7F9BE)
+#SETMSGLOC($7F9BE, 36)
+//　　　゛　゛　　　　　　　　　゛　　
+//　しにがみがてきのたましいをうばう！
+ The Grim Reaper  
+snatches away the 
+  enemy's soul!   
+
+#ENDMSG()
+
+//********************************
+// Flame Chain effect message
+//********************************
+//#MSGPTR($1E04B, 2)
+// 0x7ED09
+//#SETMSGLOC($7ED09, 54)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　゛　　　　　゛　　　　　゛　　
+//ほのおが　てきのうごきを　ふうじた！
+// Flames inhibited 
+//   the enemy's    
+//     movement!    
+//#ENDMSG()
+
+//********************************
+// Spells
+//********************************
+
+// 0x7E131
+#MSGPTR($7E101, 2)
+#SETMSGLOC($7E131, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「ほのおのやーっ！」　　　
+==================
+Hikaru:           
+  {Flame Arrow!}  
+                  
+#ENDMSG()
+
+#MSGPTR($7E119, 2)
+#SETMSGLOC($7E155, 36)
+//　　　　　　　　゛　　　　　　　　　
+//やとなったほのおが　てきをつらぬく！
+//Flames that became an arrow pierce the enemy!
+==================
+  Flames form an  
+ arrow and pierce 
+    the enemy!    
+#ENDMSG()
+
+
+
+// 0x7E179
+#MSGPTR($7E103, 2)
+#SETMSGLOC($7E179, 36)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ひかる　「あかいいなづまーっ」　　
+==================
+Hikaru:           
+     {Crimson     
+    Lightning!}   
+
+#ENDMSG()
+
+#MSGPTR($7E11B, 2)
+#SETMSGLOC($7E19D, 36)
+//　　　　　　　　゛　　　　　　　　　
+//ほのおのせんこうが　てきをつつむ！　
+==================
+ A flash of flame 
+engulfs the enemy!
+                  
+#ENDMSG()
+
+
+
+
+// 0x7E1C1
+#MSGPTR($7E105, 2)
+#SETMSGLOC($7E1C1, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「ほのおのくさりっ！」　　
+==================
+Hikaru:           
+  {Flame Chain!}  
+                  
+#ENDMSG()
+
+#MSGPTR($7E11D, 2)
+#SETMSGLOC($7E1E5, 36)
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+                  
+                  
+#ENDMSG()
+
+
+
+// 0x7E209
+#MSGPTR($7E107, 2)
+#SETMSGLOC($7E209, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「あかいせんこう！」　　　
+==================
+Hikaru:           
+ {Crimson Flash!} 
+                  
+#ENDMSG()
+
+#MSGPTR($7E11F, 2)
+#SETMSGLOC($7E22D, 36)
+//　　　　　　　゛　　　　　　　　　　
+//しんくのひかりが　いきのねをとめる　
+// crimson light chokes the life from.
+==================
+  Crimson light   
+ chokes the life  
+ from the enemy.  
+#ENDMSG()
+
+
+// 0x7E251
+#MSGPTR($7E109, 2)
+#SETMSGLOC($7E251, 36)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ふう　　「いやしのかぜ」　　　　　
+==================
+Fuu:              
+{Healing Breeze!} 
+                  
+#ENDMSG()
+
+#MSGPTR($7E121, 2)
+#SETMSGLOC($7E275, 36)
+//　　　　　　　　゛　　　　　　　　　
+//　やわらかい　かぜに　つつまれた！　
+// was enveloped in a gentle breeze!
+==================
+ A gentle breeze  
+  enveloped the   
+     target!      
+#ENDMSG()
+
+
+// 0x7E299
+#MSGPTR($7E10B, 2)
+#SETMSGLOC($7E299, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝゜＝＝＝＝＝
+//　ふう　　「いやしのせんぷう！」　　
+==================
+Fuu:              
+{Healing Cyclone!}
+                  
+#ENDMSG()
+
+#MSGPTR($7E123, 2)
+#SETMSGLOC($7E2BD, 36)
+//　　　　　　　゛゛　　　　　　　　　
+//あたたかい　かぜが　みんなをつつむ！
+==================
+  A warm breeze   
+engulfs everyone! 
+                  
+#ENDMSG()
+
+
+
+// 0x7E2E1
+#MSGPTR($7E10D, 2)
+#SETMSGLOC($7E2E1, 36)
+//＝＝＝＝＝＝＝゛＝＝＝＝゜＝＝＝＝＝
+//　ふう　　「みどりのしっぷう」　　　
+==================
+Fuu:              
+{Emerald Typhoon!}
+                  
+#ENDMSG()
+
+#MSGPTR($7E125, 2)
+#SETMSGLOC($7E305, 36)
+//　　゛゛　　　　　　　　　　　　　　
+//　かぜが　くうきをひきさく！　　　　
+==================
+  Winds rend the  
+       air!       
+                  
+#ENDMSG()
+
+
+
+
+// 0x7E329
+#MSGPTR($7E10F, 2)
+#SETMSGLOC($7E329, 36)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ふう　　「まもりのかぜーっ！」　　
+//Fuu "Winds of Protection!"
+==================
+Fuu:              
+     {Wind of     
+   Protection!}   
+#ENDMSG()
+
+#MSGPTR($7E127, 2)
+#SETMSGLOC($7E34D, 36)
+//　゛゛　　　　　　　　　　　　　　　
+//かぜが　たてとなり　みんなをまもる！
+==================
+The wind becomes a
+    shield and    
+protects everyone!
+#ENDMSG()
+
+
+
+
+// 0x7E371
+#MSGPTR($7E111, 2)
+#SETMSGLOC($7E371, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「こおりのや！」　　　　　
+==================
+Umi:              
+   {Ice Arrow!}   
+                  
+#ENDMSG()
+
+#MSGPTR($7E129, 2)
+#SETMSGLOC($7E395, 36)
+//　　　　　　゛　　　　　　　　　　　
+//　いてつくやが　てきをつらぬく！　　
+==================
+ A freezing arrow 
+pierces the enemy!
+                  
+#ENDMSG()
+
+
+// 0x7E3B9
+#MSGPTR($7E113, 2)
+#SETMSGLOC($7E3B9, 36)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「みずのりゅう！」　　　　
+==================
+Umi:              
+ {Water Dragon!}  
+                  
+#ENDMSG()
+
+#MSGPTR($7E12B, 2)
+#SETMSGLOC($7E3DD, 36)
+//　　　　　　　　゛゛　　　　　　　　
+//りゅうとなったうずが　てきをつつむ　
+//A whirlpool that became a dragon engulfs the enemy.
+==================
+A whirlpool forms 
+into a dragon and 
+engulfs the enemy.
+#ENDMSG()
+
+
+
+// 0x7E401
+#MSGPTR($7E115, 2)
+#SETMSGLOC($7E401, 36)
+//＝＝＝＝＝＝＝゛＝＝゛＝＝＝＝＝＝＝
+//　うみ　　「みずのかべ！」　　　　　
+==================
+Umi:              
+  {Water Wall!}   
+                  
+#ENDMSG()
+
+#MSGPTR($7E12D, 2)
+#SETMSGLOC($7E425, 36)
+//　゛　　　゛　　　　　　　゛　　　　
+//みずのまくが、てきにたちはだかる！　
+==================
+ A sheet of water 
+stands in the way 
+  of the enemy!   
+#ENDMSG()
+
+
+
+// 0x7E449
+#MSGPTR($7E117, 2)
+#SETMSGLOC($7E449, 36)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「あおいたつまき」　　　　
+==================
+Umi:              
+    {Sapphire     
+   Whirlwind!}    
+#ENDMSG()
+
+#MSGPTR($7E12F, 2)
+#SETMSGLOC($7E46D, 36)
+//　　　　　゛゛　　　　　　　　　　　
+//　あおいうずが　みんなをつれさる！　
+==================
+   A blue whirl   
+ sweeps everyone  
+      away!       
+#ENDMSG()
+

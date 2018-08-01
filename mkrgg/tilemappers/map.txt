@@ -1,0 +1,62 @@
+#******************************************************************************
+# World map tilemap generator script
+#******************************************************************************
+
+[Properties]
+palette=pal/map.pal
+dest=out/precmp/map_grp.bin
+#loadAddr=0xC0
+loadAddr=0xA0
+#maxTiles=0x40
+maxTiles=0x60
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/map/trans/map_01.png
+dest=out/maps/map_01.bin
+priority=0
+palette=0
+
+[Tilemap01]
+source=rsrc/map/trans/map_02.png
+dest=out/maps/map_02.bin
+priority=0
+palette=0
+
+[Tilemap02]
+source=rsrc/map/trans/map_03.png
+dest=out/maps/map_03.bin
+priority=0
+palette=0
+
+[Tilemap03]
+source=rsrc/map/trans/map_04.png
+dest=out/maps/map_04.bin
+priority=0
+palette=0
+
+[Tilemap04]
+source=rsrc/map/trans/map_05.png
+dest=out/maps/map_05.bin
+priority=0
+palette=0
+
+[Tilemap05]
+source=rsrc/map/trans/map_06.png
+dest=out/maps/map_06.bin
+priority=0
+palette=0
+
+# This label isn't used ("sora no iwayama" = "rocky mountain in the sky"?)
+# guess you were supposed to go to that conspicuous floating island on the
+# world map
+#[Tilemap06]
+#source=rsrc/map/trans/map_07.png
+#dest=out/maps/map_07.bin
+#priority=0
+#palette=0
+

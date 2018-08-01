@@ -1,0 +1,33 @@
+#******************************************************************************
+# Title screen tilemap generator script
+#******************************************************************************
+
+[Properties]
+palette=pal/title_tiles.pal
+dest=out/precmp/title_grp.bin
+loadAddr=0x100
+maxTiles=0xC0
+#blacklist=360-363
+
+#******************************************************************************
+# Main layout
+#******************************************************************************
+
+[Tilemap00]
+source=rsrc/title/trans/title_logo.png
+dest=out/maps/title_logo.bin
+priority=0
+palette=0
+
+[Tilemap01]
+source=rsrc/title/trans/title_start.png
+dest=out/maps/title_start.bin
+priority=0
+palette=0
+
+[Tilemap02]
+source=rsrc/title/trans/title_start_blank.png
+dest=out/maps/title_start_blank.bin
+priority=0
+palette=0
+

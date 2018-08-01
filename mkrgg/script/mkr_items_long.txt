@@ -1,0 +1,47 @@
+
+// New table of "long" item names (14 chars), used
+// in place of original 8-char names whenever possible.
+// This is inserted via WLA-DX, bypassing the normal
+// space allocation.
+
+#SETMSGLOC($66B00, 0)
+
+// blank name at start
+//              
+Healing Leaf  
+Recovery Seed 
+Restore Water 
+Flame Powder  
+Flame Vial    
+Flame Bottle  
+Ice Chip      
+Ice Ball      
+Snowman       
+Wind Cutter   
+Wind Chain    
+Wind Bomb     
+Holy Blade    
+Blessed Charm 
+Sacred Light  
+Cake          
+Shortcake     
+Deluxe Cake   
+Lucky Powder  
+Spirit Wings  
+Smelling Salts
+Bag of Terrors
+Mystery Leaf  
+Mystery Flower
+Mystery Nut   
+Reaper Scythe 
+Speed Fruit   
+Strength Fruit
+Defense Fruit 
+Turtle Spell  
+Frailty Spell 
+Soft Spell    
+// blank name at end
+              
+
+#ENDMSG()
+

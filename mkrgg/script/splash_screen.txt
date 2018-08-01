@@ -1,0 +1,29 @@
+
+
+#SETMSGLOC($0, 0)
+
+//==================
+                    
+   This is a free   
+   and unofficial   
+ translation patch. 
+  It shouldn't be   
+   used to create   
+  repro cartridges  
+   or make money.   
+                    
+ Translation        
+           Filler   
+                    
+ Hacking            
+           Supper   
+                    
+ Original Title Art 
+         aziwoqpd   
+                    
+//==================
+
+
+#ENDMSG()
+
+

@@ -1,0 +1,3735 @@
+//**********************************
+// shop
+//**********************************
+
+// 0xA2E1
+#SETADDR(0xA2E1)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「　　　　　　　　」　は、ほうせき　
+//　　　　　゛　゛　　　　　　　　　　
+//　　　　こですが、かいますか？　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　はい　　いいえ　　　　　
+//　　　　　　　　　　　　　　　゛　　
+//もっているほうせきは　　　　こです。
+//==================
+ {              } 
+ costs      gems. 
+       Buy?       
+                  
+      Yes No      
+                  
+//You have     gems.
+Current gems:     
+                  
+
+// 0xA3F7
+#SETADDR(0xA3F7)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「　　　　　　　　」　は、ほうせき　
+//　　　　　゛　゛　　　　　　　　　　
+//　　　　こですが、うりますか？　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　はい　　いいえ　　　　　
+//==================
+//{        } is     
+//worth             
+//      gems. Sell? 
+//                  
+//      Yes No      
+//==================
+ {              } 
+  is worth        
+   gems. Sell?    
+                  
+      Yes No      
+//You have          
+//Gems.             
+                  
+Current gems:     
+                  
+
+// 0xACE0
+#SETADDR(0xACE0)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「　　　　　　　　」　は、ほうせき　
+//　　　　　゛　゛　　　　　　　　　　
+//　　　　こでけどかう？　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　はい　　いいえ　　　　　
+//==================
+//Buy {        } for
+//                  
+//      gems?       
+//                  
+//      Yes No      
+//==================
+ {              } 
+will be      gems.
+       Buy?       
+                  
+      Yes No      
+                  
+//You have    Gems. 
+Current gems:     
+                  
+
+//**********************************
+// title screen, save/load
+//**********************************
+
+// 0xC472
+#SETADDR(0xC472)
+//　　　　　　　　　　　　　　　　　　　　
+//　　　　　　　　゛　　　　　　　　　　　
+//　　　　　　　はじめから　　　　　　　　
+//　　　　　　　　゛　　　　　　　　　　　
+//　　　　　　　つづきから　　　　　　　　
+//　　　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　　　
+                    
+                    
+      New Game      
+                    
+      Continue      
+                    
+                    
+                    
+
+// 0xC512
+#SETADDR(0xC512)
+//　゛　　　
+//はじめから
+// Start    
+ New Game 
+
+// 0xC51C
+#SETADDR(0xC51C)
+//　゛　　　
+//つづきから
+ Continue 
+
+// 0xC526
+#SETADDR(0xC526)
+//　　　　　
+//　　　　　
+          
+
+
+// 0xC530
+#SETADDR(0xC530)
+//　　　　　　　　　　　　　　　　　　　　
+//　　　゛　゛　　゛　゛　　　　　　　　　
+//　　　どのデータではじめますか？　　　　
+//　　　　　　　　　　　　　　　　　　　　
+//　　　　　゛　　　　　゛　　　　　　　　
+//　　　　　データ１　　データ２　　　　　
+//　　　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　　　
+
+//Start from which file?
+//
+//Data 1  Data 2
+
+// "data" shortened to "#" for convenience/laziness
+// (would otherwise have to adjust several "flashing"
+// tilemaps, modify cursor position, etc.)
+                    
+  Start from which  
+       file?        
+                    
+                    
+     [#]1    [#]2       
+                    
+                    
+
+// 0xC5D0
+#SETADDR(0xC5D0)
+//゛　　　
+//データ１
+
+//Data 1
+    
+[#]1  
+
+// 0xC5D8
+#SETADDR(0xC5D8)
+//゛　　　
+//データ２
+
+//Data 2
+    
+[#]2  
+
+//**********************************
+// items
+// (no longer used; see mkr_items_long.txt)
+//**********************************
+
+// 8-character limit!
+
+// 0x38D0F
+#SETADDR(0x38D0F)
+//　　　　　　　　
+//　　　　　　　　
+        
+        
+
+// 0x38D1F
+#SETADDR(0x38D1F)
+//　　　　　　　　
+//いやしのは　　　
+//Healing Leaf
+        
+HealLeaf
+
+// 0x38D2F
+#SETADDR(0x38D2F)
+//　　　　　　　　
+//かいふくのみ　　
+//Recovery Seed
+        
+RecvSeed
+
+// 0x38D3F
+#SETADDR(0x38D3F)
+//゛　　　　　゛　
+//ぜんかいのみず　
+//Restoration Water
+        
+RstrWatr
+
+// 0x38D4F
+#SETADDR(0x38D4F)
+//　　　　　　　　
+//ほのおのこな　　
+//Flame Powder
+        
+FlamPwdr
+
+// 0x38D5F
+#SETADDR(0x38D5F)
+//　　　　　゛　　
+//ほのおのこびん　
+//Flame Vial
+        
+FlamVial
+
+// 0x38D6F
+#SETADDR(0x38D6F)
+//　　　　　　゛　
+//ほのおのおおびん
+//Flame Bottle
+        
+FlamBotl
+
+// 0x38D7F
+#SETADDR(0x38D7F)
+//　　　　　゛　　
+//こおりのつぶ　　
+//Ice Chip
+        
+Ice Chip
+
+// 0x38D8F
+#SETADDR(0x38D8F)
+//　　　　　　　　
+//こおりのたま　　
+//Ice Ball
+        
+Ice Ball
+
+// 0x38D9F
+#SETADDR(0x38D9F)
+//　　゛　　　　　
+//ゆきだるま　　　
+//Snowman
+        
+Snowman 
+
+// 0x38DAF
+#SETADDR(0x38DAF)
+//　　　゛　　　　
+//ウィンドカッター
+//Wind Cutter
+        
+WindCutr
+
+// 0x38DBF
+#SETADDR(0x38DBF)
+//　　　゛　　　　
+//ウィンドチェーン
+//Wind Chain
+        
+WndChain
+
+// 0x38DCF
+#SETADDR(0x38DCF)
+//　　　゛゛　　　
+//ウィンドボム　　
+//Wind Bomb
+        
+WindBomb
+
+// 0x38DDF
+#SETADDR(0x38DDF)
+//　　　　　　゛　
+//せいなるやいば　
+//Holy Blade
+        
+HolyBlad
+
+// 0x38DEF
+#SETADDR(0x38DEF)
+//　　　　　　　゛
+//しゅくふくのふだ
+//Blessed Charm
+        
+BlesChrm
+
+// 0x38DFF
+#SETADDR(0x38DFF)
+//　　　　　　　　
+//しんせいなひかり
+//Sacred Light
+        
+SacrLit 
+
+// 0x38E0F
+#SETADDR(0x38E0F)
+//　　　　　　　　
+//ケーキ　　　　　
+//Cake
+        
+Cake    
+
+// 0x38E1F
+#SETADDR(0x38E1F)
+//　　　　　　　　
+//ショートケーキ　
+//Shortcake
+        
+Shrtcake
+
+// 0x38E2F
+#SETADDR(0x38E2F)
+//゛　　　　　　　
+//デラックスケーキ
+//Deluxe Cake
+        
+DluxCake
+
+// 0x38E3F
+#SETADDR(0x38E3F)
+//　　　　　　　　
+//ラッキーのこな　
+//Lucky Powder
+        
+LuckyPwd
+
+// 0x38E4F
+#SETADDR(0x38E4F)
+//　　　　　　　　
+//せいれいのはね　
+//Spirit Feather
+        
+SprtWngs
+
+// 0x38E5F
+#SETADDR(0x38E5F)
+//　　　゛　　　　
+//きつけぐすり　　
+//Smelling Salts
+        
+SmelSalt
+
+// 0x38E6F
+#SETADDR(0x38E6F)
+//　　　　　　　　
+//きょうふのふくろ
+//Bag of Terrors
+        
+TerorBag
+
+// 0x38E7F
+#SETADDR(0x38E7F)
+//　　゛　　　゜　
+//フシギなはっぱ　
+//Mysterious Leaf
+        
+MystLeaf
+
+// 0x38E8F
+#SETADDR(0x38E8F)
+//　　゛　　　　　
+//フシギなはな　　
+//Mysterious Flower
+        
+MystFlwr
+
+// 0x38E9F
+#SETADDR(0x38E9F)
+//　　゛　　　　　
+//フシギなきのみ　
+//Mysterious Nut
+        
+MystNut 
+
+// 0x38EAF
+#SETADDR(0x38EAF)
+//　　゛　　　　　
+//しにがみのかま　
+//Reaper's Scythe
+        
+ReapScyt
+
+// 0x38EBF
+#SETADDR(0x38EBF)
+//　　　　　　　　
+//はやさのフルーツ
+//Speed Fruit
+        
+SpdFruit
+
+// 0x38ECF
+#SETADDR(0x38ECF)
+//　　　　　　　　
+//ちからのフルーツ
+//Strength Fruit
+        
+StrFruit
+
+// 0x38EDF
+#SETADDR(0x38EDF)
+//　　　　　　　　
+//まもりのフルーツ
+//Defense Fruit
+        
+DefFruit
+
+// 0x38EEF
+#SETADDR(0x38EEF)
+//　　　　　　　　
+//かめののろい　　
+//Turtle Spell
+        
+TurtSpel
+
+// 0x38EFF
+#SETADDR(0x38EFF)
+//　　　　　　　　
+//ひよわなのろい　
+//Frailty Spell
+        
+FrailSpl
+
+// 0x38F0F
+#SETADDR(0x38F0F)
+//　　　　　　　　
+//やわらかいのろい
+//Soft Spell
+        
+SoftSpel
+
+//**********************************
+// Item descriptions
+//**********************************
+
+// 0x38F5F
+#SETADDR(0x38F5F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「いやしのは」　はしようすると、　　
+//　　　　　　　　　　　　　　　　　　
+//たいりょくをすこしかいふくする。　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//  When {Healing   
+//  Leaf} is used,  
+// it slightly re-  
+//  stores health.  
+//                  
+//                  
+//                  
+//                  
+Using a {Healing  
+Leaf} slightly    
+restores health.  
+                  
+                  
+                  
+                  
+                  
+
+// 0x38FEF
+#SETADDR(0x38FEF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「かいふくのみ」　はしようすると、　
+//　　　　　　　　　　　　　　　　　　
+//たいりょくをかなりかいふくする。　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//  When {Recovery  
+//  Seed} is used,  
+// it considerably  
+// restores health. 
+//                  
+//                  
+//                  
+//                  
+Using a {Recovery 
+Seed} considerably
+restores health.  
+                  
+                  
+                  
+                  
+                  
+
+// 0x3907F
+#SETADDR(0x3907F)
+//＝゛＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//「ぜんかいのみず」　はしようすると、
+//　　　　　　　　゛　　　　　　　　　
+//たいりょくをかんぜんにかいふくする。
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When {Restoration 
+// Water} is used,  
+//  it thoroughly   
+// restores health. 
+Using {Restore    
+Water} thoroughly 
+restores health.  
+                  
+                  
+                  
+                  
+                  
+
+// 0x3910F
+#SETADDR(0x3910F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ほのおのこな」　はせんとうちゅうに
+//　　　　　　　　　　　　　　゛　　　
+//しようすると、ちいさなほのおでてきを
+//　　゛　　　　　　　　　　　　　　　
+//こうげきする。　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Flame Powder" is used
+//in battle it strikes the enemy with
+//minor flames.
+Using {Flame      
+Powder} in battle 
+strikes the enemy 
+with minor flames.
+                  
+                  
+                  
+                  
+
+// 0x3919F
+#SETADDR(0x3919F)
+//＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝゛＝＝
+//「ほのおのこびん」　をてきになげつけ
+//　　　　　　　　　゛　　　　　゛　　
+//ると、てきをほのおでつつみこんで　　
+//゛　　゛　　　　　　　　　　　　　　
+//ダメージをあたえる。　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Flame Vial" is thrown at the
+//enemy it inflicts damage by engulfing
+//them in flames.
+Throwing a {Flame 
+Vial} at the enemy
+inflicts damage by
+engulfing them in 
+flames.           
+                  
+                  
+                  
+
+// 0x3922F
+#SETADDR(0x3922F)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝゛＝
+//「ほのおのおおびん」　をてきになげつ
+//　　　　゛　゛　　　　　　　　　　　
+//けると、だいばくはつをおこし、てきに
+//゛　゛　　゛　　　　　　　　　　　　
+//だいダメーじをあたえる。　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Flame Bottle" is thrown at the
+//enemy it causes a large explosion and
+//inflicts major damage.
+Throwing a {Flame 
+Bottle} at the    
+enemy causes a    
+large explosion,  
+inflicting major  
+damage.           
+                  
+                  
+
+// 0x392BF
+#SETADDR(0x392BF)
+//＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝
+//「こおりのつぶ」　はせんとうちゅうに
+//　　　　　　　　　　　　゛゛　　　　
+//しようすると、こおりのつぶがてきに　
+//　　　　　　　　　　　　　　　　　　
+//おそいかかる。　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Ice Chip" is used in
+//battle particles of ice assail
+//the enemy.
+Using an {Ice     
+Chip} in battle   
+assails the enemy 
+with particles of 
+ice.              
+                  
+                  
+                  
+
+// 0x3934F
+#SETADDR(0x3934F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「こおりのたま」　はせんとうちゅうに
+//　　　　　　　　　　　　　゛　　　　
+//しようすると、こおりのたまがてきに　
+//　　　　　　　　　　　　　　　　　　
+//おそいかかる。　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Ice Ball" is used in
+//battle balls of ice assail the
+//enemy.
+Using an {Ice     
+Ball} in battle   
+assails the enemy 
+with balls of ice.
+                  
+                  
+                  
+                  
+
+// 0x393DF
+#SETADDR(0x393DF)
+//＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ゆきだるま」　はせんとうちゅうに　
+//　　　　　　　　　゛　　　　゛　゛　
+//しようすると、きょだいなゆきだまが　
+//　　　　　　　　　　　　　　　　　　
+//てきにおそいかかる。　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Snowman" is used in
+//battle huge snowballs assail the
+//enemy.
+Using a {Snowman} 
+in battle assails 
+the enemy with    
+huge snowballs.   
+                  
+                  
+                  
+                  
+
+// 0x3946F
+#SETADDR(0x3946F)
+//＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ウィンドカッター」　はせんとうちゅ
+//　　　　　　　　　　゛　　゛゛　　　
+//うにしようすると、かぜのうずがはもの
+//　　　　　　　　　　　　　　　　　　
+//のようにてきをきりさく。　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Wind Cutter" is used in
+//battle swirls of wind slash the
+//enemy like blades.
+Using a {Wind     
+Cutter} in battle 
+causes swirls of  
+wind to slash the 
+enemy like blades.
+                  
+                  
+                  
+
+// 0x394FF
+#SETADDR(0x394FF)
+//＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ウィンドチェーン」　はせんとうちゅ
+//　　　　　　　　　　　　　　　　　゛
+//うにしようすると、しんくうのはものが
+//　　　　　　　　　　　　　　　　　　
+//チェーンのようにいくえにもつらなって
+//　　　　　　゛　　　　　　　　　　　
+//てきをきりきざむ。　　　　　　　　　
+//When "Wind Chain" is used in
+//battle a chain-like series of air
+//blades chop the enemy to
+//pieces.
+Using a {Wind     
+Chain} in battle  
+chops the enemy   
+to pieces with a  
+chain-like series 
+of air blades.    
+                  
+                  
+
+// 0x3958F
+#SETADDR(0x3958F)
+//＝＝＝＝゛゛＝＝＝＝＝＝＝＝＝＝＝＝
+//「ウィンドボム」　はせんとうちゅうに
+//　　　　　　　　゛　゛　゛　　　　　
+//しようすると、かぜのだいばくはつを　
+//　　　　　　　゛　゛　　゛　　　　　
+//おこしてきにだいダメージをあたえる。
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Wind Bomb" is used in
+//battle it causes a huge explosion
+//of wind and inflicts major damage
+//to the enemy.
+Using a {Wind     
+Bomb} in battle   
+causes a huge     
+explosion of wind,
+inflicting major  
+damage on the     
+enemy.            
+                  
+
+// 0x3961F
+#SETADDR(0x3961F)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//「せいなるやいば」　はせんとうちゅう
+//　　　　　　　　　　　　　　　　　　
+//ひしようすると、せいなるちからに　　
+//　　　　　　゛　　゛　　　　　　　　
+//よっててきにダメージをあたえる。　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Holy Blade" is used in
+//battle it inflicts damage upon
+//the enemy with holy power.
+Using a {Holy     
+Blade} in battle  
+inflicts damage   
+upon the enemy    
+with holy power.  
+                  
+                  
+                  
+
+// 0x396AF
+#SETADDR(0x396AF)
+//＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝゛＝
+//「しゅくふくのふだ」　をてきになげつ
+//　　　　　　　　　　　゛　　　　　　
+//けると、せいなるちからでてきの　　　
+//　　　　　　　゛　　　　　　　　　　
+//たいりょくをうばいさる。　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Blessed Charm" is thrown at the
+//enemy it takes away the enemy's health
+//with holy power.
+Throwing a {Bless-
+ed Charm} at the  
+enemy saps its    
+health with holy  
+power.            
+                  
+                  
+                  
+
+// 0x3973F
+#SETADDR(0x3973F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「しんせいなひかり」　はせんとうちゅ
+//　　　　　　　　　　　　　　　　゛　
+//うにしようすると、せいなるひかりが　
+//　　　　　　　　゛　゛　゛　　゛　　
+//てきをつつみこんで　だいダメージを　
+//　　　　　　　　　　　　　　　　　　
+//あたえる。　　　　　　　　　　　　　
+//When "Sacred Light" is used in
+//battle holy light engulfs the enemy
+//and inflicts major damage.
+Using {Sacred     
+Light} in battle  
+engulfs the enemy 
+in holy light,    
+inflicting major  
+damage.           
+                  
+                  
+
+// 0x397CF
+#SETADDR(0x397CF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ケーキ」　はしようすると、　　　　
+//　　　　　　　　　　　　　　　　　　
+//３にんのたいりょくをすこしかいふく　
+//　　　　　　　　　　　　　　　　　　
+//する。　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Cake" is used it slightly
+//restores the trio's health.
+Using {Cake}      
+slightly restores 
+the trio's health.
+                  
+                  
+                  
+                  
+                  
+
+// 0x3985F
+#SETADDR(0x3985F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ショートケーキ」　はしようすると、
+//　　　　　　　　　　　　　　　　　　
+//３にんのたいりょくをかなりかいふく　
+//　　　　　　　　　　　　　　　　　　
+//する。　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Shortcake" is used it
+//considerably restores the trio's
+//health.
+Using {Shortcake} 
+considerably      
+restores the      
+trio's health.    
+                  
+                  
+                  
+                  
+
+// 0x398EF
+#SETADDR(0x398EF)
+//＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「デラックスケーキ」　はしようすると
+//　　　　　　　　　　　　゛　　　　　
+//３にんのたいりょくをかんぜんに　　　
+//　　　　　　　　　　　　　　　　　　
+//かいふくする。　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Deluxe Cake" is used it
+//completely restores the trio's
+//health.
+Using {Deluxe     
+Cake} completely  
+restores the      
+trio's health.    
+                  
+                  
+                  
+                  
+
+// 0x3997F
+#SETADDR(0x3997F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ラッキーのこな」　はせんとうちゅう
+//　　　　　　　　　　　゛　　　　　　
+//にしようすると、かならずかいしんの　
+//　　゛　゛　　　　　　　　　　　　　
+//いちげきがえられる。　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Lucky Powder" is used in
+//battle a guaranteed critical hit is
+//obtained.
+Using {Lucky      
+Powder} in battle 
+guarantees a      
+critical hit.     
+                  
+                  
+                  
+                  
+
+// 0x39A0F
+// NOTE: Mistranslation? This is a dungeon escape item,
+// so I think it's もり　や　しろ rather than もりやしろ
+#SETADDR(0x39A0F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「せいれいのはね」　はしようすると、
+//　　　　　　　　　゛　　　゛゛　　　
+//もりやしろからぬけでることができる。
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Spirit Wings" are used it's
+//possible to escape through a forest shrine.
+Using {Spirit     
+Wings} makes it   
+possible to escape
+from forests,     
+castles, etc.     
+                  
+                  
+                  
+
+// 0x39A9F
+#SETADDR(0x39A9F)
+//＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「きつけぐすり」　はせんとうちゅうに
+//　　　　　　　　　　　　　　　　　　
+//しようすると、せんとうふのうのキャラ
+//　　　　　　　　　　　　　　　　　　
+//をふっかつする。　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Smelling Salts" are used in
+//battle they revive a downed
+//character.
+Using {Smelling   
+Salts} in battle  
+revives a downed  
+character.        
+                  
+                  
+                  
+                  
+
+// 0x39B2F
+#SETADDR(0x39B2F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「きょうふのふくろ」　はせんとうちゅ
+//　　　　　　　　　　　゛　゛　　　　
+//うにしようすると、てきがおどろいて　
+//　゛　　　　　　　　　　　　　　　　
+//にげていく。　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Bag of Terrors" is used in
+//battle the enemy flees in fear.
+Using a {Bag of   
+Terrors} in battle
+makes the enemy   
+flee in fear.     
+                  
+                  
+                  
+                  
+
+// 0x39BBF
+#SETADDR(0x39BBF)
+//＝＝＝゛＝＝＝゜＝＝＝＝＝＝＝＝＝＝
+//「フシギなはっぱ」　はしようすると、
+//　　　　　　　　　　　　　　　　　　
+//まりょくをすこしかいふくする。　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Mysterious Leaf" is used
+//it slightly restores magic.
+Using a {Mystery  
+Leaf} slightly    
+restores magic.   
+                  
+                  
+                  
+                  
+                  
+
+// 0x39C4F
+#SETADDR(0x39C4F)
+//＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「フシギなはな」　はしようすると、　
+//　　　　　　　　　　　　　　　　　　
+//まりょくをかなりかいふくする。　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Mysterious Flower" is used
+//it considerably restores magic.
+Using a {Mystery  
+Flower} consider- 
+ably restores     
+magic.            
+                  
+                  
+                  
+                  
+
+// 0x39CDF
+#SETADDR(0x39CDF)
+//＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「フシギなきのみ」　はしようすると、
+//　　　　　　　゛　　　　　　　　　　
+//まりょくをかんぜんにかいふくする。　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Mysterious Nut" is used
+//it completely restores magic.
+Using a {Mystery  
+Nut} completely   
+restores magic.   
+                  
+                  
+                  
+                  
+                  
+
+// 0x39D6F
+#SETADDR(0x39D6F)
+//＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「しにがみのかま」　はせんとうちゅう
+//　　　　　　　　　　　　　゛　゛　　
+//にしようすると、てきをいちげきで　　
+//　　　　　　　゛゛　　　　　　　　　
+//やっつけることができる。　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Reaper's Scythe" is used in
+//battle it's capable of finishing off the
+//enemy in a single blow.
+Using a {Reaper   
+Scythe} in battle 
+can finish off the
+enemy in a single 
+blow.             
+                  
+                  
+                  
+
+// 0x39DFF
+#SETADDR(0x39DFF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「はやさのフルーツ」　はせんとうちゅ
+//　　　　　　　　　　　　　　゛　　　
+//うにしようすると、はやさをあげること
+//゛゛　　　　　　　　　　　　　　　　
+//ができる。　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Speed Fruit" is used in battle
+//it's capable of increasing speed.
+Using {Speed      
+Fruit} in battle  
+can increase      
+speed.            
+                  
+                  
+                  
+                  
+
+// 0x39E8F
+#SETADDR(0x39E8F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ちからのフルーツ」　はせんとうちゅ
+//　　　　　　　　　　　゛　　　　　　
+//うにしようすると、こうげきりょくを　
+//　゛　　　゛゛　　　　　　　　　　　
+//あげることができる。　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Power Fruit" is used in battle
+//it's capable of increasing attack.
+Using {Strength   
+Fruit} in battle  
+can increase      
+attack.           
+                  
+                  
+                  
+                  
+
+// 0x39F1F
+#SETADDR(0x39F1F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「まもりのフルーツ」　はせんとうちゅ
+//　　　　　　　　　　　゛　　　　　　
+//うにしようすると、しゅびりょくを　　
+//　゛　　　゛゛　　　　　　　　　　　
+//あげることができる。　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Defense Fruit" is used in battle
+//it's capable of increasing defense.
+Using {Defense    
+Fruit} in battle  
+can increase      
+defense.          
+                  
+                  
+                  
+                  
+
+// 0x39FAF
+#SETADDR(0x39FAF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「かめののろい」　はせんとうちゅうに
+//　　　　　　　　　　　　　　　゛　　
+//しようすると、てきのはやさをさげる　
+//　　゛゛　　　　　　　　　　　　　　
+//ことができる。　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Turtle Spell" is used in battle
+//it's capable of decreasing the enemy's speed.
+Using a {Turtle   
+Spell} in battle  
+can decrease the  
+enemy's speed.    
+                  
+                  
+                  
+                  
+
+// 0x3A03F
+#SETADDR(0x3A03F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「やわらかいのろい」　はせんとうちゅ
+//　　　　　　　　　　　　　　゛　　　
+//うにしようすると、てきのしゅびりょく
+//　　゛　　　゛゛　　　　　　　　　　
+//をさげることができる。　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Soft Spell" is used in battle
+//it's capable of decreasing the enemy's defense.
+Using a {Soft     
+Spell} in battle  
+can decrease the  
+enemy's defense.  
+                  
+                  
+                  
+                  
+
+// 0x3A0CF
+#SETADDR(0x3A0CF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//「ひよわなのろい」　はせんとうちゅう
+//　　　　　　　　　　　　　゛　　　　
+//にしようすると、てきのこうげきりょく
+//　　゛　　　゛゛　　　　　　　　　　
+//をさげることができる。　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//When "Frailty Spell" is used in battle
+//it's capable of decreasing the enemy's attack.
+Using a {Frailty  
+Spell} in battle  
+can decrease the  
+enemy's attack.   
+                  
+                  
+                  
+                  
+
+//**********************************
+// Main menu
+//**********************************
+
+// 0x667A2
+#SETADDR(0x667A2)
+//ひかる　　　　ふう　　　　　うみ
+Hikaru Fuu   Umi
+
+// 0x667B2
+// RELOCATED
+//#SETADDR(0x667B2)
+//　　　なにをしますか？　　　
+//　　　　　　　　　　　゛　　
+//まほう　　　　　　ならべかえ
+//　　　　　　　　　゛　　　　
+//アイテム　　　　　でる　　　
+//What will you 
+//      do?     
+//Magic    Sort 
+//              
+//Items    Exit 
+
+// 0x6685E
+#SETADDR(0x6685E)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　　せんとうをだれにしますか？　　　
+//　　　　　　　　゛　　　　゛　　　　
+//　いまは、　　　がせんとうです。　　
+==================
+  Who will lead?  
+         is the   
+   leader now.    
+
+// 0x668A6
+#SETADDR(0x668A6)
+//　　　　をせんとうにします。　　　　
+        will lead.
+
+// 0x668BC
+// REFORMATTED (2-line -> 1-line)
+#SETADDR(0x668BC)
+//　　　　　　゛　　
+//　いやしのかぜ　　
+ Healing Breeze   
+
+// 0x668CE
+// REFORMATTED (2-line -> 1-line)
+#SETADDR(0x668CE)
+//　　　　　　　゜　
+//　いやしのせんぷう
+ Healing Cyclone  
+
+// 0x668E0
+// RELOCATED
+//#SETADDR(0x668E0)
+//アイテム
+//Items
+
+// 0x668E4
+// RELOCATED
+//#SETADDR(0x668E4)
+//つかう　　　　みる　　　　すてる
+//Use    View  Drop
+
+// 0x668FA
+// REFORMATTED (1-line -> 2-line)
+#SETADDR(0x668FA)
+//　　　　゜　
+//　スコップ　
+Shovel      
+
+// 0x66906
+// REFORMATTED (1-line -> 2-line)
+#SETADDR(0x66906)
+//　　　゛　　
+//　のこぎり　
+Saw         
+
+// 0x66912
+// REFORMATTED (1-line -> 2-line)
+#SETADDR(0x66912)
+//　　　　　　
+//　つうしんき
+Communicator
+
+// 0x6691E
+// RELOCATED
+//#SETADDR(0x6691E)
+//゛　　　　　　　　　　　　　
+//だれに　　　　　　　　　　を
+//　　　　　　　　　　　　　　
+//つかいますか？　　　　　
+//              
+//Use           
+//              
+//on whom?      
+
+// 0x66956
+//#SETADDR(0x66956)
+//　　　　　　゛　　　　　　
+//まほうりょくがたりない！！
+// Not enough  
+//     MP!     
+
+// 0x66970
+// RELOCATED
+//#SETADDR(0x66970)
+//　　　なにももっていません！
+//You don't have anything!
+
+// 0x66988
+#SETADDR(0x66988)
+//＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　どれをつかいますか？　　　　
+==================
+  Use which one?  
+
+// 0x669AC
+#SETADDR(0x669AC)
+//＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　どれをすてますか？　　　　　
+==================
+Discard which one?
+
+// 0x669D0
+//#SETADDR(0x669D0)
+//　　　゛　　　　　゛　　　　　　　　
+//　ここでは、まほうがつかえない！　　
+//  You can't use   
+//   magic here!    
+
+// 0x669F4
+#SETADDR(0x669F4)
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+                  
+                  
+
+// 0x66A18
+#SETADDR(0x66A18)
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+                  
+                  
+
+
+// 0x66A3C
+// RELOCATED
+//#SETADDR(0x66A3C)
+//　　　　いまはつかえません　　　　　
+// can't be used right now.
+
+// 0x66A4E
+// RELOCATED
+//#SETADDR(0x66A4E)
+//　　　　　　　　　をすてました　　　
+// was discarded.
+
+// 0x66A60
+// RELOCATED
+// Message for using certain items, e.g.
+// Shortcake
+//#SETADDR(0x66A60)
+//をつかいます
+// use.
+
+// 0x66A66
+// RELOCATED
+// Message for using a Spirit Feather
+//#SETADDR(0x66A66)
+//　　゛　　　　　゜　　゛　　　　　　
+//　　ぜんたいマップにもどります　　　
+//You'll go back to 
+//  the main map.   
+
+// 0x66A8A
+// Count of Gems as shown on Items->View screen
+#SETADDR(0x66A8A)
+//ほうせき　　　　　こ
+Gems      
+
+//**********************************
+// Enemy names.
+// Names are present in two versions: one for two-line messages,
+// where the diacritics have to be combined with the top border of
+// the text box, and the other for "normal" usage.
+//
+// These have been extended to 12 characters
+// from the original 8.
+//**********************************
+
+// 0x6DE2F
+#SETADDR(0x6DE2F)
+//＝＝＝＝゛＝＝＝
+//　ファルボル　　
+   Falbol   
+
+// 0x6DE3F
+#SETADDR(0x6DE3F)
+//　　　　゛　　　
+//　ファルボル　　
+   Falbol   
+
+// 0x6DE4F
+#SETADDR(0x6DE4F)
+//＝＝＝＝゛＝＝＝
+//　ヒュウボル　　
+   Huebol   
+
+// 0x6DE5F
+#SETADDR(0x6DE5F)
+//　　　　゛　　　
+//　ヒュウボル　　
+   Huebol   
+
+// 0x6DE6F
+#SETADDR(0x6DE6F)
+//＝゜＝＝＝＝゛＝
+//　パラリュード　
+  Paralude  
+
+// 0x6DE7F
+#SETADDR(0x6DE7F)
+//　゜　　　　゛　
+//　パラリュード　
+  Paralude  
+
+// 0x6DE8F
+#SETADDR(0x6DE8F)
+//＝＝＝゛＝＝＝゛
+//　アルデリュード
+  Aldelude  
+
+// 0x6DE9F
+#SETADDR(0x6DE9F)
+//　　　゛　　　゛
+//　アルデリュード
+  Aldelude  
+
+// 0x6DEAF
+#SETADDR(0x6DEAF)
+//＝＝＝゛＝＝＝＝
+//　マージュ　　　
+    Mage    
+
+// 0x6DEBF
+#SETADDR(0x6DEBF)
+//　　　゛　　　　
+//　マージュ　　　
+    Mage    
+
+// Since "Negrock" has unfortunate connotations in English,
+// it's been renamed. Simrock (the higher-level version)
+// has also been changed to maintain congruence.
+
+// 0x6DECF
+#SETADDR(0x6DECF)
+//＝゛＝＝＝＝＝＝
+//　ジムロック　　
+//  Simrock   
+   Blocky   
+
+// 0x6DEDF
+#SETADDR(0x6DEDF)
+//　゛　　　　　　
+//　ジムロック　　
+//  Simrock   
+   Blocky   
+
+// 0x6DEEF
+#SETADDR(0x6DEEF)
+//＝＝゛＝＝＝＝＝
+//　ネグロック　　
+//  Negrock   
+   Rocky    
+
+// 0x6DEFF
+#SETADDR(0x6DEFF)
+//　　゛　　　　　
+//　ネグロック　　
+//  Negrock   
+   Rocky    
+
+// 0x6DF0F
+#SETADDR(0x6DF0F)
+//＝＝＝＝＝゛＝＝
+//　モコナモドキ　
+Phony Mokona
+
+// 0x6DF1F
+#SETADDR(0x6DF1F)
+//　　　　　゛　　
+//　モコナモドキ　
+Phony Mokona
+
+// 0x6DF2F
+#SETADDR(0x6DF2F)
+//＝゜＝＝＝＝＝＝
+//　ピーラット　　
+   Peerat   
+
+// 0x6DF3F
+#SETADDR(0x6DF3F)
+//　゜　　　　　　
+//　ピーラット　　
+   Peerat   
+
+// 0x6DF4F
+#SETADDR(0x6DF4F)
+//＝゛＝＝゛＝＝＝
+//　グローデル　　
+  Growdel   
+
+// 0x6DF5F
+#SETADDR(0x6DF5F)
+//　゛　　゛　　　
+//　グローデル　　
+  Growdel   
+
+// 0x6DF6F
+#SETADDR(0x6DF6F)
+//＝＝＝＝＝＝＝＝
+//　ウクリニ　　　
+  Ukulini   
+
+// 0x6DF7F
+#SETADDR(0x6DF7F)
+//　　　　　　　　
+//　ウクリニ　　　
+  Ukulini   
+
+// 0x6DF8F
+#SETADDR(0x6DF8F)
+//＝＝＝＝゜＝＝＝
+//　エクリプス　　
+  Eclipse   
+
+// 0x6DF9F
+#SETADDR(0x6DF9F)
+//　　　　゜　　　
+//　エクリプス　　
+  Eclipse   
+
+// 0x6DFAF
+#SETADDR(0x6DFAF)
+//＝＝＝゛＝＝＝＝
+//　キングロック　
+  Kingrock  
+
+// 0x6DFBF
+#SETADDR(0x6DFBF)
+//　　　゛　　　　
+//　キングロック　
+  Kingrock  
+
+// 0x6DFCF
+#SETADDR(0x6DFCF)
+//＝＝＝゛＝＝＝＝
+//　エルバーン　　
+   Elvern   
+
+// 0x6DFDF
+#SETADDR(0x6DFDF)
+//　　　゛　　　　
+//　エルバーン　　
+   Elvern   
+
+// 0x6DFEF
+#SETADDR(0x6DFEF)
+//＝＝＝＝＝＝＝＝
+//　クインリュート
+  Quinroot  
+
+// 0x6DFFF
+#SETADDR(0x6DFFF)
+//　　　　　　　　
+//　クインリュート
+  Quinroot  
+
+// 0x6E00F
+#SETADDR(0x6E00F)
+//＝゛＝＝＝゛＝＝
+//　ダルハッグ　　
+  Daalhag   
+
+// 0x6E01F
+#SETADDR(0x6E01F)
+//　゛　　　゛　　
+//　ダルハッグ　　
+  Daalhag   
+
+// 0x6E02F
+#SETADDR(0x6E02F)
+//＝＝＝＝＝＝＝＝
+//　ヤミュ　　　　
+   Yhamew   
+
+// 0x6E03F
+#SETADDR(0x6E03F)
+//　　　　　　　　
+//　ヤミュ　　　　
+   Yhamew   
+
+// 0x6E04F
+#SETADDR(0x6E04F)
+//＝＝＝゛＝＝＝＝
+//　ヘッジラス　　
+ Hedgelath  
+
+// 0x6E05F
+#SETADDR(0x6E05F)
+//　　　゛　　　　
+//　ヘッジラス　　
+ Hedgelath  
+
+// 0x6E06F
+#SETADDR(0x6E06F)
+//＝＝＝＝＝＝゛＝
+//　フローラ１ゴウ
+Flora No. 1 
+
+// 0x6E07F
+#SETADDR(0x6E07F)
+//　　　　　　゛　
+//　フローラ１ゴウ
+Flora No. 1 
+
+// 0x6E08F
+#SETADDR(0x6E08F)
+//＝＝＝＝＝＝゛＝
+//　フローラ２ゴウ
+Flora No. 2 
+
+// 0x6E09F
+#SETADDR(0x6E09F)
+//　　　　　　゛　
+//　フローラ２ゴウ
+Flora No. 2 
+
+// 0x6E0AF
+#SETADDR(0x6E0AF)
+//＝＝＝＝＝＝゛＝
+//　フローラ３ゴウ
+Flora No. 3 
+
+// 0x6E0BF
+#SETADDR(0x6E0BF)
+//　　　　　　゛　
+//　フローラ３ゴウ
+Flora No. 3 
+
+// 0x6E0CF
+#SETADDR(0x6E0CF)
+//＝＝＝＝＝＝＝＝
+//　フェリオ　　　
+   Ferio    
+
+// 0x6E0DF
+#SETADDR(0x6E0DF)
+//　　　　　　　　
+//　フェリオ　　　
+   Ferio    
+
+// 0x6E0EF
+#SETADDR(0x6E0EF)
+//＝＝＝＝＝＝＝＝
+//ファイアーキラー
+Fire Killer 
+
+// 0x6E0FF
+#SETADDR(0x6E0FF)
+//　　　　　　　　
+//ファイアーキラー
+Fire Killer 
+
+// 0x6E10F
+#SETADDR(0x6E10F)
+//＝＝＝＝＝＝＝＝
+//　アクアキラー　
+Aqua Killer 
+
+// 0x6E11F
+#SETADDR(0x6E11F)
+//　　　　　　　　
+//　アクアキラー　
+Aqua Killer 
+
+// 0x6E12F
+#SETADDR(0x6E12F)
+//＝＝＝＝゛＝＝＝
+//　ウィンドキラー
+Wind Killer 
+
+// 0x6E13F
+#SETADDR(0x6E13F)
+//　　　　゛　　　
+//　ウィンドキラー
+Wind Killer 
+
+// 0x6E14F
+#SETADDR(0x6E14F)
+//＝゛゛＝＝＝＝＝
+//　ザガート　　　
+   Zagato   
+
+// 0x6E15F
+#SETADDR(0x6E15F)
+//　゛゛　　　　　
+//　ザガート　　　
+   Zagato   
+
+//**********************************
+// Battle messages
+//**********************************
+
+// 0x6E16F
+// RELOCATED
+//#SETADDR(0x6E16F)
+//゛　　　　　　　
+//があらわれた！！
+// appeared!
+
+// 0x6E199
+#SETADDR(0x6E199)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　゛　　　　　　　　　
+//　　　　　　　　がおそいかかる！　　
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+     attacks!     
+                  
+
+// 0x6E1E1
+#SETADDR(0x6E1E1)
+//＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝
+//　　　　　　　　がおそいかかる！　　
+//　　　　　　　　　　゛　　　　　　　
+//　アンラッキーないちげき！　　　　　
+==================
+                  
+     attacks!     
+ An unlucky hit!  
+
+// 0x6E229
+#SETADDR(0x6E229)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　はほのおをはいた！！
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+ breathed flames! 
+                  
+
+
+// 0x6E271
+#SETADDR(0x6E271)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　゛　　　　　　　
+//　　　　　　　　はかぜをまきおこした
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+  caused a gust.  
+                  
+
+// 0x6E2B9
+#SETADDR(0x6E2B9)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　゛　　　　　　　
+//　　　　　　　　はふぶきをはいた！！
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+    blew snow!    
+                  
+
+// 0x6E301
+#SETADDR(0x6E301)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　は、きゅうしょを　　
+//　　　　　　　　　　　　　　　　　　
+//ねらってきた！　　　　　　　　　　　
+==================
+                  
+ took aim at the  
+     vitals!      
+
+// this is a one-hit KO attack on an ally,
+// whose name is inserted into the message
+
+// 0x6E349
+#SETADDR(0x6E349)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　゛　　　　　　　　　　
+//　　　　は、きぜつしてしまった！　　
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+       passed out!
+                  
+
+// 0x6E391
+// RELOCATED
+//#SETADDR(0x6E391)
+//　　　　　　゛　　　　　　　　　　　
+//　しかしこうげきは、くうをきった！！　
+//However, the attack missed!
+
+// 0x6E3B5
+#SETADDR(0x6E3B5)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　は、いきをすいこむ！
+//　゛　　　　　　　　　　　　　　　　
+//　げんきになってしまった　　　　　　
+// takes a deep breath!
+//(went and/up and) got better.
+==================
+                  
+took a deep breath
+  and recovered!  
+
+// 0x6E3FD
+#SETADDR(0x6E3FD)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　はいちもくさんに、　
+//　゛゛　　　　　　　　　　　　　　　
+//にげだした！　　　　　　　　　　　　
+==================
+                  
+ ran away at full 
+      speed!      
+
+// 0x6E445
+#SETADDR(0x6E445)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　は、さいみんはを　　
+//　　　　　　　　　　　　　　　　　　
+//はっしてきた！！　　　　　　　　　　
+==================
+                  
+  emitted sleep   
+      waves!      
+
+// 0x6E48D
+#SETADDR(0x6E48D)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　　　　　　　　　
+//　　　　は、ふかいねむりについた！　
+//　　　　　　　　　　　　　　　　　　
+==================
+       fell into  
+  a deep sleep!   
+                  
+
+// 0x6E4D5
+// RELOCATED
+//#SETADDR(0x6E4D5)
+//　　　　　　　　　　　　　　　　　　
+//しかし　さいみんは　はきかなかった　
+//However, the sleep waves had no effect.
+
+// Because of how we're formatting messages,
+// using "[enemy]'s" would look awkward, so
+// I've rephrased these a bit to accommodate.
+
+// 0x6E4F9
+#SETADDR(0x6E4F9)
+//＝＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝
+//　　　　　　　　のほのおが、３にんを
+//　　　　　　　　　　　　　　　　　　
+//のみこむ！！　　　　　　　　　　　　
+//'s flames
+//engulf the trio!
+==================
+                  
+engulfed the trio 
+    in flames!    
+
+// 0x6E541
+#SETADDR(0x6E541)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　のまきおこしたたつま
+//　゛　　　　　　　　　　　　　　　　
+//きが、３にんをまきこむ！！　　　　　
+//'s tornado
+//swallows up the trio!
+==================
+                  
+swallowed the trio
+ up in a tornado! 
+
+// 0x6E589
+#SETADDR(0x6E589)
+//＝＝＝＝＝＝＝＝＝＝゛＝゛＝＝＝＝＝
+//　　　　　　　　のふぶきが、３にんを
+//　　　　　　　　　　　　　　　　　　
+//のみこむ！！　　　　　　　　　　　　
+//'s blizzard
+//engulfs the trio!
+==================
+                  
+engulfed the trio 
+  in a blizzard!  
+
+//**********************************
+// More battle messages
+//**********************************
+
+// 0x7BA56
+#SETADDR(0x7BA56)
+//　　　　　　　゛　　　　　　　　　　
+//　ふっかつカード！！　　　　　　　　
+                  
+  A revive card!  
+
+// 0x7BA7A
+#SETADDR(0x7BA7A)
+//　　　　゛　　　　　゛　　　゛　　　
+//　３にんがったいこうげきカード！！　
+ A 3-person team  
+   attack card!   
+
+// 0x7BA9E
+#SETADDR(0x7BA9E)
+//　　　　　　゛　　　　　　　　　　　
+//　ねむりカード！！　　　　　　　　　
+                  
+  A sleep card!   
+
+#SETADDR(0x7BAC2)
+//　　　゛　　　　　　　゛　　　　　　
+//　いちげきひっさつカード！！　　　　
+  A one-hit-kill  
+      card!       
+
+// 0x7BAE6
+#SETADDR(0x7BAE6)
+//　　　　　　　　　　　　゛　　　　　
+//　たいりょくかいふくカード！！　　　
+A health recovery
+      card!       
+
+#SETADDR(0x7BB0A)
+//　　　　　　　　゛　　　゛　　　　　
+//　かいしんのいちげきカード！！　　　
+  A critical hit  
+      card!       
+
+// 0x7BB2E
+#SETADDR(0x7BB2E)
+//　　　　　　゛　　　　　　　　　　　
+//　みきりカード！！　　　　　　　　　
+                  
+A perception card!
+
+#SETADDR(0x7BB52)
+//　　　　　　　　　　　゛　　　　　　
+//　まりょくかいふくカード！！　　　　
+ A magic recovery 
+      card!       
+
+// 0x7BB76
+#SETADDR(0x7BB76)
+//　　　　　　゛　　゛　　　　　　　　
+//　すたこらにげカード！！　　　　　　
+  A quick escape  
+      card!       
+
+#SETADDR(0x7BB9A)
+//　　　　　　　゛　　　　　　　　　　
+//　おたからカード！！　　　　　　　　
+                  
+ A treasure card! 
+
+// 0x7BBBE
+#SETADDR(0x7BBBE)
+//　　　　　　　　　゛　　　　　　　　
+//　アンラッキーカード！！　　　　　　
+                  
+ An unlucky card! 
+
+#SETADDR(0x7BBE2)
+//　　゛　゛　　゛　　　　　　　　　　
+//　にげるがかちだ！！　　　　　　　　
+  Better to run   
+   than to die!   
+
+// 0x7BC06
+#SETADDR(0x7BC06)
+//　　　　　　　　　　　　　　　　　　
+//　てきはねむりにおちた！　　　　　　
+  The enemy fell  
+     asleep!      
+
+#SETADDR(0x7BC2A)
+//　゛　　　　　　　　゛゛　　　　　　
+//　ぜんいんのまりょくがぜんかいふく！
+//Completely recovers all member's magic!
+// Everyone's magic 
+//is fully restored!
+ Everyone's magic 
+  was restored!   
+
+// 0x7BC4E
+#SETADDR(0x7BC4E)
+//　　　゛　　　゛　゛　　　　　　　　
+//　れんぞくこうげきだ！　　　　　　　
+   Consecutive    
+     attacks!     
+
+#SETADDR(0x7BC72)
+//　　　　　　　　　　　　　　　　　　
+//　　　は、てきのきゅうしょをついた！
+//on the enemy's vitals!
+       struck the 
+ enemy's vitals!  
+
+// 0x7BC96
+#SETADDR(0x7BC96)
+//　゛　　　　　゛゛　゛　　　　　　　
+//　ぜんいんのきずがすべてなおった！　
+   All members'   
+  wounds healed!  
+
+#SETADDR(0x7BCBA)
+//　　　　　　　゛　　　　゛　　゛　　
+//　３にんのからだにちからがみなぎる！
+//Power swells within the girls' bodies!
+ Power swelled in 
+the girls' bodies!
+
+// 0x7BCDE
+#SETADDR(0x7BCDE)
+//　　　　　゛　　　　　　　　　　　　
+//　てきのうごきをみきった！　　　　
+ Read the enemy's 
+     movement!    
+
+#SETADDR(0x7BD02)
+//　　　　　　　　　　　　　　　　　　
+//　ほうせき５００コをてにいれた！　　
+                  
+Acquired 500 gems!
+
+// 0x7BD26
+#SETADDR(0x7BD26)
+//　　　　　゛　　　゛　　　　　　　　
+//　しかし、だれもきぜつしてなかった！
+    But no one    
+ was passed out!  
+
+#SETADDR(0x7BD4A)
+//　　　　　　゛　　　　　　　　　　　
+//　　　　はきぜつからたちなおった！　
+//recovered from unconsciousness!
+        recovered  
+  from fainting!  
+
+// 0x7BD6E
+#SETADDR(0x7BD6E)
+//　　　　　　　　　　　　　゛　　　　
+//　　　のたいりょくは　はんげんした！
+//'s health was cut in half!
+        lost half 
+   her health!    
+
+// 0x7BD92
+#SETADDR(0x7BD92)
+//＝＝＝＝＝＝＝＝＝＝゛＝＝＝゛＝＝＝
+//　　　　は、まりょくが　はんげんした
+//　　　　　゛　　　　　　　　　　　　
+//　ようなきかした　　　　　　　　　　
+==================
+        felt like 
+her magic got cut 
+     in half.     
+
+// NOTE: I accidentally left the second half of this line
+// out when I was prepping the script for translation --
+// please check!
+// Original translation:
+//
+// magic was cut in half.
+
+
+//**********************************
+// Still more battle messages
+//**********************************
+
+// 0x7DE81
+#SETADDR(0x7DE81)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+==================
+                  
+                  
+                  
+==================
+
+
+// 0x7DEDB
+#SETADDR(0x7DEDB)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　　　　　゛　　　
+//　「やったー！　ラッキーカード！」　
+//　　　　　　　　　　　　　　　　　　
+==================
+{Hooray! A lucky  
+      card!}      
+                  
+
+// 0x7DF23
+#SETADDR(0x7DF23)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　たたかう　　　　　アイテム　　　　
+//　　　　　　　　　　　゛　　　　　　
+//　まほう　　　　　　にげる　　　　　
+==================
+ Fight    Items   
+                  
+ Magic    Run     
+
+//******************************
+// Spell names in battle.
+// Menu has been reformatted to allow
+// 18-character names.
+//******************************
+
+// 0x7DF71
+#SETADDR(0x7DF71)
+//＝＝＝＝＝＝＝＝＝
+//　ほのおのや　　　
+Flame Arrow       
+
+// 0x7DF83
+#SETADDR(0x7DF83)
+//　　　　　　゛　　
+//　あかいいなずま　
+Crimson Lightning 
+
+// 0x7DF95
+#SETADDR(0x7DF95)
+//＝＝＝＝＝＝゛＝＝
+//　あかいいなずま　
+Crimson Lightning 
+
+// 0x7DFA7
+#SETADDR(0x7DFA7)
+//　　　　　　　　　
+//　ほのおのくさり　
+Flame Chain       
+
+// 0x7DFB9
+#SETADDR(0x7DFB9)
+//＝＝＝＝＝＝＝＝＝
+//　ほのおのくさり　
+Flame Chain       
+
+// 0x7DFCB
+#SETADDR(0x7DFCB)
+//　　　　　　　　　
+//　あかいせんこう　
+Crimson Flash     
+
+// 0x7DFDD
+#SETADDR(0x7DFDD)
+//＝＝＝＝＝＝゛＝＝
+//　いやしのかぜ　　
+Healing Breeze    
+
+// 0x7DFEF
+#SETADDR(0x7DFEF)
+//　　　　　　　゜　
+//　いやしのせんぷう
+Healing Cyclone   
+
+// 0x7E001
+#SETADDR(0x7E001)
+//＝＝＝＝＝＝＝゜＝
+//　いやしのせんぷう
+Healing Cyclone   
+
+// 0x7E013
+#SETADDR(0x7E013)
+//　　゛　　　　゜　
+//　みどりのしっぷう
+Emerald Typhoon   
+
+// 0x7E025
+#SETADDR(0x7E025)
+//＝＝゛＝＝＝＝゜＝
+//　みどりのしっぷう
+Emerald Typhoon   
+
+// 0x7E037
+#SETADDR(0x7E037)
+//　　　　　　゛　　
+//　まもりのかぜ　　
+//Winds of Protection
+Wind of Protection
+
+// 0x7E049
+#SETADDR(0x7E049)
+//＝＝＝＝＝＝＝＝＝
+//　こおりのや　　　
+Ice Arrow         
+
+// 0x7E05B
+#SETADDR(0x7E05B)
+//　　゛　　　　　　
+//　みずのりゅう　　
+Water Dragon      
+
+// 0x7E06D
+#SETADDR(0x7E06D)
+//＝＝゛＝＝＝＝＝＝
+//　みずのりゅう　　
+Water Dragon      
+
+// 0x7E07F
+#SETADDR(0x7E07F)
+//　　゛　　゛　　　
+//　みずのかべ　　　
+Water Wall        
+
+// 0x7E091
+#SETADDR(0x7E091)
+//＝＝゛＝＝゛＝＝＝
+//　みずのかべ　　　
+Water Wall        
+
+// 0x7E0A3
+#SETADDR(0x7E0A3)
+//　　　　　　　　　
+//　あおいたつまき　
+Sapphire Whirlwind
+
+// 0x7E0B5
+// indicator displayed above MP bar when selecting
+// spells in battle
+#SETADDR(0x7E0B5)
+//まりょく
+//magic
+ MP 
+
+// 0x7E0B9
+#SETADDR(0x7E0B9)
+//　　゛　　　　　　　　　　　　　　　
+//　　だれにまほうを　かけますか　　　
+  Cast magic on   
+      whom?       
+
+// 0x7E0DD
+// RELOCATED
+//#SETADDR(0x7E0DD)
+//＝＝＝＝＝゛＝＝＝
+//　まりょくが　　　
+//　　　　　　　　　
+//　たりません　　　
+//Not enough
+//magic.
+
+//*****************
+// Messages for using magic.
+// In the original game, these are printed
+// in two parts, both in the same dialogue box:
+// the top two lines first, then the bottom
+// two after a short delay.
+// The translated text is too long for that, so
+// they've been adjusted so each part gets its
+// own full box of text (and have accordingly
+// been relocated to the other script file).
+//*****************
+
+// 0x7E131
+//#SETADDR(0x7E131)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「ほのおのやーっ！」　　　
+//Hikaru "Flame Arrow!"
+
+//#SETADDR(0x7E155)
+//　　　　　　　　゛　　　　　　　　　
+//やとなったほのおが　てきをつらぬく！
+//Flames that became an arrow pierce the enemy!
+
+// 0x7E179
+//#SETADDR(0x7E179)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ひかる　「あかいいなづまーっ」　　
+//Hikaru "Crimson Lightning!"
+
+//#SETADDR(0x7E19D)
+//　　　　　　　　゛　　　　　　　　　
+//ほのおのせんこうが　てきをつつむ！　
+//A flash of flame engulfs the enemy!
+
+// 0x7E1C1
+//#SETADDR(0x7E1C1)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「ほのおのくさりっ！」　　
+//Hikaru "Flame Chain!"
+
+//#SETADDR(0x7E1E5)
+//　　　　　　　　　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+
+// 0x7E209
+//#SETADDR(0x7E209)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ひかる　「あかいせんこう！」　　　
+//Hikaru "Crimson Flash!"
+
+//#SETADDR(0x7E22D)
+//　　　　　　　゛　　　　　　　　　　
+//しんくのひかりが　いきのねをとめる　
+// crimson light chokes the life from.
+
+// 0x7E251
+//#SETADDR(0x7E251)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ふう　　「いやしのかぜ」　　　　　
+//Fuu "Healing Breeze!"
+
+//#SETADDR(0x7E275)
+//　　　　　　　　゛　　　　　　　　　
+//　やわらかい　かぜに　つつまれた！　
+// was enveloped in a gentle breeze!
+
+// 0x7E299
+//#SETADDR(0x7E299)
+//＝＝＝＝＝＝＝＝＝＝＝＝゜＝＝＝＝＝
+//　ふう　　「いやしのせんぷう！」　　
+//Fuu "Healing Cyclone!"
+
+//#SETADDR(0x7E2BD)
+//　　　　　　　゛゛　　　　　　　　　
+//あたたかい　かぜが　みんなをつつむ！
+//A warm breeze engulfs everyone!
+
+// 0x7E2E1
+//#SETADDR(0x7E2E1)
+//＝＝＝＝＝＝＝゛＝＝＝＝゜＝＝＝＝＝
+//　ふう　　「みどりのしっぷう」　　　
+//Fuu "Emerald Typhoon!"
+
+//#SETADDR(0x7E305)
+//　　゛゛　　　　　　　　　　　　　　
+//　かぜが　くうきをひきさく！　　　　
+//Winds rend the air!
+
+// 0x7E329
+//#SETADDR(0x7E329)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　ふう　　「まもりのかぜーっ！」　　
+//Fuu "Winds of Protection!"
+
+//#SETADDR(0x7E34D)
+//　゛゛　　　　　　　　　　　　　　　
+//かぜが　たてとなり　みんなをまもる！
+//The wind becomes a shield and protects everyone!
+
+// 0x7E371
+//#SETADDR(0x7E371)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「こおりのや！」　　　　　
+//Umi "Ice Arrow!"
+
+//#SETADDR(0x7E395)
+//　　　　　　゛　　　　　　　　　　　
+//　いてつくやが　てきをつらぬく！　　
+//A freezing arrow pierces the enemy!
+
+// 0x7E3B9
+//#SETADDR(0x7E3B9)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「みずのりゅう！」　　　　
+//Umi "Water Dragon!"
+
+//#SETADDR(0x7E3DD)
+//　　　　　　　　゛゛　　　　　　　　
+//りゅうとなったうずが　てきをつつむ　
+//A whirlpool that became a dragon engulfs the enemy.
+
+// 0x7E401
+//#SETADDR(0x7E401)
+//＝＝＝＝＝＝＝゛＝＝゛＝＝＝＝＝＝＝
+//　うみ　　「みずのかべ！」　　　　　
+//Umi "Water Wall!"
+
+//#SETADDR(0x7E425)
+//　゛　　　゛　　　　　　　゛　　　　
+//みずのまくが、てきにたちはだかる！　
+//A sheet of water stands in the way of the enemy!
+
+// 0x7E449
+//#SETADDR(0x7E449)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　うみ　　「あおいたつまき」　　　　
+//Umi "Sapphire Whirlwind!"
+
+//#SETADDR(0x7E46D)
+//　　　　　゛゛　　　　　　　　　　　
+//　あおいうずが　みんなをつれさる！　
+//A blue whirl sweeps everyone away!
+
+// 0x7E4A7
+#SETADDR(0x7E4A7)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「それっ！」　　　　　　　　　　　
+//　　　　　　　゛゛　　　　　　　　　
+//　ひかるは　にげだした　　　　　　　
+==================
+  {Over there!}   
+ Hikaru ran away. 
+                  
+
+// 0x7E4EF
+#SETADDR(0x7E4EF)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「いきましょう！」　　　　　　　　
+//　　　　　　゛゛　　　　　　　　　　
+//　ふうは　にげだした　　　　　　　　
+==================
+   {Let's go!}    
+  Fuu ran away.   
+                  
+
+// 0x7E537
+#SETADDR(0x7E537)
+//＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「おぼえてらっしゃい！」　　　　　
+//　　　　　　゛゛　　　　　　　　　　
+//　うみは　にげだした！！　　　　　　
+==================
+ {I won't forget  
+      this!}      
+  Umi ran away!   
+
+// 0x7E57F
+#SETADDR(0x7E57F)
+//＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「じゃあねぇー！」　　　　　　　　
+//　　　　　　　　　゛　゛　　　　　　
+//　ひかるたちは　にげのびた！！　　　
+==================
+ {See ya!} Hikaru 
+  and the others  
+made their escape!
+
+// 0x7E5C7
+#SETADDR(0x7E5C7)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「さようならぁー！」　　　　　　　
+//　　　　　　　　゛　゛　　　　　　　
+//　ふうたちは　にげのびた！！　　　　
+==================
+ {Good-bye!} Fuu  
+  and the others  
+made their escape!
+
+// 0x7E60F
+#SETADDR(0x7E60F)
+//＝＝゛＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「ばいばぁーい！」　　　　　　　　
+//　　　　　　　　゛　゛　　　　　　　
+//　うみたちは　にげのびた！！　　　　
+==================
+  {Bye-bye!} Umi  
+  and the others  
+made their escape!
+
+// 0x7E657
+#SETADDR(0x7E657)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「うわっ！」　　　　　　　　　　　
+//　　　　　　　　゛　　　　　　　　　
+//　ひかるは　あしがもつれた！　　　　
+==================
+     {Waah!}      
+Hikaru's legs got 
+     tangled!     
+
+// 0x7E69F
+#SETADDR(0x7E69F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「きゃあっ！」　　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　ふうは　つかまってしまった！！　　
+==================
+      {Eek!}      
+ Fuu was caught!  
+                  
+
+// 0x7E6E7
+#SETADDR(0x7E6E7)
+//＝＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「ゲッ！！」　　　　　　　　　　　
+//　　　　　　　　゛　　　　　　　　　
+//　うみは　ころんでしまった！！　　　
+==================
+      {Urk!}      
+  Umi fell over!  
+                  
+
+// 0x7E72F
+// message for trying to flee an unfleeable enemy --
+// the active party member's name is printed as
+// the speaker
+#SETADDR(0x7E72F)
+//　　　　　゛　　　　　　　　　　　　
+//　　　「にげるわけにはいかないわ！」
+// "You're not running away!"
+      : {We can't 
+    run away!}    
+
+// 0x7E759
+#SETADDR(0x7E759)
+//　　　　　　　　　　　　　　　　　　
+//　ひかる　「いくよー！」　　　　　　
+Hikaru: {Here     
+      goes!}      
+
+// 0x7E77D
+#SETADDR(0x7E77D)
+//　　　　　　　　　　　　　　　　　　
+//　ふう　　「いきますわよ！」　　　　
+Fuu: {Here I      
+      come!}      
+
+// 0x7E7A1
+#SETADDR(0x7E7A1)
+//　　　　　　　　゛　　　　　　　　　
+//　うみ　　「かくごしなさい！」　　　
+Umi: {Prepare     
+    yourself!}    
+
+// 0x7E7C5
+#SETADDR(0x7E7C5)
+//　　　　　　　　　゛　　　　　　　　
+//　　かいしんのいちげき　　　　　　　
+// critical hit
+  Critical hit!   
+                  
+
+// 0x7E7E9
+#SETADDR(0x7E7E9)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　　　　　　　　　　
+//　しかし、まほうはきかなかった！　　
+//However, magic had no effect!
+==================
+However, the magic
+  had no effect!  
+
+// 0x7E841
+#SETADDR(0x7E841)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　てきにかすった！　　　　　　　　　
+//　　　　　゛　　゛　　　　　　　　　
+//　かすかなダメージ　　　　　　　　　
+==================
+Grazed the enemy! 
+   Weak damage.   
+                  
+
+// 0x7E889
+#SETADDR(0x7E889)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　かるーくヒット！　　　　　　　　　
+//　　゛　　゛　　゛　　　　　　　　　
+//　わずかなダメージ　　　　　　　　　
+==================
+   A light hit!   
+  Slight damage.  
+                  
+
+// 0x7E8D1
+#SETADDR(0x7E8D1)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　あさいあたりだ　　　　　　　　　　
+//　　　　゛　　゛　　　　　　　　　　
+//　かるいダメージ！　　　　　　　　　
+==================
+  A shallow hit.  
+  Minor damage!   
+                  
+
+// 0x7E919
+#SETADDR(0x7E919)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　ちょっとあたった！　　　　　　　　
+//　　　　　゛　　゛　　　　　　　　　
+//　すこしのダメージ！　　　　　　　　
+//==================
+//  Somewhat hit!   
+// A little damage! 
+//                  
+==================
+ Hit marginally!  
+ A little damage! 
+                  
+
+// 0x7E961
+#SETADDR(0x7E961)
+//＝＝＝＝＝＝゛＝＝゛＝＝＝＝＝＝＝＝
+//　そこそこのダメージ！　　　　　　　
+//　　　　　　　　゛　　　　　　　　　
+//　すこしいたそうだ！　　　　　　　　
+==================
+  Decent damage!  
+That looks like it
+  hurt a little!  
+
+// 0x7E9A9
+#SETADDR(0x7E9A9)
+//＝＝＝＝゛＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　いいてごたえだ！　　　　　　　　　
+//　　　　　゛　゛　　゛　　　　　　　
+//　あるていどのダメージ！　　　　　　
+==================
+ You feel a good  
+  response! Some  
+ extent of damage!
+
+// 0x7E9F1
+#SETADDR(0x7E9F1)
+//＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝
+//　いいあたりだ！　　　　　　　　　　
+//　　　　　　゛　　゛　　　　　　　　
+//　まあまあのダメージ！　　　　　　　
+==================
+ It's a good hit! 
+ Passable damage! 
+                  
+
+// 0x7EA39
+#SETADDR(0x7EA39)
+//＝＝＝＝＝＝゛゛＝＝＝＝＝＝＝＝＝＝
+//　けっこうなだげき！　　　　　　　　
+//　　　　　　　　゛　　゛　　　　　　
+//　ちゅうくらいのダメージ！　　　　　
+//==================
+//   A nice blow!   
+//  Around medium   
+//     damage!      
+==================
+   A nice blow!   
+ Middling damage! 
+                  
+
+// 0x7EA81
+#SETADDR(0x7EA81)
+//＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝
+//　おおきなてごたえ！　　　　　　　　
+//　　　　　　゛　　゛　　　　　　　　
+//　なかなかのダメージ！　　　　　　　
+==================
+ You feel a major 
+ response! Pretty 
+   good damage!   
+
+// 0x7EAC9
+#SETADDR(0x7EAC9)
+//＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝＝
+//　たしかなてごたえ！　　　　　　　　
+//　　　　　゛　　゛　　　　　　　　　
+//　おおきなダメージ！　　　　　　　　
+==================
+ You feel a solid 
+    response!     
+  Major damage!   
+
+// 0x7EB11
+#SETADDR(0x7EB11)
+//＝＝＝＝＝゛゛＝゛＝＝＝＝＝＝＝＝＝
+//　おおきなだげきだ！　　　　　　　　
+//　　　　　゛　　゛　　　　　　　　　
+//　かなりのダメージ！　　　　　　　　
+==================
+  A major blow!   
+   Considerable   
+     damage!      
+
+// 0x7EB59
+#SETADDR(0x7EB59)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　クリーンヒット！　　　　　　　　　
+//　　゛　　　　　゛　　゛　　　　　　
+//　すごくおおきなダメージ！　　　　　
+==================
+   A clean hit!   
+ Extremely major  
+     damage!      
+
+// 0x7EBA1
+#SETADDR(0x7EBA1)
+//＝＝゛゛＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　かぜがうなる！　　　　　　　　　　
+//　　　　　　゛　　゛　　　　　　　　
+//　おそろしいダメージ！　　　　　　　
+==================
+ The wind howls!  
+Terrifying damage!
+                  
+
+// 0x7EBE9
+#SETADDR(0x7EBE9)
+//＝＝＝゛＝＝＝゛＝＝゛＝＝＝＝＝＝＝
+//　とんでもないダメージ！　　　　　　
+//　　　゛　　　　　　　　　　　　　　
+//　ふかでをおわせた！　　　　　　　　
+//Outrageous damage!
+//A severe wound inflicted!
+==================
+Outrageous damage!
+Inflicted a severe
+      wound!      
+
+// 0x7EC31
+#SETADDR(0x7EC31)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　きゅうしょにはいった！　　　　　　
+//　゛　　　　゛　　゛　　　　　　　　
+//　げきれつなダメージ！　　　　　　　
+==================
+ Hit the vitals!  
+ Intense damage!  
+                  
+
+// 0x7EC79
+#SETADDR(0x7EC79)
+//＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝
+//　きゅうきょくのてごたえ！　　　　　
+//　゛　゛　　゛　　゛　　　　　　　　
+//　ばくだいなダメージ！！　　　　　　
+==================
+   You feel an    
+extreme response! 
+ Immense damage!  
+
+// 0x7ECC1
+#SETADDR(0x7ECC1)
+//＝゛＝＝＝＝＝゛＝＝゛＝゛＝＝゛＝＝
+//　だいちをゆるがす　だいダメージ！　
+//　　　　　　　　　゛　　　　　　　　
+//　さいこうのあたりだ！！！！　　　　
+//==================
+//  Earth-shaking   
+//     damage!      
+// The supreme hit! 
+==================
+  Earth-shaking   
+     damage!      
+  A supreme hit!  
+
+// 0x7ED09
+// shifted tilemap destination down a line
+//#SETADDR(0x7ED09)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　゛　　　　　゛　　　　　゛　　
+//ほのおが　てきのうごきを　ふうじた！
+//Flames inhibited the enemy's movement!
+ Flames inhibited 
+   the enemy's    
+    movement!     
+
+// 0x7ED3F
+#SETADDR(0x7ED3F)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　゛゛　　　　　゛　　　　　　　　
+//　かぜがてきのこうげきをよわめた！　
+//　　　　　　　　　　　　　　　　　　
+==================
+Winds weakened the
+ enemy's attack!  
+                  
+
+// 0x7ED87
+#SETADDR(0x7ED87)
+//＝゛＝＝゛゛＝＝＝＝＝＝゛＝＝＝＝＝
+//みずのかべが　てきのこうげきをはねか
+//　　　　　　　　　　　　　　　　　　
+//えした！！　　　　　　　　　　　　　
+==================
+    Water Wall    
+repelled the enemy
+     attack!      
+
+//*******************
+// Messages from the Knights
+// for getting hit
+//*******************
+
+// Hikaru
+
+// 0x7EDED
+#SETADDR(0x7EDED)
+//　　　　　　゛　　　　　　　　　　　
+//　このくらいじゃ　まけない！　　　　
+//won't be defeated by this (amount)!
+That isn't enough 
+   to beat me!    
+
+// 0x7EE11
+#SETADDR(0x7EE11)
+//　　　　　　　゛　　　　　　　　　　
+//　やったなー！でもまけるもんか！　　
+//You got me, but no
+//  way I'm going   
+//      down!       
+You got me, but I 
+  won't go down!  
+
+// 0x7EE35
+#SETADDR(0x7EE35)
+//　　　　　　　　　　　　　　　　　　
+//　い・・・いたい・・・　　　　　　　
+ I-It... hurts... 
+                  
+
+// 0x7EE59
+#SETADDR(0x7EE59)
+//　　　゛　　　　　　　　　　　　　　
+//　もうだめ　　　　　　　　　　　　　
+  I'm done for!   
+                  
+
+// Fuu
+
+// 0x7EE7D
+#SETADDR(0x7EE7D)
+//　　　　゛　　　　　゛　　　　　　　
+//　すこしだけ　いたいですわ　　　　　
+    It hurts a    
+     little.      
+
+// 0x7EEA1
+#SETADDR(0x7EEA1)
+//　　　　゛　　　　　　　　　　　　　
+//　いたいですわ　　　　　　　　　　　
+    It hurts!     
+                  
+
+// 0x7EEC5
+#SETADDR(0x7EEC5)
+//　　　　　　　　　　　　　　　　　　
+//　あら、いたい！　こまりましたわねえ
+  Oh, ouch! How   
+   troublesome.   
+
+// 0x7EEE9
+#SETADDR(0x7EEE9)
+//　　　　　　　　゛　　　　　　　　　
+//　わたくし、もうだめかもしれません　
+//I'm probably done 
+//       for.       
+I may be done for!
+                  
+
+// Umi
+
+// 0x7EF0D
+#SETADDR(0x7EF0D)
+//　　　　　　゛　　゛　　　　　　　　
+//　ちょっとあぶないじゃない！　　　　
+//That's a little dangerous isn't it!
+That's a bit dan- 
+gerous, isn't it!?
+
+// 0x7EF31
+#SETADDR(0x7EF31)
+//　　　　　　　　　　　　　　　　　　
+//　いたいわよー！　　　　　　　　　　
+       Oww!       
+                  
+
+// 0x7EF55
+#SETADDR(0x7EF55)
+//　　　　゛　　　　　　　　　　　　　
+//　いたすぎるわよー！　もうっ！　　　
+It's too painful! 
+      Jeez!       
+
+// 0x7EF79
+#SETADDR(0x7EF79)
+//　　　　　　　　　　゛　゛　　　　　
+//　ちょっとぉ！　もうだめだわ　　　　
+//Wait! It's no use.
+//                  
+  Stop! I'm done  
+       for!       
+
+//***************************
+// Old location of character names.
+// The new ones are longer, so they've
+// been moved -- see the end of this file.
+//***************************
+
+// 0x7EFA3
+//#SETADDR(0x7EFA3)
+//ひかる
+//Hikaru
+
+// 0x7EFA6
+//#SETADDR(0x7EFA6)
+//ふう　
+//Fuu
+
+// 0x7EFA9
+//#SETADDR(0x7EFA9)
+//うみ　
+//Umi
+
+// 0x7EFAC
+#SETADDR(0x7EFAC)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　゛　　　　　　　　　　　
+//　３にんは、ぜんめつした・・・・　　
+//　　　　　　　　　　　　　　　　　　
+==================
+  The trio were   
+   defeated...    
+                  
+
+// 0x7EFFA
+#SETADDR(0x7EFFA)
+//＝＝＝＝゜＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「しっぱいした」　　　　　　　　　
+//　　　　　　　゛　　　　　　　　　　
+//　ひかるのこうげきはくうをきった！　
+==================
+  {I messed up!}  
+ Hikaru's attack  
+     missed!      
+
+// 0x7F042
+#SETADDR(0x7F042)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「よけられました」　　　　　　　　
+//　　　　　　゛　　　　　　　゛　　　
+//　ふうのこうげきはむなしくはずれた　
+//"It was avoided."
+//Fuu's attack missed in vain.
+==================
+{They avoided it.}
+ Fuu's attack was 
+     in vain.     
+
+// 0x7F08A
+#SETADDR(0x7F08A)
+//＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝＝
+//　「なによー、ずるいわ」　　　　　　
+//　　　　　　゛　　　　　　　　　　　
+//　うみのこうげきはあたらなかった！　
+//==================
+//{What the - that's
+// no fair!} Umi's  
+//attack didn't hit!
+==================
+  {What the - no  
+   fair!} Umi's   
+attack didn't hit!
+
+// 0x7F0D8
+#SETADDR(0x7F0D8)
+//＝＝゛＝゛＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　「だめだぁぁぁ」　　　　　　　　　
+//　　　　　　　　　　　　　　　　　　
+//　ひかるは、きをうしなった！！　　　
+==================
+ {It's all over!} 
+Hikaru passed out!
+                  
+
+// 0x7F120
+#SETADDR(0x7F120)
+//＝＝＝＝゛＝゛＝＝＝＝＝＝＝＝＝＝＝
+//　「もうだめですわ」　　　　　　　　
+//　　　　　　゛　　　　　　　　　　　
+//　ふうは、きぜつしてしまった！！　　
+==================
+ {I'm done for.}  
+   Fuu fainted!   
+                  
+
+// 0x7F168
+#SETADDR(0x7F168)
+//＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝＝＝＝
+//　「きゃあ！しんじられない」　　　　
+//　　　　　　　　　　　　　　　　　　
+//　うみは、きをうしなった！！　　　　
+==================
+  {Eek! I don't   
+   believe it!}   
+ Umi passed out!  
+
+// Message for dodging an attack due to a perception card
+
+// 0x7F1B0
+#SETADDR(0x7F1B0)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　３にんは、てきのこうげきをみきり、
+//　　゛　　　　　　　　　　　　　　　
+//かるがるとよけた！！　　　　　　　　
+==================
+The trio read the 
+enemy's attack and
+easily avoided it!
+
+//**********************************
+// Item names during battle -- limit 8 chars
+// (as with enemies, repeated with and without border diacritics)
+//**********************************
+
+// 0x7F280
+#SETADDR(0x7F280)
+//＝＝＝＝＝＝＝＝
+//いやしのは　　　
+//Healing Leaf
+========
+HealLeaf
+
+// 0x7F290
+#SETADDR(0x7F290)
+//　　　　　　　　
+//いやしのは　　　
+//Healing Leaf
+        
+HealLeaf
+
+// 0x7F2A0
+#SETADDR(0x7F2A0)
+//＝＝＝＝＝＝＝＝
+//かいふくのみ　　
+//Recovery Seed
+========
+RecvSeed
+
+// 0x7F2B0
+#SETADDR(0x7F2B0)
+//　　　　　　　　
+//かいふくのみ　　
+//Recovery Seed
+        
+RecvSeed
+
+// 0x7F2C0
+#SETADDR(0x7F2C0)
+//゛＝＝＝＝＝゛＝
+//ぜんかいのみず　
+//Restoration Water
+========
+RstrWatr
+
+// 0x7F2D0
+#SETADDR(0x7F2D0)
+//゛　　　　　゛　
+//ぜんかいのみず　
+//Restoration Water
+        
+RstrWatr
+
+// 0x7F2E0
+#SETADDR(0x7F2E0)
+//＝＝＝＝＝＝＝＝
+//ほのおのこな　　
+//Flame Powder
+========
+FlamPwdr
+
+// 0x7F2F0
+#SETADDR(0x7F2F0)
+//　　　　　　　　
+//ほのおのこな　　
+//Flame Powder
+        
+FlamPwdr
+
+// 0x7F300
+#SETADDR(0x7F300)
+//＝＝＝＝＝゛＝＝
+//ほのおのこびん　
+//Flame Vial
+========
+FlamVial
+
+// 0x7F310
+#SETADDR(0x7F310)
+//　　　　　゛　　
+//ほのおのこびん　
+//Flame Vial
+        
+FlamVial
+
+// 0x7F320
+#SETADDR(0x7F320)
+//＝＝＝＝＝＝゛＝
+//ほのおのおおびん
+//Flame Bottle
+========
+FlamBotl
+
+// 0x7F330
+#SETADDR(0x7F330)
+//　　　　　　゛　
+//ほのおのおおびん
+//Flame Bottle
+        
+FlamBotl
+
+// 0x7F340
+#SETADDR(0x7F340)
+//＝＝＝＝＝゛＝＝
+//こおりのつぶ　　
+//Ice Chip
+========
+Ice Chip
+
+// 0x7F350
+#SETADDR(0x7F350)
+//　　　　　゛　　
+//こおりのつぶ　　
+//Ice Chip
+        
+Ice Chip
+
+// 0x7F360
+#SETADDR(0x7F360)
+//＝＝＝＝＝＝＝＝
+//こおりのたま　　
+//Ice Ball
+========
+Ice Ball
+
+// 0x7F370
+#SETADDR(0x7F370)
+//　　　　　　　　
+//こおりのたま　　
+//Ice Ball
+        
+Ice Ball
+
+// 0x7F380
+#SETADDR(0x7F380)
+//＝＝゛＝＝＝＝＝
+//ゆきだるま　　　
+//Snowman
+========
+Snowman 
+
+// 0x7F390
+#SETADDR(0x7F390)
+//　　゛　　　　　
+//ゆきだるま　　　
+//Snowman
+        
+Snowman 
+
+// 0x7F3A0
+#SETADDR(0x7F3A0)
+//＝＝＝゛＝＝＝＝
+//ウィンドカッター
+//Wind Cutter
+========
+WindCutr
+
+// 0x7F3B0
+#SETADDR(0x7F3B0)
+//　　　゛　　　　
+//ウィンドカッター
+//Wind Cutter
+        
+WindCutr
+
+// 0x7F3C0
+#SETADDR(0x7F3C0)
+//＝＝＝゛＝＝＝＝
+//ウィンドチェーン
+//Wind Chain
+========
+WndChain
+
+// 0x7F3D0
+#SETADDR(0x7F3D0)
+//　　　゛　　　　
+//ウィンドチェーン
+//Wind Chain
+        
+WndChain
+
+// 0x7F3E0
+#SETADDR(0x7F3E0)
+//＝＝＝゛゛＝＝＝
+//ウィンドボム　　
+//Wind Bomb
+========
+WindBomb
+
+// 0x7F3F0
+#SETADDR(0x7F3F0)
+//　　　゛゛　　　
+//ウィンドボム　　
+//Wind Bomb
+        
+WindBomb
+
+// 0x7F400
+#SETADDR(0x7F400)
+//＝＝＝＝＝＝゛＝
+//せいなるやいば　
+//Holy Blade
+========
+HolyBlad
+
+// 0x7F410
+#SETADDR(0x7F410)
+//　　　　　　゛　
+//せいなるやいば　
+//Holy Blade
+        
+HolyBlad
+
+// 0x7F420
+#SETADDR(0x7F420)
+//＝＝＝＝＝＝＝゛
+//しゅくふくのふだ
+//Blessed Charm
+========
+BlesChrm
+
+// 0x7F430
+#SETADDR(0x7F430)
+//　　　　　　　゛
+//しゅくふくのふだ
+//Blessed Charm
+        
+BlesChrm
+
+// 0x7F440
+#SETADDR(0x7F440)
+//＝＝＝＝＝＝＝＝
+//しんせいなひかり
+//Sacred Light
+========
+SacrLit 
+
+// 0x7F450
+#SETADDR(0x7F450)
+//　　　　　　　　
+//しんせいなひかり
+//Sacred Light
+        
+SacrLit 
+
+// 0x7F460
+#SETADDR(0x7F460)
+//＝＝＝＝＝＝＝＝
+//ケーキ　　　　　
+//Cake
+========
+Cake    
+
+// 0x7F470
+#SETADDR(0x7F470)
+//　　　　　　　　
+//ケーキ　　　　　
+//Cake
+        
+Cake    
+
+// 0x7F480
+#SETADDR(0x7F480)
+//＝＝＝＝＝＝＝＝
+//ショートケーキ　
+//Shortcake
+========
+Shrtcake
+
+// 0x7F490
+#SETADDR(0x7F490)
+//　　　　　　　　
+//ショートケーキ　
+//Shortcake
+        
+Shrtcake
+
+// 0x7F4A0
+#SETADDR(0x7F4A0)
+//゛＝＝＝＝＝＝＝
+//デラックスケーキ
+//Deluxe Cake
+========
+DluxCake
+
+// 0x7F4B0
+#SETADDR(0x7F4B0)
+//゛　　　　　　　
+//デラックスケーキ
+//Deluxe Cake
+        
+DluxCake
+
+// 0x7F4C0
+#SETADDR(0x7F4C0)
+//＝＝＝＝＝＝＝＝
+//ラッキーのこな　
+//Lucky Powder
+========
+LuckPwdr
+
+// 0x7F4D0
+#SETADDR(0x7F4D0)
+//　　　　　　　　
+//ラッキーのこな　
+//Lucky Powder
+        
+LuckPwdr
+
+// 0x7F4E0
+#SETADDR(0x7F4E0)
+//＝＝＝＝＝＝＝＝
+//せいれいのはね　
+//Spirit Wings
+========
+SprtWngs
+
+// 0x7F4F0
+#SETADDR(0x7F4F0)
+//　　　　　　　　
+//せいれいのはね　
+//Spirit Wings
+        
+SprtWngs
+
+// 0x7F500
+#SETADDR(0x7F500)
+//＝＝＝゛＝＝＝＝
+//きつけぐすり　　
+//Smelling Salts
+========
+SmelSalt
+
+// 0x7F510
+#SETADDR(0x7F510)
+//　　　゛　　　　
+//きつけぐすり　　
+//Smelling Salts
+        
+SmelSalt
+
+// 0x7F520
+#SETADDR(0x7F520)
+//＝＝＝＝＝＝＝＝
+//きょうふのふくろ
+//Bag of Terrors
+========
+TerorBag
+
+// 0x7F530
+#SETADDR(0x7F530)
+//　　　　　　　　
+//きょうふのふくろ
+//Bag of Terrors
+        
+TerorBag
+
+// 0x7F540
+#SETADDR(0x7F540)
+//＝＝゛＝＝＝゜＝
+//フシギなはっぱ　
+//Mysterious Leaf
+========
+MystLeaf
+
+// 0x7F550
+#SETADDR(0x7F550)
+//　　゛　　　゜　
+//フシギなはっぱ　
+//Mysterious Leaf
+        
+MystLeaf
+
+// 0x7F560
+#SETADDR(0x7F560)
+//＝＝゛＝＝＝＝＝
+//フシギなはな　　
+//Mysterious Flower
+========
+MystFlwr
+
+// 0x7F570
+#SETADDR(0x7F570)
+//　　゛　　　　　
+//フシギなはな　　
+//Mysterious Flower
+        
+MystFlwr
+
+// 0x7F580
+#SETADDR(0x7F580)
+//＝＝゛＝＝＝＝＝
+//フシギなきのみ　
+//Mysterious Nut
+========
+MystNut 
+
+// 0x7F590
+#SETADDR(0x7F590)
+//　　゛　　　　　
+//フシギなきのみ　
+//Mysterious Nut
+        
+MystNut 
+
+// 0x7F5A0
+#SETADDR(0x7F5A0)
+//＝＝゛＝＝＝＝＝
+//しにがみのかま　
+//Reaper's Scythe
+========
+ReapScyt
+
+// 0x7F5B0
+#SETADDR(0x7F5B0)
+//　　゛　　　　　
+//しにがみのかま　
+//Reaper's Scythe
+        
+ReapScyt
+
+// 0x7F5C0
+#SETADDR(0x7F5C0)
+//＝＝＝＝＝＝＝＝
+//はやさのフルーツ
+//Speed Fruit
+========
+SpdFruit
+
+// 0x7F5D0
+#SETADDR(0x7F5D0)
+//　　　　　　　　
+//はやさのフルーツ
+//Speed Fruit
+        
+SpdFruit
+
+// 0x7F5E0
+#SETADDR(0x7F5E0)
+//＝＝＝＝＝＝＝＝
+//ちからのフルーツ
+//Power Fruit
+========
+StrFruit
+
+// 0x7F5F0
+#SETADDR(0x7F5F0)
+//　　　　　　　　
+//ちからのフルーツ
+//Power Fruit
+        
+StrFruit
+
+// 0x7F600
+#SETADDR(0x7F600)
+//＝＝＝＝＝＝＝＝
+//まもりのフルーツ
+//Defense Fruit
+========
+DefFruit
+
+// 0x7F610
+#SETADDR(0x7F610)
+//　　　　　　　　
+//まもりのフルーツ
+//Defense Fruit
+        
+DefFruit
+
+// 0x7F620
+#SETADDR(0x7F620)
+//＝＝＝＝＝＝＝＝
+//かめののろい　　
+//Turtle Spell
+========
+TurtSpel
+
+// 0x7F630
+#SETADDR(0x7F630)
+//　　　　　　　　
+//かめののろい　　
+//Turtle Spell
+        
+TurtSpel
+
+// 0x7F640
+#SETADDR(0x7F640)
+//＝＝＝＝＝＝＝＝
+//ひよわなのろい　
+//Frailty Spell
+========
+FrailSpl
+
+// 0x7F650
+#SETADDR(0x7F650)
+//　　　　　　　　
+//ひよわなのろい　
+//Frailty Spell
+        
+FrailSpl
+
+// 0x7F660
+#SETADDR(0x7F660)
+//＝＝＝＝＝＝＝＝
+//やわらかいのろい
+//Soft Spell
+========
+SoftSpel
+
+// 0x7F670
+#SETADDR(0x7F670)
+//　　　　　　　　
+//やわらかいのろい
+//Soft Spell
+        
+SoftSpel
+
+// 0x7F680
+#SETADDR(0x7F680)
+//　　　　　　　　　　　　　　　　　　
+//　アイテムを　もっていません！！　　
+  You don't have  
+    any items!    
+
+// 0x7F6A4
+// RELOCATED
+//#SETADDR(0x7F6A4)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　をつかった！　　　
+//==================
+//         was used!
+
+// 0x7F6C8
+#SETADDR(0x7F6C8)
+//　　　　　　　　　を　　　　　　　　
+//　　　　゛　　　　　　　　　　　　　
+//　　　　だれにつかいますか？　　　　
+Use               
+     on whom?     
+                  
+
+// 0x7F6FE
+#SETADDR(0x7F6FE)
+//　　　　　　　　　　　　　　　　　　
+//　　いまはつかえません　　　　　　　
+//  That can't be   
+// used right now.  
+You can't use that
+    right now.    
+
+// 0x7F722
+// RELOCATED
+//#SETADDR(0x7F722)
+//　　　　　　　　　゛　　　　　　　　
+//　　　　のまりょくがかいふくした！　
+//      's magic was
+//    recovered!    
+
+//**********************************
+// Even more battle messages
+//**********************************
+
+// 0x7F746
+// (expanded from 2 lines to 3)
+#SETADDR(0x7F746)
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//　　　　　　　　　をたおした！　　　
+//　　　　　　　　　　　　　　　　　　
+==================
+                  
+  was defeated!   
+
+// 0x7F76A -> 7F77C
+// (reduced from 2 lines to 1)
+#SETADDR(0x7F77C)
+//　ほうせき　　　　こをてにいれた！　
+// gems were acquired!
+    gems acquired!
+
+// 0x7F78E
+// RELOCATED
+//#SETADDR(0x7F78E)
+//　　　　　　　゛　゛゛　　　　゛　　
+//かいしんのいちげきがでそうなきがする
+//has the feeling a critical hit will come.
+// It feels like a  
+// critical hit is  
+//     coming.      
+
+// 0x7F7B8
+#SETADDR(0x7F7B8)
+//　　゛　　゛　　　　　　　　　　　　
+//　すばやさがました！　　　　　　　　
+  Speed went up!  
+                  
+
+// 0x7F7DC
+#SETADDR(0x7F7DC)
+//　　　゛　　　　゛　　　　　　　　　
+//　こうげきりょくがました！　　　　　
+ Attack went up!  
+                  
+
+// 0x7F800
+#SETADDR(0x7F800)
+//　゛　゛　　　　゛　　　　　　　　　
+//　ぼうぎょりょくがました！　　　　　
+ Defense went up! 
+                  
+
+// 0x7F82A
+#SETADDR(0x7F82A)
+//　　　　　゛　　゛　゛　　　　　　　
+//　てきのすばやさがさがった！　　　　
+The enemy's speed 
+    went down!    
+
+// 0x7F84E
+#SETADDR(0x7F84E)
+//　　　　゛　゛　　　　゛　゛　　　　
+//　てきのぼうぎょりょくがさがった！　
+ The enemy's de-  
+ fense went down! 
+
+// 0x7F872
+#SETADDR(0x7F872)
+//　　　　　　゛　　　　゛　゛　　　　
+//　てきのこうげきりょくがさがった！　
+The enemy's attack
+    went down!    
+
+// 0x7F896
+// RELOCATED
+//#SETADDR(0x7F896)
+//　　　　　　　　　　　　゛　　　　　
+//　　　　はいしきをとりもどした！　　
+// recovered consciousness!
+
+// 0x7F8C2
+#SETADDR(0x7F8C2)
+//　　　　　　　゛　　　　　　　　　　
+//　あついほのおがてきをやく！　　　　
+ Hot flames burn  
+    the enemy!    
+
+// 0x7F8E6
+#SETADDR(0x7F8E6)
+//　　　゛　　　　゛　　　　　　　　　
+//　するどいこおりがてきをつきさす！　
+ Sharp ice pierces
+    the enemy!    
+
+// 0x7F90A
+#SETADDR(0x7F90A)
+//　　゛゛　　　　　　　　　　　　　　
+//　かぜがまきおこりてきをつつむ！　　
+ Winds arise and  
+engulf the enemy!
+
+// 0x7F92E
+#SETADDR(0x7F92E)
+//　　　　　　　　゛　　　　　　　　　
+//　せいなるひかりがてきをてらす！　　
+Holy light shines 
+  on the enemy!   
+
+// 0x7F952
+#SETADDR(0x7F952)
+//　　　　　　　　　　゛　　　　　　　
+//　　　　はたいりょくがかいふくした！
+// health was recovered!
+        recovered 
+     health!      
+
+// 0x7F976
+#SETADDR(0x7F976)
+//　　　　　　　　　　゛　　　　　　　
+//　みんなのたいりょくがかいふくする！
+Everyone's health 
+    recovered!    
+
+// 0x7F99A
+#SETADDR(0x7F99A)
+//　　　　　　　　　゛　　　　　　　　
+//　とてつもないものがあらわれた！！　
+ Something unbe-  
+lievable appeared!
+//Something absurd is also correct.
+
+// 0x7F9BE
+// RELOCATED
+//#SETADDR(0x7F9BE)
+//　　　゛　゛　　　　　　　　　゛　　
+//　しにがみがてきのたましいをうばう！
+//The Grim Reaper snatches away the enemy's soul!
+
+// 0x7F9E2
+// This message is displayed when a character earns
+// experience and comes close to leveling up.
+#SETADDR(0x7F9E2)
+//＝＝＝＝＝＝＝＝＝＝＝゛＝＝＝＝＝＝
+//　　　　は、もうすこしで　　　　　　
+//　　　　　　　　　　゛　　　　　　　
+//　つよくなれそうなきがした！　　　　
+//==================
+//       felt like
+//she became just a
+//little bit stronger!　　
+//==================
+//        felt like 
+//she became just a 
+// little stronger! 
+==================
+        felt like 
+ a bit more would 
+make her stronger!
+
+// 0x7FA2A
+#SETADDR(0x7FA2A)
+//＝＝＝＝＝＝＝゛＝゛＝゛＝＝＝＝＝＝
+//　　　　は、レベルがあがった！　　　
+// leveled up!
+==================
+       leveled up!
+
+// 0x7FA54
+#SETADDR(0x7FA54)
+//　　　　　　　　　　　　　　　　　　
+//「やったー！　つよくなれた！」　　　
+  {Hooray! I got  
+    stronger!}    
+
+// 0x7FA78
+#SETADDR(0x7FA78)
+//　　　゛　　　　　　　゛　　　　　　
+//「からだにちからをかんじますわ」　　
+ {I can feel the  
+power in my body.}
+
+// 0x7FA9C
+#SETADDR(0x7FA9C)
+//　゛　　　　　　　　　　　　　　　　
+//「ざっと、こんなものね！」　　　　　
+ {I guess that's 
+      that!}      
+//could be "that's about it"
+
+// 0x7FAC0
+#SETADDR(0x7FAC0)
+//　　　　　　　　　　　　　　　　　　
+//　しかし、きかなかった！　　　　　　
+ However, it had  
+    no effect!    
+
+
+//*************************
+// Additions
+//*************************
+
+
+// Extended tilemap for character names on main menu
+// original: 17x1
+// new: 20x1
+#SETADDR(0x66AA0)
+//ひかる　　　　ふう　　　　　うみ
+ Hikaru Fuu    Umi  
+
+// Extended character names (originals need only 3 characters,
+// we need 6)
+#SETADDR(0x7FAE4)
+Hikaru
+#SETADDR(0x7FAEA)
+  Fuu 
+#SETADDR(0x7FAF0)
+  Umi 

@@ -1,0 +1,3 @@
+[submodule "mkrgg/wla-dx"]
+	path = mkrgg/wla-dx
+	url = https://github.com/vhelin/wla-dx

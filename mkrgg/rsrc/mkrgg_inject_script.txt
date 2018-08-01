@@ -1,0 +1,67 @@
+#******************************************************************************
+# Font for tile-based text
+#******************************************************************************
+
+[TileTextFont]
+source=out/cmp/font_tiletext.bin
+origPos=0x7D47B
+origSize=1113
+slot=2
+pointers=0x8A9B 0xBA40 0xC018 0x18092 0x1C24D
+
+#******************************************************************************
+# Title screen
+#******************************************************************************
+
+[TitleScreenTiles]
+source=out/cmp/title_grp.bin
+origPos=0x3465F
+origSize=2779
+slot=2
+pointers=0xC02F
+
+#******************************************************************************
+# World map
+#******************************************************************************
+
+[WorldMapTiles]
+source=out/cmp/map_grp.bin
+# Unfortunately, the rebuilt graphics are too large to
+# fit in their original location, and there isn't enough
+# free space to relocate them within the same bank.
+# The code has been modified to load them from the previously
+# empty bank 4 (0x10000-0x13FFF) instead.
+#origPos=0x410AD
+#origSize=957
+origPos=0x10000
+origSize=0
+slot=2
+pointers=0x8589
+
+#******************************************************************************
+# Bonus game
+#******************************************************************************
+
+[BonusGameTiles]
+source=out/cmp/bonus_grp.bin
+origPos=0x16CBB
+origSize=561
+slot=1
+pointers=0x140A0
+
+#******************************************************************************
+# Menu
+#******************************************************************************
+
+[MenuTiles]
+source=out/cmp/menu_lv.bin
+origPos=0x66781
+origSize=33
+slot=2
+pointers=0x180A3
+
+#******************************************************************************
+# Text scripts will be appended below here by the build script
+#******************************************************************************
+
+
