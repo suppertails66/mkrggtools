@@ -25,8 +25,8 @@ MkrGGBattleTextReader::MkrGGBattleTextReader(
     dst(dst__),
     thingy(thingy__),
     outputAddr(outputAddr__),
-    lineNum(0)
-//    currentScriptBuffer(scriptBufferCapacity),
+    lineNum(0),
+    currentScriptBuffer(scriptBufferCapacity)
 //    blockStart(0)
 {
   loadThingy(thingy__);
